@@ -24,7 +24,7 @@ GROUP_TITLES = {
     "my_ballot": "My ballot (Milwaukie, OR)",
     "senate": "Senate battleground",
     "house": "House battleground",
-    "other": "Other races",
+    "other": "Governors and other races",
 }
 
 CSS = """

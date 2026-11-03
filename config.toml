@@ -351,3 +351,90 @@ id = 87516
 label = "WA-3"
 group = "house"
 critical = true
+
+# ---------------------------------------------------------------- NYT "early clues" races (added Nov 3)
+[[race]]
+id = 87173
+label = "KY-6 (early clue, 6pm ET)"
+group = "house"
+critical = true
+
+[[race]]
+id = 87139
+label = "IN-5 Spartz (early clue, 6pm ET)"
+group = "house"
+critical = true
+
+[[race]]
+id = 87046
+label = "FL-7"
+group = "house"
+critical = true
+
+[[race]]
+id = 87048
+label = "FL-9"
+group = "house"
+critical = true
+
+[[race]]
+id = 87064
+label = "FL-25"
+group = "house"
+critical = true
+
+[[race]]
+id = 87402
+label = "SC-1"
+group = "house"
+critical = true
+
+[[race]]
+id = 87462
+label = "VA-2 Kiggans vs Luria"
+group = "house"
+critical = true
+
+[[race]]
+id = 87461
+label = "VA-1 Wittman vs Taylor"
+group = "house"
+critical = true
+
+[[race]]
+id = 87428
+label = "TX-23"
+group = "house"
+critical = true
+
+[[race]]
+id = 87068
+label = "Florida Senate (special)"
+group = "senate"
+critical = true
+
+[[race]]
+id = 87183
+label = "Louisiana Senate"
+group = "senate"
+critical = true
+
+[[race]]
+id = 87069
+label = "Florida Governor"
+group = "other"
+
+[[race]]
+id = 55857
+label = "Texas Governor"
+group = "other"
+
+[[race]]
+id = 87476
+label = "Tennessee Governor"
+group = "other"
+
+[[race]]
+id = 87582
+label = "Oklahoma Governor"
+group = "other"
