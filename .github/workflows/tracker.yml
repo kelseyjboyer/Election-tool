@@ -3,8 +3,8 @@ name: Election tracker
 # Runs the tracker in ~50 minute shifts. State (snapshots, sent alerts) is carried
 # between shifts in the Actions cache, so restarts never re-send alerts.
 #
-# Schedule: continuous. A new shift is queued every 15 minutes and starts as soon as
-# the previous one ends. Public repos get unlimited standard Actions minutes.
+# Schedule: continuous. Each shift starts the next when it ends; the 15-minute cron
+# is only a backup in case the chain breaks. Public repos get unlimited standard Actions minutes.
 #
 # Requires the repository secret NTFY_TOPIC (Settings > Secrets and variables > Actions).
 #
@@ -30,6 +30,7 @@ concurrency:
 
 permissions:
   contents: read
+  actions: write   # lets each shift start the next one
 
 env:
   STOP_AFTER: "2026-11-20"     # shifts exit immediately after this date (UTC)
@@ -55,6 +56,7 @@ jobs:
           fi
 
       - name: Check NTFY_TOPIC secret
+        id: secret
         if: steps.gate.outputs.run == 'true'
         env:
           NTFY_TOPIC: ${{ secrets.NTFY_TOPIC || secrets.NFTY_TOPIC }}
@@ -105,3 +107,11 @@ jobs:
         with:
           path: state.db
           key: tracker-state-${{ github.run_id }}-${{ github.run_attempt }}
+
+      # GitHub's cron schedule is unreliable, so each shift queues the next one itself.
+      # (workflow_dispatch is one of the few events GITHUB_TOKEN is allowed to trigger.)
+      - name: Start next shift
+        if: always() && steps.secret.outcome == 'success'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run tracker.yml --ref "${{ github.ref_name }}" -f shift_minutes=50
