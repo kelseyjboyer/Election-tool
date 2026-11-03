@@ -57,7 +57,7 @@ jobs:
       - name: Check NTFY_TOPIC secret
         if: steps.gate.outputs.run == 'true'
         env:
-          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC || secrets.NFTY_TOPIC }}
         run: |
           if [ -z "$NTFY_TOPIC" ]; then
             echo "::error::Add the NTFY_TOPIC repository secret (Settings > Secrets and variables > Actions)."
@@ -83,13 +83,13 @@ jobs:
       - name: Test notification
         if: steps.gate.outputs.run == 'true' && inputs.send_test
         env:
-          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC || secrets.NFTY_TOPIC }}
         run: python -m tracker test-notify
 
       - name: Track (one shift)
         if: steps.gate.outputs.run == 'true'
         env:
-          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC || secrets.NFTY_TOPIC }}
         run: |
           set +e
           minutes="${{ inputs.shift_minutes || 50 }}"
