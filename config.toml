@@ -27,7 +27,8 @@ api_base = "https://civicapi.org/api/v2"
 [ntfy]
 server = "https://ntfy.sh"
 # Anyone who knows the topic name can read it. Pick something long and random.
-topic = "election-a277fc70e8a4b3c8"
+# This repo is public, so keep the real topic in the NTFY_TOPIC secret, not here.
+topic = ""                          # set via the NTFY_TOPIC environment variable or GitHub secret
 token = ""                          # only needed for a protected/self-hosted topic
 
 [delivery]

@@ -3,9 +3,10 @@ name: Election tracker
 # Runs the tracker in ~50 minute shifts. State (snapshots, sent alerts) is carried
 # between shifts in the Actions cache, so restarts never re-send alerts.
 #
-# Schedule (all UTC; budgeted for the 2,000 free Actions minutes on a private repo):
-#   Election night: continuous, Nov 3 23:00 to Nov 4 11:59 UTC (3pm to 4am PT), about 780 min
-#   Nov 4 to Nov 8: three shifts a day starting 18:00, 00:00, 03:00 UTC (10am, 4pm, 7pm PT), about 160 min/day
+# Schedule: continuous. A new shift is queued every 15 minutes and starts as soon as
+# the previous one ends. Public repos get unlimited standard Actions minutes.
+#
+# Requires the repository secret NTFY_TOPIC (Settings > Secrets and variables > Actions).
 #
 # To stop early: GitHub > Actions > Election tracker > ... > Disable workflow.
 
@@ -21,10 +22,7 @@ on:
         type: number
         default: 50
   schedule:
-    - cron: "*/15 23 3 11 *"      # election night, Nov 3 23:00-23:59 UTC
-    - cron: "*/15 0-11 4 11 *"    # election night, Nov 4 00:00-11:59 UTC
-    - cron: "0 18 4-8 11 *"       # follow-up shifts, 10am PT
-    - cron: "0 0,3 5-9 11 *"      # follow-up shifts, 4pm and 7pm PT
+    - cron: "*/15 * * * *"
 
 concurrency:
   group: election-tracker
@@ -34,7 +32,7 @@ permissions:
   contents: read
 
 env:
-  STOP_AFTER: "2026-11-09"     # shifts exit immediately after this date (UTC)
+  STOP_AFTER: "2026-11-20"     # shifts exit immediately after this date (UTC)
 
 jobs:
   track:
@@ -54,6 +52,16 @@ jobs:
             echo "Past STOP_AFTER ($STOP_AFTER); not running."; echo "run=false" >> "$GITHUB_OUTPUT"
           else
             echo "run=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Check NTFY_TOPIC secret
+        if: steps.gate.outputs.run == 'true'
+        env:
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+        run: |
+          if [ -z "$NTFY_TOPIC" ]; then
+            echo "::error::Add the NTFY_TOPIC repository secret (Settings > Secrets and variables > Actions)."
+            exit 1
           fi
 
       - name: Restore state
@@ -81,7 +89,7 @@ jobs:
       - name: Track (one shift)
         if: steps.gate.outputs.run == 'true'
         env:
-          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}   # optional; falls back to config.toml
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
         run: |
           set +e
           minutes="${{ inputs.shift_minutes || 50 }}"

@@ -19,13 +19,12 @@ Battleground races are marked `critical = true`. They get a shorter throttle win
 
 `.github/workflows/tracker.yml` runs the tracker on GitHub's servers. Nothing needs to be running on your end.
 
-- **Election night:** runs continuously from 3pm to 4am PT (Nov 3 to 4).
-- **Nov 4 to 8:** three shifts a day, starting at 10am, 4pm and 7pm PT, when Oregon counties usually post new counts.
+- **Schedule:** runs continuously in 50-minute shifts through Nov 20 (change `STOP_AFTER` to extend it).
 - **State between shifts:** saved in the Actions cache, so no alert is sent twice.
-- **Budget:** about 1,600 Actions minutes in total, under the 2,000 free minutes a month for a private repo.
+- **Cost:** none. The repo is public, and public repos get unlimited standard Actions minutes.
 - **Run a shift now:** GitHub > Actions > Election tracker > Run workflow.
 - **Stop:** disable the workflow on the same page.
-- **Keep the topic out of the repo** (optional): add a repository secret named `NTFY_TOPIC`. It overrides `config.toml`.
+- **Required:** a repository secret named `NTFY_TOPIC` holding your ntfy topic. The repo is public, so the topic must never go in `config.toml`.
 
 ## Setup (about 5 minutes)
 
@@ -39,7 +38,7 @@ Requires **Python 3.11+**. No third-party packages.
    ```bash
    python3 -c "import secrets; print('election-' + secrets.token_hex(8))"
    ```
-   Put it in `config.toml` under `[ntfy] topic`.
+   For local runs, export it as `NTFY_TOPIC=...`. For GitHub Actions, store it as the `NTFY_TOPIC` repository secret. Don't commit it, because this repo is public.
 3. **Subscribe on your phone.** Install the ntfy app (iOS or Android), tap **+**, and enter the same topic.
 4. **Set the tap-through link** (optional but recommended). Find your computer's LAN address (macOS: `ipconfig getifaddr en0`) and set:
    ```toml
