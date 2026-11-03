@@ -1,0 +1,255 @@
+{
+ "count": 2,
+ "offset": 0,
+ "limit": 20,
+ "races": [
+  {
+   "id": 181404,
+   "type": "State Senate",
+   "country": "US",
+   "province": "VI",
+   "district": null,
+   "municipality": null,
+   "election_name": "US Virgin Islands Senate St. Thomas-St. John District",
+   "election_type": "Local",
+   "election_date": "2026-11-03T05:00:00.000Z",
+   "has_breakdown": true,
+   "has_map": true,
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Eric Tillett",
+     "candidate_id": 23477373,
+     "party": "Republican",
+     "color": "#c6606b",
+     "votes": 0,
+     "percent": 0,
+     "winner": false
+    },
+    {
+     "name": "Avery L. Lewis",
+     "candidate_id": 23477374,
+     "party": "Democratic",
+     "color": "#4874a3",
+     "votes": 0,
+     "percent": 0,
+     "winner": false
+    },
+    {
+     "name": "Joel S. Browne Connors",
+     "candidate_id": 23477375,
+     "party": "Democratic",
+     "color": "#AA00BB",
+     "votes": 0,
+     "percent": 0,
+     "winner": false
+    },
+    {
+     "name": "Ray \"PuPa\" Fonseca",
+     "candidate_id": 23477376,
+     "party": "Democratic",
+     "color": "#00b0b0",
+     "votes": 0,
+     "percent": 0,
+     "winner": false
+    },
+    {
+     "name": "Rudel A. Hodge, Jr.",
+     "candidate_id": 23477377,
+     "party": "Democratic",
+     "color": "#45cd47",
+     "votes": 0,
+     "percent": 0,
+     "winner": false
+    },
+    {
+     "name": "Shenelle Fina Francis",
+     "candidate_id": 23477378,
+     "party": "Democratic",
+     "color": "#2a9bbd",
+     "votes": 0,
+     "percent": 0,
+     "winner": false
+    },
+    {
+     "name": "Derrick A. Callwood",
+     "candidate_id": 23477379,
+     "party": "Republican",
+     "color": "#e0bb24",
+     "votes": 0,
+     "percent": 0,
+     "winner": false
+    },
+    {
+     "name": "Carla Joseph",
+     "candidate_id": 23477380,
+     "party": "Democratic",
+     "color": "#002C77",
+     "votes": 0,
+     "percent": 0,
+     "winner": false
+    },
+    {
+     "name": "Collister M. Fahie",
+     "candidate_id": 23477381,
+     "party": "Republican",
+     "color": "#CD7F32",
+     "votes": 0,
+     "percent": 0,
+     "winner": false
+    },
+    {
+     "name": "Marvin A. Blyden",
+     "candidate_id": 23477382,
+     "party": "Democratic",
+     "color": "#9A36FF",
+     "votes": 0,
+     "percent": 0,
+     "winner": false
+    },
+    {
+     "name": "David Sierra",
+     "candidate_id": 23477383,
+     "party": "Independent Citizens Movement",
+     "color": "#808080",
+     "votes": 0,
+     "percent": 0,
+     "winner": false
+    },
+    {
+     "name": "Gregory P. Smith",
+     "candidate_id": 23477384,
+     "party": "Independent",
+     "color": "#63c660",
+     "votes": 0,
+     "percent": 0,
+     "winner": false
+    }
+   ]
+  },
+  {
+   "id": 181403,
+   "type": "State Senate",
+   "country": "US",
+   "province": "VI",
+   "district": null,
+   "municipality": null,
+   "election_name": "US Virgin Islands Senate St. Croix District",
+   "election_type": "Local",
+   "election_date": "2026-11-03T05:00:00.000Z",
+   "has_breakdown": true,
+   "has_map": true,
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Nemmy Williams-Jackson",
+     "candidate_id": 23477348,
+     "party": "Democratic",
+     "color": "#4874a3",
+     "votes": 0,
+     "percent": 0,
+     "winner": false
+    },
+    {
+     "name": "Clifford A. Joseph",
+     "candidate_id": 23477349,
+     "party": "Democratic",
+     "color": "#AA00BB",
+     "votes": 0,
+     "percent": 0,
+     "winner": false
+    },
+    {
+     "name": "Jose \"Besse\" Gonzalez",
+     "candidate_id": 23477350,
+     "party": "Democratic",
+     "color": "#00b0b0",
+     "votes": 0,
+     "percent": 0,
+     "winner": false
+    },
+    {
+     "name": "Kenneth Kenny Gittens",
+     "candidate_id": 23477351,
+     "party": "Democratic",
+     "color": "#45cd47",
+     "votes": 0,
+     "percent": 0,
+     "winner": false
+    },
+    {
+     "name": "Kurt Vialet",
+     "candidate_id": 23477352,
+     "party": "Democratic",
+     "color": "#2a9bbd",
+     "votes": 0,
+     "percent": 0,
+     "winner": false
+    },
+    {
+     "name": "Raymond T. James",
+     "candidate_id": 23477353,
+     "party": "Republican",
+     "color": "#c6606b",
+     "votes": 0,
+     "percent": 0,
+     "winner": false
+    },
+    {
+     "name": "Hubert L. Frederick",
+     "candidate_id": 23477354,
+     "party": "Democratic",
+     "color": "#002C77",
+     "votes": 0,
+     "percent": 0,
+     "winner": false
+    },
+    {
+     "name": "Lisa J. Charles",
+     "candidate_id": 23477355,
+     "party": "Democratic",
+     "color": "#9A36FF",
+     "votes": 0,
+     "percent": 0,
+     "winner": false
+    },
+    {
+     "name": "Bianca Francis",
+     "candidate_id": 23477356,
+     "party": "Independent",
+     "color": "#63c660",
+     "votes": 0,
+     "percent": 0,
+     "winner": false
+    },
+    {
+     "name": "Elizabeth Hansen Watley",
+     "candidate_id": 23477357,
+     "party": "Independent",
+     "color": "#af81a2",
+     "votes": 0,
+     "percent": 0,
+     "winner": false
+    },
+    {
+     "name": "Tyler Courtland Fay",
+     "candidate_id": 23477358,
+     "party": "Independent",
+     "color": "#2a9bbd",
+     "votes": 0,
+     "percent": 0,
+     "winner": false
+    },
+    {
+     "name": "Luz \"Lucy\" Browne",
+     "candidate_id": 23477359,
+     "party": "Independent",
+     "color": "#e0bb24",
+     "votes": 0,
+     "percent": 0,
+     "winner": false
+    }
+   ]
+  }
+ ]
+}

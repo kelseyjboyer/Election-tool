@@ -1,0 +1,687 @@
+{
+ "count": 20,
+ "offset": 0,
+ "limit": 20,
+ "races": [
+  {
+   "id": 185570,
+   "type": "Referendum",
+   "country": "US",
+   "province": "OR",
+   "district": null,
+   "municipality": null,
+   "election_name": "Oregon Measure 34-355 Hillsboro School District 1J",
+   "election_type": "Local",
+   "election_date": "2026-11-03T05:00:00.000Z",
+   "has_breakdown": true,
+   "has_map": true,
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Yes",
+     "candidate_id": 39448158,
+     "party": "Nonpartisan",
+     "color": "#63c660",
+     "votes": 0,
+     "percent": 0,
+     "winner": false
+    },
+    {
+     "name": "No",
+     "candidate_id": 39448159,
+     "party": "Nonpartisan",
+     "color": "#c6606b",
+     "votes": 0,
+     "percent": 0,
+     "winner": false
+    }
+   ]
+  },
+  {
+   "id": 185329,
+   "type": "Referendum",
+   "country": "US",
+   "province": "OR",
+   "district": null,
+   "municipality": null,
+   "election_name": "Oregon Measure 24-530 Gates Rural Fire Protection District",
+   "election_type": "Local",
+   "election_date": "2026-11-03T05:00:00.000Z",
+   "has_breakdown": true,
+   "has_map": true,
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Yes",
+     "candidate_id": 39445671,
+     "party": "Nonpartisan",
+     "color": "#63c660",
+     "votes": 0,
+     "percent": 0,
+     "winner": false
+    },
+    {
+     "name": "No",
+     "candidate_id": 39445672,
+     "party": "Nonpartisan",
+     "color": "#c6606b",
+     "votes": 0,
+     "percent": 0,
+     "winner": false
+    }
+   ]
+  },
+  {
+   "id": 185854,
+   "type": "Referendum",
+   "country": "US",
+   "province": "OR",
+   "district": null,
+   "municipality": null,
+   "election_name": "Oregon Measure 30-176 Pilot Rock Fire District, 7-401",
+   "election_type": "Local",
+   "election_date": "2026-11-03T05:00:00.000Z",
+   "has_breakdown": true,
+   "has_map": true,
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Yes",
+     "candidate_id": 39450798,
+     "party": "Nonpartisan",
+     "color": "#63c660",
+     "votes": 0,
+     "percent": 0,
+     "winner": false
+    },
+    {
+     "name": "No",
+     "candidate_id": 39450799,
+     "party": "Nonpartisan",
+     "color": "#c6606b",
+     "votes": 0,
+     "percent": 0,
+     "winner": false
+    }
+   ]
+  },
+  {
+   "id": 185331,
+   "type": "Referendum",
+   "country": "US",
+   "province": "OR",
+   "district": null,
+   "municipality": null,
+   "election_name": "Oregon Measure 22-219 Mill City Rural Fire Protection District",
+   "election_type": "Local",
+   "election_date": "2026-11-03T05:00:00.000Z",
+   "has_breakdown": true,
+   "has_map": true,
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Yes",
+     "candidate_id": 39445675,
+     "party": "Nonpartisan",
+     "color": "#63c660",
+     "votes": 0,
+     "percent": 0,
+     "winner": false
+    },
+    {
+     "name": "No",
+     "candidate_id": 39445676,
+     "party": "Nonpartisan",
+     "color": "#c6606b",
+     "votes": 0,
+     "percent": 0,
+     "winner": false
+    }
+   ]
+  },
+  {
+   "id": 185300,
+   "type": "Referendum",
+   "country": "US",
+   "province": "OR",
+   "district": null,
+   "municipality": null,
+   "election_name": "Oregon Measure 02-160 Corvallis School District 509J",
+   "election_type": "Local",
+   "election_date": "2026-11-03T05:00:00.000Z",
+   "has_breakdown": true,
+   "has_map": true,
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Yes",
+     "candidate_id": 39445594,
+     "party": "Nonpartisan",
+     "color": "#63c660",
+     "votes": 0,
+     "percent": 0,
+     "winner": false
+    },
+    {
+     "name": "No",
+     "candidate_id": 39445595,
+     "party": "Nonpartisan",
+     "color": "#c6606b",
+     "votes": 0,
+     "percent": 0,
+     "winner": false
+    }
+   ]
+  },
+  {
+   "id": 185606,
+   "type": "Referendum",
+   "country": "US",
+   "province": "OR",
+   "district": null,
+   "municipality": null,
+   "election_name": "Oregon Measure 03-641 City of Wilsonville",
+   "election_type": "Local",
+   "election_date": "2026-11-03T05:00:00.000Z",
+   "has_breakdown": true,
+   "has_map": true,
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Yes",
+     "candidate_id": 39448252,
+     "party": "Nonpartisan",
+     "color": "#63c660",
+     "votes": 0,
+     "percent": 0,
+     "winner": false
+    },
+    {
+     "name": "No",
+     "candidate_id": 39448253,
+     "party": "Nonpartisan",
+     "color": "#c6606b",
+     "votes": 0,
+     "percent": 0,
+     "winner": false
+    }
+   ]
+  },
+  {
+   "id": 185516,
+   "type": "Referendum",
+   "country": "US",
+   "province": "OR",
+   "district": null,
+   "municipality": null,
+   "election_name": "Oregon Measure 24-528 Silver Falls School District 4J",
+   "election_type": "Local",
+   "election_date": "2026-11-03T05:00:00.000Z",
+   "has_breakdown": true,
+   "has_map": true,
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Yes",
+     "candidate_id": 39448002,
+     "party": "Nonpartisan",
+     "color": "#63c660",
+     "votes": 0,
+     "percent": 0,
+     "winner": false
+    },
+    {
+     "name": "No",
+     "candidate_id": 39448003,
+     "party": "Nonpartisan",
+     "color": "#c6606b",
+     "votes": 0,
+     "percent": 0,
+     "winner": false
+    }
+   ]
+  },
+  {
+   "id": 185517,
+   "type": "Referendum",
+   "country": "US",
+   "province": "OR",
+   "district": null,
+   "municipality": null,
+   "election_name": "Oregon Measure 24-529 Mt Angel-Monitor Fire Protection District",
+   "election_type": "Local",
+   "election_date": "2026-11-03T05:00:00.000Z",
+   "has_breakdown": true,
+   "has_map": true,
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Yes",
+     "candidate_id": 39448004,
+     "party": "Nonpartisan",
+     "color": "#63c660",
+     "votes": 0,
+     "percent": 0,
+     "winner": false
+    },
+    {
+     "name": "No",
+     "candidate_id": 39448005,
+     "party": "Nonpartisan",
+     "color": "#c6606b",
+     "votes": 0,
+     "percent": 0,
+     "winner": false
+    }
+   ]
+  },
+  {
+   "id": 185512,
+   "type": "Referendum",
+   "country": "US",
+   "province": "OR",
+   "district": null,
+   "municipality": null,
+   "election_name": "Oregon Measure 03-640 Monitor Fire District",
+   "election_type": "Local",
+   "election_date": "2026-11-03T05:00:00.000Z",
+   "has_breakdown": true,
+   "has_map": true,
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Yes",
+     "candidate_id": 39447994,
+     "party": "Nonpartisan",
+     "color": "#63c660",
+     "votes": 0,
+     "percent": 0,
+     "winner": false
+    },
+    {
+     "name": "No",
+     "candidate_id": 39447995,
+     "party": "Nonpartisan",
+     "color": "#c6606b",
+     "votes": 0,
+     "percent": 0,
+     "winner": false
+    }
+   ]
+  },
+  {
+   "id": 185330,
+   "type": "Referendum",
+   "country": "US",
+   "province": "OR",
+   "district": null,
+   "municipality": null,
+   "election_name": "Oregon Measure 24-531 Stayton Fire District",
+   "election_type": "Local",
+   "election_date": "2026-11-03T05:00:00.000Z",
+   "has_breakdown": true,
+   "has_map": true,
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Yes",
+     "candidate_id": 39445673,
+     "party": "Nonpartisan",
+     "color": "#63c660",
+     "votes": 0,
+     "percent": 0,
+     "winner": false
+    },
+    {
+     "name": "No",
+     "candidate_id": 39445674,
+     "party": "Nonpartisan",
+     "color": "#c6606b",
+     "votes": 0,
+     "percent": 0,
+     "winner": false
+    }
+   ]
+  },
+  {
+   "id": 185609,
+   "type": "Referendum",
+   "country": "US",
+   "province": "OR",
+   "district": null,
+   "municipality": null,
+   "election_name": "Oregon Measure 26-267 City of Portland",
+   "election_type": "Local",
+   "election_date": "2026-11-03T05:00:00.000Z",
+   "has_breakdown": true,
+   "has_map": true,
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Yes",
+     "candidate_id": 39448258,
+     "party": "Nonpartisan",
+     "color": "#63c660",
+     "votes": 0,
+     "percent": 0,
+     "winner": false
+    },
+    {
+     "name": "No",
+     "candidate_id": 39448259,
+     "party": "Nonpartisan",
+     "color": "#c6606b",
+     "votes": 0,
+     "percent": 0,
+     "winner": false
+    }
+   ]
+  },
+  {
+   "id": 79719,
+   "type": "Referendum",
+   "country": "US",
+   "province": "OR",
+   "district": null,
+   "municipality": null,
+   "election_name": "Oregon Measure 120 Increase Gas Tax Payroll Tax and Vehicle Registration Fees",
+   "election_type": "Referendum",
+   "election_date": "2026-05-19T05:00:00.000Z",
+   "has_breakdown": true,
+   "has_map": true,
+   "percent_reporting": 86,
+   "candidates": [
+    {
+     "name": "No",
+     "candidate_id": 203082,
+     "party": "Nonpartisan",
+     "color": "#c6606b",
+     "votes": 779968,
+     "percent": 83.34,
+     "winner": true
+    },
+    {
+     "name": "Yes",
+     "candidate_id": 203083,
+     "party": "Nonpartisan",
+     "color": "#63c660",
+     "votes": 155886,
+     "percent": 16.66,
+     "winner": false
+    }
+   ]
+  },
+  {
+   "id": 185749,
+   "type": "Referendum",
+   "country": "US",
+   "province": "OR",
+   "district": "Washington",
+   "municipality": null,
+   "election_name": "Oregon Measure 34-352 City of Banks",
+   "election_type": "Local",
+   "election_date": "2026-11-03T05:00:00.000Z",
+   "has_breakdown": true,
+   "has_map": true,
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Yes",
+     "candidate_id": 39449257,
+     "party": "Nonpartisan",
+     "color": "#63c660",
+     "votes": 0,
+     "percent": 0,
+     "winner": false
+    },
+    {
+     "name": "No",
+     "candidate_id": 39449258,
+     "party": "Nonpartisan",
+     "color": "#c6606b",
+     "votes": 0,
+     "percent": 0,
+     "winner": false
+    }
+   ]
+  },
+  {
+   "id": 185074,
+   "type": "Referendum",
+   "country": "US",
+   "province": "OR",
+   "district": "Coos",
+   "municipality": null,
+   "election_name": "Oregon Measure 06-231 Bandon City",
+   "election_type": "Local",
+   "election_date": "2026-11-03T05:00:00.000Z",
+   "has_breakdown": true,
+   "has_map": true,
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Yes",
+     "candidate_id": 39443153,
+     "party": "Nonpartisan",
+     "color": "#63c660",
+     "votes": 0,
+     "percent": 0,
+     "winner": false
+    },
+    {
+     "name": "No",
+     "candidate_id": 39443154,
+     "party": "Nonpartisan",
+     "color": "#c6606b",
+     "votes": 0,
+     "percent": 0,
+     "winner": false
+    }
+   ]
+  },
+  {
+   "id": 185364,
+   "type": "Referendum",
+   "country": "US",
+   "province": "OR",
+   "district": "Jefferson",
+   "municipality": null,
+   "election_name": "Oregon Measure 16-118 Jefferson",
+   "election_type": "Local",
+   "election_date": "2026-11-03T05:00:00.000Z",
+   "has_breakdown": true,
+   "has_map": true,
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Yes",
+     "candidate_id": 39445774,
+     "party": "Nonpartisan",
+     "color": "#63c660",
+     "votes": 0,
+     "percent": 0,
+     "winner": false
+    },
+    {
+     "name": "No",
+     "candidate_id": 39445775,
+     "party": "Nonpartisan",
+     "color": "#c6606b",
+     "votes": 0,
+     "percent": 0,
+     "winner": false
+    }
+   ]
+  },
+  {
+   "id": 185607,
+   "type": "Referendum",
+   "country": "US",
+   "province": "OR",
+   "district": "Clackamas",
+   "municipality": null,
+   "election_name": "Oregon Measure 03-642 City of Canby",
+   "election_type": "Local",
+   "election_date": "2026-11-03T05:00:00.000Z",
+   "has_breakdown": true,
+   "has_map": true,
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Yes",
+     "candidate_id": 39448254,
+     "party": "Nonpartisan",
+     "color": "#63c660",
+     "votes": 0,
+     "percent": 0,
+     "winner": false
+    },
+    {
+     "name": "No",
+     "candidate_id": 39448255,
+     "party": "Nonpartisan",
+     "color": "#c6606b",
+     "votes": 0,
+     "percent": 0,
+     "winner": false
+    }
+   ]
+  },
+  {
+   "id": 185252,
+   "type": "Referendum",
+   "country": "US",
+   "province": "OR",
+   "district": "Deschutes",
+   "municipality": null,
+   "election_name": "Oregon Measure 09-185 Deschutes",
+   "election_type": "Local",
+   "election_date": "2026-11-03T05:00:00.000Z",
+   "has_breakdown": true,
+   "has_map": true,
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Yes",
+     "candidate_id": 39445457,
+     "party": "Nonpartisan",
+     "color": "#63c660",
+     "votes": 0,
+     "percent": 0,
+     "winner": false
+    },
+    {
+     "name": "No",
+     "candidate_id": 39445458,
+     "party": "Nonpartisan",
+     "color": "#c6606b",
+     "votes": 0,
+     "percent": 0,
+     "winner": false
+    }
+   ]
+  },
+  {
+   "id": 185820,
+   "type": "Referendum",
+   "country": "US",
+   "province": "OR",
+   "district": "Union",
+   "municipality": null,
+   "election_name": "Oregon Measure 31-128 City of La Grande",
+   "election_type": "Local",
+   "election_date": "2026-11-03T05:00:00.000Z",
+   "has_breakdown": true,
+   "has_map": true,
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Yes",
+     "candidate_id": 39450722,
+     "party": "Nonpartisan",
+     "color": "#63c660",
+     "votes": 0,
+     "percent": 0,
+     "winner": false
+    },
+    {
+     "name": "No",
+     "candidate_id": 39450723,
+     "party": "Nonpartisan",
+     "color": "#c6606b",
+     "votes": 0,
+     "percent": 0,
+     "winner": false
+    }
+   ]
+  },
+  {
+   "id": 185327,
+   "type": "Referendum",
+   "country": "US",
+   "province": "OR",
+   "district": "Linn",
+   "municipality": null,
+   "election_name": "Oregon Measure 22-217 City of Tangent",
+   "election_type": "Local",
+   "election_date": "2026-11-03T05:00:00.000Z",
+   "has_breakdown": true,
+   "has_map": true,
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Yes",
+     "candidate_id": 39445667,
+     "party": "Nonpartisan",
+     "color": "#63c660",
+     "votes": 0,
+     "percent": 0,
+     "winner": false
+    },
+    {
+     "name": "No",
+     "candidate_id": 39445668,
+     "party": "Nonpartisan",
+     "color": "#c6606b",
+     "votes": 0,
+     "percent": 0,
+     "winner": false
+    }
+   ]
+  },
+  {
+   "id": 185462,
+   "type": "Referendum",
+   "country": "US",
+   "province": "OR",
+   "district": "Polk",
+   "municipality": null,
+   "election_name": "Oregon Measure 27-149 Polk",
+   "election_type": "Local",
+   "election_date": "2026-11-03T05:00:00.000Z",
+   "has_breakdown": true,
+   "has_map": true,
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Yes",
+     "candidate_id": 39446915,
+     "party": "Nonpartisan",
+     "color": "#63c660",
+     "votes": 0,
+     "percent": 0,
+     "winner": false
+    },
+    {
+     "name": "No",
+     "candidate_id": 39446916,
+     "party": "Nonpartisan",
+     "color": "#c6606b",
+     "votes": 0,
+     "percent": 0,
+     "winner": false
+    }
+   ]
+  }
+ ]
+}

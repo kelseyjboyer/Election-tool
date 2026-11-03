@@ -1,0 +1,1497 @@
+{
+ "election_name": "Iowa US House 2",
+ "election_type": "House of Representatives",
+ "election_scope": "General",
+ "election_date": "2026-11-03T05:00:00.000Z",
+ "country": "US",
+ "province": "IA",
+ "district": "IA-02",
+ "municipality": null,
+ "polls_open": "2026-11-03T13:00:00.000Z",
+ "polls_close": "2026-11-04T02:00:00.000Z",
+ "is_disputed": false,
+ "has_map": true,
+ "registered_voters": null,
+ "percent_reporting": 0,
+ "test_data": false,
+ "last_updated": "2026-11-01T23:36:58.888Z",
+ "round": 1,
+ "maps": [
+  {
+   "name": "Iowa",
+   "map": "assets/Iowa.svg"
+  }
+ ],
+ "candidates": [
+  {
+   "name": "Joe Mitchell",
+   "candidate_id": 220346,
+   "party": "Republican",
+   "incumbent": false,
+   "major_candidate": false,
+   "winner": false,
+   "advanced": false,
+   "color": "#c6606b",
+   "votes": 0,
+   "percent": 0
+  },
+  {
+   "name": "Lindsay James",
+   "candidate_id": 220347,
+   "party": "Democratic",
+   "incumbent": false,
+   "major_candidate": false,
+   "winner": false,
+   "advanced": false,
+   "color": "#4874a3",
+   "votes": 0,
+   "percent": 0
+  },
+  {
+   "name": "Rick Stewart",
+   "candidate_id": 220348,
+   "party": "Libertarian",
+   "incumbent": false,
+   "major_candidate": false,
+   "winner": false,
+   "advanced": false,
+   "color": "#d4c029",
+   "votes": 0,
+   "percent": 0
+  },
+  {
+   "name": "Dave Bushaw",
+   "candidate_id": 220349,
+   "party": "Independent",
+   "incumbent": false,
+   "major_candidate": false,
+   "winner": false,
+   "advanced": false,
+   "color": "#63c660",
+   "votes": 0,
+   "percent": 0
+  },
+  {
+   "name": "Write-in",
+   "candidate_id": 33039720,
+   "party": "Nonpartisan",
+   "incumbent": false,
+   "major_candidate": false,
+   "winner": false,
+   "advanced": false,
+   "color": "#9A36FF",
+   "votes": 0,
+   "percent": 0
+  }
+ ],
+ "region_results": {
+  "allamakee": {
+   "name": "Allamakee",
+   "type": "County",
+   "fips": "19005",
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Joe Mitchell",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Lindsay James",
+     "party": "Democratic",
+     "votes": 0,
+     "percent": 0,
+     "color": "#4874a3",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Rick Stewart",
+     "party": "Libertarian",
+     "votes": 0,
+     "percent": 0,
+     "color": "#d4c029",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Dave Bushaw",
+     "party": "Independent",
+     "votes": 0,
+     "percent": 0,
+     "color": "#63c660",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Write-in",
+     "party": "Nonpartisan",
+     "votes": 0,
+     "percent": 0,
+     "color": "#9A36FF",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    }
+   ]
+  },
+  "benton": {
+   "name": "Benton",
+   "type": "County",
+   "fips": "19011",
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Joe Mitchell",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Lindsay James",
+     "party": "Democratic",
+     "votes": 0,
+     "percent": 0,
+     "color": "#4874a3",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Rick Stewart",
+     "party": "Libertarian",
+     "votes": 0,
+     "percent": 0,
+     "color": "#d4c029",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Dave Bushaw",
+     "party": "Independent",
+     "votes": 0,
+     "percent": 0,
+     "color": "#63c660",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Write-in",
+     "party": "Nonpartisan",
+     "votes": 0,
+     "percent": 0,
+     "color": "#9A36FF",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    }
+   ]
+  },
+  "black_hawk": {
+   "name": "Black Hawk",
+   "type": "County",
+   "fips": "19013",
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Joe Mitchell",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Lindsay James",
+     "party": "Democratic",
+     "votes": 0,
+     "percent": 0,
+     "color": "#4874a3",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Rick Stewart",
+     "party": "Libertarian",
+     "votes": 0,
+     "percent": 0,
+     "color": "#d4c029",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Dave Bushaw",
+     "party": "Independent",
+     "votes": 0,
+     "percent": 0,
+     "color": "#63c660",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Write-in",
+     "party": "Nonpartisan",
+     "votes": 0,
+     "percent": 0,
+     "color": "#9A36FF",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    }
+   ]
+  },
+  "bremer": {
+   "name": "Bremer",
+   "type": "County",
+   "fips": "19017",
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Joe Mitchell",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Lindsay James",
+     "party": "Democratic",
+     "votes": 0,
+     "percent": 0,
+     "color": "#4874a3",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Rick Stewart",
+     "party": "Libertarian",
+     "votes": 0,
+     "percent": 0,
+     "color": "#d4c029",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Dave Bushaw",
+     "party": "Independent",
+     "votes": 0,
+     "percent": 0,
+     "color": "#63c660",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Write-in",
+     "party": "Nonpartisan",
+     "votes": 0,
+     "percent": 0,
+     "color": "#9A36FF",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    }
+   ]
+  },
+  "buchanan": {
+   "name": "Buchanan",
+   "type": "County",
+   "fips": "19019",
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Joe Mitchell",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Lindsay James",
+     "party": "Democratic",
+     "votes": 0,
+     "percent": 0,
+     "color": "#4874a3",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Rick Stewart",
+     "party": "Libertarian",
+     "votes": 0,
+     "percent": 0,
+     "color": "#d4c029",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Dave Bushaw",
+     "party": "Independent",
+     "votes": 0,
+     "percent": 0,
+     "color": "#63c660",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Write-in",
+     "party": "Nonpartisan",
+     "votes": 0,
+     "percent": 0,
+     "color": "#9A36FF",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    }
+   ]
+  },
+  "butler": {
+   "name": "Butler",
+   "type": "County",
+   "fips": "19023",
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Joe Mitchell",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Lindsay James",
+     "party": "Democratic",
+     "votes": 0,
+     "percent": 0,
+     "color": "#4874a3",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Rick Stewart",
+     "party": "Libertarian",
+     "votes": 0,
+     "percent": 0,
+     "color": "#d4c029",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Dave Bushaw",
+     "party": "Independent",
+     "votes": 0,
+     "percent": 0,
+     "color": "#63c660",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Write-in",
+     "party": "Nonpartisan",
+     "votes": 0,
+     "percent": 0,
+     "color": "#9A36FF",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    }
+   ]
+  },
+  "cerro_gordo": {
+   "name": "Cerro Gordo",
+   "type": "County",
+   "fips": "19033",
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Joe Mitchell",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Lindsay James",
+     "party": "Democratic",
+     "votes": 0,
+     "percent": 0,
+     "color": "#4874a3",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Rick Stewart",
+     "party": "Libertarian",
+     "votes": 0,
+     "percent": 0,
+     "color": "#d4c029",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Dave Bushaw",
+     "party": "Independent",
+     "votes": 0,
+     "percent": 0,
+     "color": "#63c660",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Write-in",
+     "party": "Nonpartisan",
+     "votes": 0,
+     "percent": 0,
+     "color": "#9A36FF",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    }
+   ]
+  },
+  "chickasaw": {
+   "name": "Chickasaw",
+   "type": "County",
+   "fips": "19037",
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Joe Mitchell",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Lindsay James",
+     "party": "Democratic",
+     "votes": 0,
+     "percent": 0,
+     "color": "#4874a3",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Rick Stewart",
+     "party": "Libertarian",
+     "votes": 0,
+     "percent": 0,
+     "color": "#d4c029",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Dave Bushaw",
+     "party": "Independent",
+     "votes": 0,
+     "percent": 0,
+     "color": "#63c660",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Write-in",
+     "party": "Nonpartisan",
+     "votes": 0,
+     "percent": 0,
+     "color": "#9A36FF",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    }
+   ]
+  },
+  "clayton": {
+   "name": "Clayton",
+   "type": "County",
+   "fips": "19043",
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Joe Mitchell",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Lindsay James",
+     "party": "Democratic",
+     "votes": 0,
+     "percent": 0,
+     "color": "#4874a3",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Rick Stewart",
+     "party": "Libertarian",
+     "votes": 0,
+     "percent": 0,
+     "color": "#d4c029",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Dave Bushaw",
+     "party": "Independent",
+     "votes": 0,
+     "percent": 0,
+     "color": "#63c660",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Write-in",
+     "party": "Nonpartisan",
+     "votes": 0,
+     "percent": 0,
+     "color": "#9A36FF",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    }
+   ]
+  },
+  "delaware": {
+   "name": "Delaware",
+   "type": "County",
+   "fips": "19055",
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Joe Mitchell",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Lindsay James",
+     "party": "Democratic",
+     "votes": 0,
+     "percent": 0,
+     "color": "#4874a3",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Rick Stewart",
+     "party": "Libertarian",
+     "votes": 0,
+     "percent": 0,
+     "color": "#d4c029",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Dave Bushaw",
+     "party": "Independent",
+     "votes": 0,
+     "percent": 0,
+     "color": "#63c660",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Write-in",
+     "party": "Nonpartisan",
+     "votes": 0,
+     "percent": 0,
+     "color": "#9A36FF",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    }
+   ]
+  },
+  "dubuque": {
+   "name": "Dubuque",
+   "type": "County",
+   "fips": "19061",
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Joe Mitchell",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Lindsay James",
+     "party": "Democratic",
+     "votes": 0,
+     "percent": 0,
+     "color": "#4874a3",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Rick Stewart",
+     "party": "Libertarian",
+     "votes": 0,
+     "percent": 0,
+     "color": "#d4c029",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Dave Bushaw",
+     "party": "Independent",
+     "votes": 0,
+     "percent": 0,
+     "color": "#63c660",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Write-in",
+     "party": "Nonpartisan",
+     "votes": 0,
+     "percent": 0,
+     "color": "#9A36FF",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    }
+   ]
+  },
+  "fayette": {
+   "name": "Fayette",
+   "type": "County",
+   "fips": "19065",
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Joe Mitchell",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Lindsay James",
+     "party": "Democratic",
+     "votes": 0,
+     "percent": 0,
+     "color": "#4874a3",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Rick Stewart",
+     "party": "Libertarian",
+     "votes": 0,
+     "percent": 0,
+     "color": "#d4c029",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Dave Bushaw",
+     "party": "Independent",
+     "votes": 0,
+     "percent": 0,
+     "color": "#63c660",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Write-in",
+     "party": "Nonpartisan",
+     "votes": 0,
+     "percent": 0,
+     "color": "#9A36FF",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    }
+   ]
+  },
+  "floyd": {
+   "name": "Floyd",
+   "type": "County",
+   "fips": "19067",
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Joe Mitchell",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Lindsay James",
+     "party": "Democratic",
+     "votes": 0,
+     "percent": 0,
+     "color": "#4874a3",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Rick Stewart",
+     "party": "Libertarian",
+     "votes": 0,
+     "percent": 0,
+     "color": "#d4c029",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Dave Bushaw",
+     "party": "Independent",
+     "votes": 0,
+     "percent": 0,
+     "color": "#63c660",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Write-in",
+     "party": "Nonpartisan",
+     "votes": 0,
+     "percent": 0,
+     "color": "#9A36FF",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    }
+   ]
+  },
+  "hardin": {
+   "name": "Hardin",
+   "type": "County",
+   "fips": "19083",
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Joe Mitchell",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Lindsay James",
+     "party": "Democratic",
+     "votes": 0,
+     "percent": 0,
+     "color": "#4874a3",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Rick Stewart",
+     "party": "Libertarian",
+     "votes": 0,
+     "percent": 0,
+     "color": "#d4c029",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Dave Bushaw",
+     "party": "Independent",
+     "votes": 0,
+     "percent": 0,
+     "color": "#63c660",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Write-in",
+     "party": "Nonpartisan",
+     "votes": 0,
+     "percent": 0,
+     "color": "#9A36FF",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    }
+   ]
+  },
+  "howard": {
+   "name": "Howard",
+   "type": "County",
+   "fips": "19089",
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Joe Mitchell",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Lindsay James",
+     "party": "Democratic",
+     "votes": 0,
+     "percent": 0,
+     "color": "#4874a3",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Rick Stewart",
+     "party": "Libertarian",
+     "votes": 0,
+     "percent": 0,
+     "color": "#d4c029",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Dave Bushaw",
+     "party": "Independent",
+     "votes": 0,
+     "percent": 0,
+     "color": "#63c660",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Write-in",
+     "party": "Nonpartisan",
+     "votes": 0,
+     "percent": 0,
+     "color": "#9A36FF",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    }
+   ]
+  },
+  "linn": {
+   "name": "Linn",
+   "type": "County",
+   "fips": "19113",
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Joe Mitchell",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Lindsay James",
+     "party": "Democratic",
+     "votes": 0,
+     "percent": 0,
+     "color": "#4874a3",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Rick Stewart",
+     "party": "Libertarian",
+     "votes": 0,
+     "percent": 0,
+     "color": "#d4c029",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Dave Bushaw",
+     "party": "Independent",
+     "votes": 0,
+     "percent": 0,
+     "color": "#63c660",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Write-in",
+     "party": "Nonpartisan",
+     "votes": 0,
+     "percent": 0,
+     "color": "#9A36FF",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    }
+   ]
+  },
+  "mitchell": {
+   "name": "Mitchell",
+   "type": "County",
+   "fips": "19131",
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Joe Mitchell",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Lindsay James",
+     "party": "Democratic",
+     "votes": 0,
+     "percent": 0,
+     "color": "#4874a3",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Rick Stewart",
+     "party": "Libertarian",
+     "votes": 0,
+     "percent": 0,
+     "color": "#d4c029",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Dave Bushaw",
+     "party": "Independent",
+     "votes": 0,
+     "percent": 0,
+     "color": "#63c660",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Write-in",
+     "party": "Nonpartisan",
+     "votes": 0,
+     "percent": 0,
+     "color": "#9A36FF",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    }
+   ]
+  },
+  "poweshiek": {
+   "name": "Poweshiek",
+   "type": "County",
+   "fips": "19157",
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Joe Mitchell",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Lindsay James",
+     "party": "Democratic",
+     "votes": 0,
+     "percent": 0,
+     "color": "#4874a3",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Rick Stewart",
+     "party": "Libertarian",
+     "votes": 0,
+     "percent": 0,
+     "color": "#d4c029",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Dave Bushaw",
+     "party": "Independent",
+     "votes": 0,
+     "percent": 0,
+     "color": "#63c660",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Write-in",
+     "party": "Nonpartisan",
+     "votes": 0,
+     "percent": 0,
+     "color": "#9A36FF",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    }
+   ]
+  },
+  "tama": {
+   "name": "Tama",
+   "type": "County",
+   "fips": "19171",
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Joe Mitchell",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Lindsay James",
+     "party": "Democratic",
+     "votes": 0,
+     "percent": 0,
+     "color": "#4874a3",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Rick Stewart",
+     "party": "Libertarian",
+     "votes": 0,
+     "percent": 0,
+     "color": "#d4c029",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Dave Bushaw",
+     "party": "Independent",
+     "votes": 0,
+     "percent": 0,
+     "color": "#63c660",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Write-in",
+     "party": "Nonpartisan",
+     "votes": 0,
+     "percent": 0,
+     "color": "#9A36FF",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    }
+   ]
+  },
+  "winneshiek": {
+   "name": "Winneshiek",
+   "type": "County",
+   "fips": "19191",
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Joe Mitchell",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Lindsay James",
+     "party": "Democratic",
+     "votes": 0,
+     "percent": 0,
+     "color": "#4874a3",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Rick Stewart",
+     "party": "Libertarian",
+     "votes": 0,
+     "percent": 0,
+     "color": "#d4c029",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Dave Bushaw",
+     "party": "Independent",
+     "votes": 0,
+     "percent": 0,
+     "color": "#63c660",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Write-in",
+     "party": "Nonpartisan",
+     "votes": 0,
+     "percent": 0,
+     "color": "#9A36FF",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    }
+   ]
+  },
+  "worth": {
+   "name": "Worth",
+   "type": "County",
+   "fips": "19195",
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Joe Mitchell",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Lindsay James",
+     "party": "Democratic",
+     "votes": 0,
+     "percent": 0,
+     "color": "#4874a3",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Rick Stewart",
+     "party": "Libertarian",
+     "votes": 0,
+     "percent": 0,
+     "color": "#d4c029",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Dave Bushaw",
+     "party": "Independent",
+     "votes": 0,
+     "percent": 0,
+     "color": "#63c660",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Write-in",
+     "party": "Nonpartisan",
+     "votes": 0,
+     "percent": 0,
+     "color": "#9A36FF",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    }
+   ]
+  },
+  "grundy": {
+   "name": "Grundy",
+   "type": "County",
+   "fips": "19075",
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Joe Mitchell",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Lindsay James",
+     "party": "Democratic",
+     "votes": 0,
+     "percent": 0,
+     "color": "#4874a3",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Rick Stewart",
+     "party": "Libertarian",
+     "votes": 0,
+     "percent": 0,
+     "color": "#d4c029",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Dave Bushaw",
+     "party": "Independent",
+     "votes": 0,
+     "percent": 0,
+     "color": "#63c660",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Write-in",
+     "party": "Nonpartisan",
+     "votes": 0,
+     "percent": 0,
+     "color": "#9A36FF",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    }
+   ]
+  }
+ }
+}

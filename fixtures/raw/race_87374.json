@@ -1,0 +1,2393 @@
+{
+ "election_name": "Oregon US Senate",
+ "election_type": "US Senate",
+ "election_scope": "General",
+ "election_date": "2026-11-03T05:00:00.000Z",
+ "country": "US",
+ "province": "OR",
+ "district": null,
+ "municipality": null,
+ "polls_open": "2026-11-03T15:00:00.000Z",
+ "polls_close": "2026-11-04T04:00:00.000Z",
+ "is_disputed": false,
+ "has_map": true,
+ "registered_voters": null,
+ "percent_reporting": 0,
+ "test_data": false,
+ "last_updated": "2026-11-03T04:16:00.193Z",
+ "round": 1,
+ "maps": [
+  {
+   "name": "Oregon",
+   "map": "assets/Oregon.svg"
+  }
+ ],
+ "candidates": [
+  {
+   "name": "David Brock Smith",
+   "candidate_id": 221012,
+   "party": "Republican",
+   "incumbent": false,
+   "major_candidate": false,
+   "winner": false,
+   "advanced": false,
+   "color": "#c6606b",
+   "votes": 0,
+   "percent": 0
+  },
+  {
+   "name": "Jeff Merkley",
+   "candidate_id": 221011,
+   "party": "Democratic",
+   "incumbent": false,
+   "major_candidate": false,
+   "winner": false,
+   "advanced": false,
+   "color": "#4874a3",
+   "votes": 0,
+   "percent": 0
+  },
+  {
+   "name": "Gary Lyndon Dye",
+   "candidate_id": 2670894,
+   "party": "Libertarian",
+   "incumbent": false,
+   "major_candidate": false,
+   "winner": false,
+   "advanced": false,
+   "color": "#d4c029",
+   "votes": 0,
+   "percent": 0
+  },
+  {
+   "name": "Chris Henry",
+   "candidate_id": 2670895,
+   "party": "Progressive",
+   "incumbent": false,
+   "major_candidate": false,
+   "winner": false,
+   "advanced": false,
+   "color": "#e13c88",
+   "votes": 0,
+   "percent": 0
+  },
+  {
+   "name": "Write-in",
+   "candidate_id": 39442240,
+   "party": "Nonpartisan",
+   "incumbent": false,
+   "major_candidate": false,
+   "winner": false,
+   "advanced": false,
+   "color": "#9A36FF",
+   "votes": 0,
+   "percent": 0
+  }
+ ],
+ "region_results": {
+  "baker": {
+   "name": "Baker",
+   "type": "County",
+   "fips": "41001",
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "David Brock Smith",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Jeff Merkley",
+     "party": "Democratic",
+     "votes": 0,
+     "percent": 0,
+     "color": "#4874a3",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Gary Lyndon Dye",
+     "party": "Libertarian",
+     "votes": 0,
+     "percent": 0,
+     "color": "#d4c029",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Chris Henry",
+     "party": "Progressive",
+     "votes": 0,
+     "percent": 0,
+     "color": "#e13c88",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Write-in",
+     "party": "Nonpartisan",
+     "votes": 0,
+     "percent": 0,
+     "color": "#9A36FF",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    }
+   ]
+  },
+  "benton": {
+   "name": "Benton",
+   "type": "County",
+   "fips": "41003",
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "David Brock Smith",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Jeff Merkley",
+     "party": "Democratic",
+     "votes": 0,
+     "percent": 0,
+     "color": "#4874a3",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Gary Lyndon Dye",
+     "party": "Libertarian",
+     "votes": 0,
+     "percent": 0,
+     "color": "#d4c029",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Chris Henry",
+     "party": "Progressive",
+     "votes": 0,
+     "percent": 0,
+     "color": "#e13c88",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Write-in",
+     "party": "Nonpartisan",
+     "votes": 0,
+     "percent": 0,
+     "color": "#9A36FF",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    }
+   ]
+  },
+  "clackamas": {
+   "name": "Clackamas",
+   "type": "County",
+   "fips": "41005",
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "David Brock Smith",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Jeff Merkley",
+     "party": "Democratic",
+     "votes": 0,
+     "percent": 0,
+     "color": "#4874a3",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Gary Lyndon Dye",
+     "party": "Libertarian",
+     "votes": 0,
+     "percent": 0,
+     "color": "#d4c029",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Chris Henry",
+     "party": "Progressive",
+     "votes": 0,
+     "percent": 0,
+     "color": "#e13c88",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Write-in",
+     "party": "Nonpartisan",
+     "votes": 0,
+     "percent": 0,
+     "color": "#9A36FF",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    }
+   ]
+  },
+  "clatsop": {
+   "name": "Clatsop",
+   "type": "County",
+   "fips": "41007",
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "David Brock Smith",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Jeff Merkley",
+     "party": "Democratic",
+     "votes": 0,
+     "percent": 0,
+     "color": "#4874a3",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Gary Lyndon Dye",
+     "party": "Libertarian",
+     "votes": 0,
+     "percent": 0,
+     "color": "#d4c029",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Chris Henry",
+     "party": "Progressive",
+     "votes": 0,
+     "percent": 0,
+     "color": "#e13c88",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Write-in",
+     "party": "Nonpartisan",
+     "votes": 0,
+     "percent": 0,
+     "color": "#9A36FF",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    }
+   ]
+  },
+  "columbia": {
+   "name": "Columbia",
+   "type": "County",
+   "fips": "41009",
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "David Brock Smith",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Jeff Merkley",
+     "party": "Democratic",
+     "votes": 0,
+     "percent": 0,
+     "color": "#4874a3",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Gary Lyndon Dye",
+     "party": "Libertarian",
+     "votes": 0,
+     "percent": 0,
+     "color": "#d4c029",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Chris Henry",
+     "party": "Progressive",
+     "votes": 0,
+     "percent": 0,
+     "color": "#e13c88",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Write-in",
+     "party": "Nonpartisan",
+     "votes": 0,
+     "percent": 0,
+     "color": "#9A36FF",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    }
+   ]
+  },
+  "coos": {
+   "name": "Coos",
+   "type": "County",
+   "fips": "41011",
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "David Brock Smith",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Jeff Merkley",
+     "party": "Democratic",
+     "votes": 0,
+     "percent": 0,
+     "color": "#4874a3",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Gary Lyndon Dye",
+     "party": "Libertarian",
+     "votes": 0,
+     "percent": 0,
+     "color": "#d4c029",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Chris Henry",
+     "party": "Progressive",
+     "votes": 0,
+     "percent": 0,
+     "color": "#e13c88",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Write-in",
+     "party": "Nonpartisan",
+     "votes": 0,
+     "percent": 0,
+     "color": "#9A36FF",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    }
+   ]
+  },
+  "crook": {
+   "name": "Crook",
+   "type": "County",
+   "fips": "41013",
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "David Brock Smith",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Jeff Merkley",
+     "party": "Democratic",
+     "votes": 0,
+     "percent": 0,
+     "color": "#4874a3",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Gary Lyndon Dye",
+     "party": "Libertarian",
+     "votes": 0,
+     "percent": 0,
+     "color": "#d4c029",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Chris Henry",
+     "party": "Progressive",
+     "votes": 0,
+     "percent": 0,
+     "color": "#e13c88",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Write-in",
+     "party": "Nonpartisan",
+     "votes": 0,
+     "percent": 0,
+     "color": "#9A36FF",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    }
+   ]
+  },
+  "curry": {
+   "name": "Curry",
+   "type": "County",
+   "fips": "41015",
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "David Brock Smith",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Jeff Merkley",
+     "party": "Democratic",
+     "votes": 0,
+     "percent": 0,
+     "color": "#4874a3",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Gary Lyndon Dye",
+     "party": "Libertarian",
+     "votes": 0,
+     "percent": 0,
+     "color": "#d4c029",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Chris Henry",
+     "party": "Progressive",
+     "votes": 0,
+     "percent": 0,
+     "color": "#e13c88",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Write-in",
+     "party": "Nonpartisan",
+     "votes": 0,
+     "percent": 0,
+     "color": "#9A36FF",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    }
+   ]
+  },
+  "deschutes": {
+   "name": "Deschutes",
+   "type": "County",
+   "fips": "41017",
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "David Brock Smith",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Jeff Merkley",
+     "party": "Democratic",
+     "votes": 0,
+     "percent": 0,
+     "color": "#4874a3",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Gary Lyndon Dye",
+     "party": "Libertarian",
+     "votes": 0,
+     "percent": 0,
+     "color": "#d4c029",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Chris Henry",
+     "party": "Progressive",
+     "votes": 0,
+     "percent": 0,
+     "color": "#e13c88",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Write-in",
+     "party": "Nonpartisan",
+     "votes": 0,
+     "percent": 0,
+     "color": "#9A36FF",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    }
+   ]
+  },
+  "douglas": {
+   "name": "Douglas",
+   "type": "County",
+   "fips": "41019",
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "David Brock Smith",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Jeff Merkley",
+     "party": "Democratic",
+     "votes": 0,
+     "percent": 0,
+     "color": "#4874a3",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Gary Lyndon Dye",
+     "party": "Libertarian",
+     "votes": 0,
+     "percent": 0,
+     "color": "#d4c029",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Chris Henry",
+     "party": "Progressive",
+     "votes": 0,
+     "percent": 0,
+     "color": "#e13c88",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Write-in",
+     "party": "Nonpartisan",
+     "votes": 0,
+     "percent": 0,
+     "color": "#9A36FF",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    }
+   ]
+  },
+  "gilliam": {
+   "name": "Gilliam",
+   "type": "County",
+   "fips": "41021",
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "David Brock Smith",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Jeff Merkley",
+     "party": "Democratic",
+     "votes": 0,
+     "percent": 0,
+     "color": "#4874a3",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Gary Lyndon Dye",
+     "party": "Libertarian",
+     "votes": 0,
+     "percent": 0,
+     "color": "#d4c029",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Chris Henry",
+     "party": "Progressive",
+     "votes": 0,
+     "percent": 0,
+     "color": "#e13c88",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Write-in",
+     "party": "Nonpartisan",
+     "votes": 0,
+     "percent": 0,
+     "color": "#9A36FF",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    }
+   ]
+  },
+  "grant": {
+   "name": "Grant",
+   "type": "County",
+   "fips": "41023",
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "David Brock Smith",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Jeff Merkley",
+     "party": "Democratic",
+     "votes": 0,
+     "percent": 0,
+     "color": "#4874a3",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Gary Lyndon Dye",
+     "party": "Libertarian",
+     "votes": 0,
+     "percent": 0,
+     "color": "#d4c029",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Chris Henry",
+     "party": "Progressive",
+     "votes": 0,
+     "percent": 0,
+     "color": "#e13c88",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Write-in",
+     "party": "Nonpartisan",
+     "votes": 0,
+     "percent": 0,
+     "color": "#9A36FF",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    }
+   ]
+  },
+  "harney": {
+   "name": "Harney",
+   "type": "County",
+   "fips": "41025",
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "David Brock Smith",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Jeff Merkley",
+     "party": "Democratic",
+     "votes": 0,
+     "percent": 0,
+     "color": "#4874a3",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Gary Lyndon Dye",
+     "party": "Libertarian",
+     "votes": 0,
+     "percent": 0,
+     "color": "#d4c029",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Chris Henry",
+     "party": "Progressive",
+     "votes": 0,
+     "percent": 0,
+     "color": "#e13c88",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Write-in",
+     "party": "Nonpartisan",
+     "votes": 0,
+     "percent": 0,
+     "color": "#9A36FF",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    }
+   ]
+  },
+  "hood_river": {
+   "name": "Hood River",
+   "type": "County",
+   "fips": "41027",
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "David Brock Smith",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Jeff Merkley",
+     "party": "Democratic",
+     "votes": 0,
+     "percent": 0,
+     "color": "#4874a3",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Gary Lyndon Dye",
+     "party": "Libertarian",
+     "votes": 0,
+     "percent": 0,
+     "color": "#d4c029",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Chris Henry",
+     "party": "Progressive",
+     "votes": 0,
+     "percent": 0,
+     "color": "#e13c88",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Write-in",
+     "party": "Nonpartisan",
+     "votes": 0,
+     "percent": 0,
+     "color": "#9A36FF",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    }
+   ]
+  },
+  "jackson": {
+   "name": "Jackson",
+   "type": "County",
+   "fips": "41029",
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "David Brock Smith",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Jeff Merkley",
+     "party": "Democratic",
+     "votes": 0,
+     "percent": 0,
+     "color": "#4874a3",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Gary Lyndon Dye",
+     "party": "Libertarian",
+     "votes": 0,
+     "percent": 0,
+     "color": "#d4c029",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Chris Henry",
+     "party": "Progressive",
+     "votes": 0,
+     "percent": 0,
+     "color": "#e13c88",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Write-in",
+     "party": "Nonpartisan",
+     "votes": 0,
+     "percent": 0,
+     "color": "#9A36FF",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    }
+   ]
+  },
+  "jefferson": {
+   "name": "Jefferson",
+   "type": "County",
+   "fips": "41031",
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "David Brock Smith",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Jeff Merkley",
+     "party": "Democratic",
+     "votes": 0,
+     "percent": 0,
+     "color": "#4874a3",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Gary Lyndon Dye",
+     "party": "Libertarian",
+     "votes": 0,
+     "percent": 0,
+     "color": "#d4c029",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Chris Henry",
+     "party": "Progressive",
+     "votes": 0,
+     "percent": 0,
+     "color": "#e13c88",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Write-in",
+     "party": "Nonpartisan",
+     "votes": 0,
+     "percent": 0,
+     "color": "#9A36FF",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    }
+   ]
+  },
+  "josephine": {
+   "name": "Josephine",
+   "type": "County",
+   "fips": "41033",
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "David Brock Smith",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Jeff Merkley",
+     "party": "Democratic",
+     "votes": 0,
+     "percent": 0,
+     "color": "#4874a3",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Gary Lyndon Dye",
+     "party": "Libertarian",
+     "votes": 0,
+     "percent": 0,
+     "color": "#d4c029",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Chris Henry",
+     "party": "Progressive",
+     "votes": 0,
+     "percent": 0,
+     "color": "#e13c88",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Write-in",
+     "party": "Nonpartisan",
+     "votes": 0,
+     "percent": 0,
+     "color": "#9A36FF",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    }
+   ]
+  },
+  "klamath": {
+   "name": "Klamath",
+   "type": "County",
+   "fips": "41035",
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "David Brock Smith",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Jeff Merkley",
+     "party": "Democratic",
+     "votes": 0,
+     "percent": 0,
+     "color": "#4874a3",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Gary Lyndon Dye",
+     "party": "Libertarian",
+     "votes": 0,
+     "percent": 0,
+     "color": "#d4c029",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Chris Henry",
+     "party": "Progressive",
+     "votes": 0,
+     "percent": 0,
+     "color": "#e13c88",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Write-in",
+     "party": "Nonpartisan",
+     "votes": 0,
+     "percent": 0,
+     "color": "#9A36FF",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    }
+   ]
+  },
+  "lake": {
+   "name": "Lake",
+   "type": "County",
+   "fips": "41037",
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "David Brock Smith",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Jeff Merkley",
+     "party": "Democratic",
+     "votes": 0,
+     "percent": 0,
+     "color": "#4874a3",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Gary Lyndon Dye",
+     "party": "Libertarian",
+     "votes": 0,
+     "percent": 0,
+     "color": "#d4c029",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Chris Henry",
+     "party": "Progressive",
+     "votes": 0,
+     "percent": 0,
+     "color": "#e13c88",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Write-in",
+     "party": "Nonpartisan",
+     "votes": 0,
+     "percent": 0,
+     "color": "#9A36FF",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    }
+   ]
+  },
+  "lane": {
+   "name": "Lane",
+   "type": "County",
+   "fips": "41039",
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "David Brock Smith",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Jeff Merkley",
+     "party": "Democratic",
+     "votes": 0,
+     "percent": 0,
+     "color": "#4874a3",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Gary Lyndon Dye",
+     "party": "Libertarian",
+     "votes": 0,
+     "percent": 0,
+     "color": "#d4c029",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Chris Henry",
+     "party": "Progressive",
+     "votes": 0,
+     "percent": 0,
+     "color": "#e13c88",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Write-in",
+     "party": "Nonpartisan",
+     "votes": 0,
+     "percent": 0,
+     "color": "#9A36FF",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    }
+   ]
+  },
+  "lincoln": {
+   "name": "Lincoln",
+   "type": "County",
+   "fips": "41041",
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "David Brock Smith",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Jeff Merkley",
+     "party": "Democratic",
+     "votes": 0,
+     "percent": 0,
+     "color": "#4874a3",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Gary Lyndon Dye",
+     "party": "Libertarian",
+     "votes": 0,
+     "percent": 0,
+     "color": "#d4c029",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Chris Henry",
+     "party": "Progressive",
+     "votes": 0,
+     "percent": 0,
+     "color": "#e13c88",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Write-in",
+     "party": "Nonpartisan",
+     "votes": 0,
+     "percent": 0,
+     "color": "#9A36FF",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    }
+   ]
+  },
+  "linn": {
+   "name": "Linn",
+   "type": "County",
+   "fips": "41043",
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "David Brock Smith",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Jeff Merkley",
+     "party": "Democratic",
+     "votes": 0,
+     "percent": 0,
+     "color": "#4874a3",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Gary Lyndon Dye",
+     "party": "Libertarian",
+     "votes": 0,
+     "percent": 0,
+     "color": "#d4c029",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Chris Henry",
+     "party": "Progressive",
+     "votes": 0,
+     "percent": 0,
+     "color": "#e13c88",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Write-in",
+     "party": "Nonpartisan",
+     "votes": 0,
+     "percent": 0,
+     "color": "#9A36FF",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    }
+   ]
+  },
+  "malheur": {
+   "name": "Malheur",
+   "type": "County",
+   "fips": "41045",
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "David Brock Smith",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Jeff Merkley",
+     "party": "Democratic",
+     "votes": 0,
+     "percent": 0,
+     "color": "#4874a3",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Gary Lyndon Dye",
+     "party": "Libertarian",
+     "votes": 0,
+     "percent": 0,
+     "color": "#d4c029",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Chris Henry",
+     "party": "Progressive",
+     "votes": 0,
+     "percent": 0,
+     "color": "#e13c88",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Write-in",
+     "party": "Nonpartisan",
+     "votes": 0,
+     "percent": 0,
+     "color": "#9A36FF",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    }
+   ]
+  },
+  "marion": {
+   "name": "Marion",
+   "type": "County",
+   "fips": "41047",
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "David Brock Smith",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Jeff Merkley",
+     "party": "Democratic",
+     "votes": 0,
+     "percent": 0,
+     "color": "#4874a3",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Gary Lyndon Dye",
+     "party": "Libertarian",
+     "votes": 0,
+     "percent": 0,
+     "color": "#d4c029",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Chris Henry",
+     "party": "Progressive",
+     "votes": 0,
+     "percent": 0,
+     "color": "#e13c88",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Write-in",
+     "party": "Nonpartisan",
+     "votes": 0,
+     "percent": 0,
+     "color": "#9A36FF",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    }
+   ]
+  },
+  "morrow": {
+   "name": "Morrow",
+   "type": "County",
+   "fips": "41049",
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "David Brock Smith",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Jeff Merkley",
+     "party": "Democratic",
+     "votes": 0,
+     "percent": 0,
+     "color": "#4874a3",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Gary Lyndon Dye",
+     "party": "Libertarian",
+     "votes": 0,
+     "percent": 0,
+     "color": "#d4c029",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Chris Henry",
+     "party": "Progressive",
+     "votes": 0,
+     "percent": 0,
+     "color": "#e13c88",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Write-in",
+     "party": "Nonpartisan",
+     "votes": 0,
+     "percent": 0,
+     "color": "#9A36FF",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    }
+   ]
+  },
+  "multnomah": {
+   "name": "Multnomah",
+   "type": "County",
+   "fips": "41051",
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "David Brock Smith",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Jeff Merkley",
+     "party": "Democratic",
+     "votes": 0,
+     "percent": 0,
+     "color": "#4874a3",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Gary Lyndon Dye",
+     "party": "Libertarian",
+     "votes": 0,
+     "percent": 0,
+     "color": "#d4c029",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Chris Henry",
+     "party": "Progressive",
+     "votes": 0,
+     "percent": 0,
+     "color": "#e13c88",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Write-in",
+     "party": "Nonpartisan",
+     "votes": 0,
+     "percent": 0,
+     "color": "#9A36FF",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    }
+   ]
+  },
+  "polk": {
+   "name": "Polk",
+   "type": "County",
+   "fips": "41053",
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "David Brock Smith",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Jeff Merkley",
+     "party": "Democratic",
+     "votes": 0,
+     "percent": 0,
+     "color": "#4874a3",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Gary Lyndon Dye",
+     "party": "Libertarian",
+     "votes": 0,
+     "percent": 0,
+     "color": "#d4c029",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Chris Henry",
+     "party": "Progressive",
+     "votes": 0,
+     "percent": 0,
+     "color": "#e13c88",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Write-in",
+     "party": "Nonpartisan",
+     "votes": 0,
+     "percent": 0,
+     "color": "#9A36FF",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    }
+   ]
+  },
+  "sherman": {
+   "name": "Sherman",
+   "type": "County",
+   "fips": "41055",
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "David Brock Smith",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Jeff Merkley",
+     "party": "Democratic",
+     "votes": 0,
+     "percent": 0,
+     "color": "#4874a3",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Gary Lyndon Dye",
+     "party": "Libertarian",
+     "votes": 0,
+     "percent": 0,
+     "color": "#d4c029",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Chris Henry",
+     "party": "Progressive",
+     "votes": 0,
+     "percent": 0,
+     "color": "#e13c88",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Write-in",
+     "party": "Nonpartisan",
+     "votes": 0,
+     "percent": 0,
+     "color": "#9A36FF",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    }
+   ]
+  },
+  "tillamook": {
+   "name": "Tillamook",
+   "type": "County",
+   "fips": "41057",
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "David Brock Smith",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Jeff Merkley",
+     "party": "Democratic",
+     "votes": 0,
+     "percent": 0,
+     "color": "#4874a3",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Gary Lyndon Dye",
+     "party": "Libertarian",
+     "votes": 0,
+     "percent": 0,
+     "color": "#d4c029",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Chris Henry",
+     "party": "Progressive",
+     "votes": 0,
+     "percent": 0,
+     "color": "#e13c88",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Write-in",
+     "party": "Nonpartisan",
+     "votes": 0,
+     "percent": 0,
+     "color": "#9A36FF",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    }
+   ]
+  },
+  "umatilla": {
+   "name": "Umatilla",
+   "type": "County",
+   "fips": "41059",
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "David Brock Smith",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Jeff Merkley",
+     "party": "Democratic",
+     "votes": 0,
+     "percent": 0,
+     "color": "#4874a3",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Gary Lyndon Dye",
+     "party": "Libertarian",
+     "votes": 0,
+     "percent": 0,
+     "color": "#d4c029",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Chris Henry",
+     "party": "Progressive",
+     "votes": 0,
+     "percent": 0,
+     "color": "#e13c88",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Write-in",
+     "party": "Nonpartisan",
+     "votes": 0,
+     "percent": 0,
+     "color": "#9A36FF",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    }
+   ]
+  },
+  "union": {
+   "name": "Union",
+   "type": "County",
+   "fips": "41061",
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "David Brock Smith",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Jeff Merkley",
+     "party": "Democratic",
+     "votes": 0,
+     "percent": 0,
+     "color": "#4874a3",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Gary Lyndon Dye",
+     "party": "Libertarian",
+     "votes": 0,
+     "percent": 0,
+     "color": "#d4c029",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Chris Henry",
+     "party": "Progressive",
+     "votes": 0,
+     "percent": 0,
+     "color": "#e13c88",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Write-in",
+     "party": "Nonpartisan",
+     "votes": 0,
+     "percent": 0,
+     "color": "#9A36FF",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    }
+   ]
+  },
+  "wallowa": {
+   "name": "Wallowa",
+   "type": "County",
+   "fips": "41063",
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "David Brock Smith",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Jeff Merkley",
+     "party": "Democratic",
+     "votes": 0,
+     "percent": 0,
+     "color": "#4874a3",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Gary Lyndon Dye",
+     "party": "Libertarian",
+     "votes": 0,
+     "percent": 0,
+     "color": "#d4c029",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Chris Henry",
+     "party": "Progressive",
+     "votes": 0,
+     "percent": 0,
+     "color": "#e13c88",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Write-in",
+     "party": "Nonpartisan",
+     "votes": 0,
+     "percent": 0,
+     "color": "#9A36FF",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    }
+   ]
+  },
+  "wasco": {
+   "name": "Wasco",
+   "type": "County",
+   "fips": "41065",
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "David Brock Smith",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Jeff Merkley",
+     "party": "Democratic",
+     "votes": 0,
+     "percent": 0,
+     "color": "#4874a3",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Gary Lyndon Dye",
+     "party": "Libertarian",
+     "votes": 0,
+     "percent": 0,
+     "color": "#d4c029",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Chris Henry",
+     "party": "Progressive",
+     "votes": 0,
+     "percent": 0,
+     "color": "#e13c88",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Write-in",
+     "party": "Nonpartisan",
+     "votes": 0,
+     "percent": 0,
+     "color": "#9A36FF",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    }
+   ]
+  },
+  "washington": {
+   "name": "Washington",
+   "type": "County",
+   "fips": "41067",
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "David Brock Smith",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Jeff Merkley",
+     "party": "Democratic",
+     "votes": 0,
+     "percent": 0,
+     "color": "#4874a3",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Gary Lyndon Dye",
+     "party": "Libertarian",
+     "votes": 0,
+     "percent": 0,
+     "color": "#d4c029",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Chris Henry",
+     "party": "Progressive",
+     "votes": 0,
+     "percent": 0,
+     "color": "#e13c88",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Write-in",
+     "party": "Nonpartisan",
+     "votes": 0,
+     "percent": 0,
+     "color": "#9A36FF",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    }
+   ]
+  },
+  "wheeler": {
+   "name": "Wheeler",
+   "type": "County",
+   "fips": "41069",
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "David Brock Smith",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Jeff Merkley",
+     "party": "Democratic",
+     "votes": 0,
+     "percent": 0,
+     "color": "#4874a3",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Gary Lyndon Dye",
+     "party": "Libertarian",
+     "votes": 0,
+     "percent": 0,
+     "color": "#d4c029",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Chris Henry",
+     "party": "Progressive",
+     "votes": 0,
+     "percent": 0,
+     "color": "#e13c88",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Write-in",
+     "party": "Nonpartisan",
+     "votes": 0,
+     "percent": 0,
+     "color": "#9A36FF",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    }
+   ]
+  },
+  "yamhill": {
+   "name": "Yamhill",
+   "type": "County",
+   "fips": "41071",
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "David Brock Smith",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Jeff Merkley",
+     "party": "Democratic",
+     "votes": 0,
+     "percent": 0,
+     "color": "#4874a3",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Gary Lyndon Dye",
+     "party": "Libertarian",
+     "votes": 0,
+     "percent": 0,
+     "color": "#d4c029",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Chris Henry",
+     "party": "Progressive",
+     "votes": 0,
+     "percent": 0,
+     "color": "#e13c88",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Write-in",
+     "party": "Nonpartisan",
+     "votes": 0,
+     "percent": 0,
+     "color": "#9A36FF",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    }
+   ]
+  }
+ }
+}

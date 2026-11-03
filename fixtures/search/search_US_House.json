@@ -1,0 +1,969 @@
+{
+ "count": 20,
+ "offset": 0,
+ "limit": 20,
+ "races": [
+  {
+   "id": 87524,
+   "type": "House of Representatives",
+   "country": "US",
+   "province": "US",
+   "district": null,
+   "municipality": null,
+   "election_name": "United States House of Representatives",
+   "election_type": "General",
+   "election_date": "2026-11-03T05:00:00.000Z",
+   "has_breakdown": true,
+   "has_map": false,
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Democrats",
+     "candidate_id": 221370,
+     "party": "Democratic",
+     "color": "#4874a3",
+     "votes": 0,
+     "percent": 0,
+     "seats": 0,
+     "winner": false
+    },
+    {
+     "name": "Republicans",
+     "candidate_id": 221386,
+     "party": "Republican",
+     "color": "#c6606b",
+     "votes": 0,
+     "percent": 0,
+     "seats": 0,
+     "winner": false
+    },
+    {
+     "name": "America First",
+     "candidate_id": 221366,
+     "party": "America First",
+     "color": "#8B0000",
+     "votes": 0,
+     "percent": 0,
+     "seats": 0,
+     "winner": false
+    },
+    {
+     "name": "American Constitution",
+     "candidate_id": 221367,
+     "party": "American Constitution",
+     "color": "#808080",
+     "votes": 0,
+     "percent": 0,
+     "seats": 0,
+     "winner": false
+    },
+    {
+     "name": "Conservative",
+     "candidate_id": 221368,
+     "party": "Conservative",
+     "color": "#f7922d",
+     "votes": 0,
+     "percent": 0,
+     "seats": 0,
+     "winner": false
+    },
+    {
+     "name": "Constitution",
+     "candidate_id": 221369,
+     "party": "Constitution",
+     "color": "#808080",
+     "votes": 0,
+     "percent": 0,
+     "seats": 0,
+     "winner": false
+    },
+    {
+     "name": "Florida Forward Party",
+     "candidate_id": 221371,
+     "party": "Florida Forward Party",
+     "color": "#808080",
+     "votes": 0,
+     "percent": 0,
+     "seats": 0,
+     "winner": false
+    },
+    {
+     "name": "Green",
+     "candidate_id": 221373,
+     "party": "Green",
+     "color": "#09ad00",
+     "votes": 0,
+     "percent": 0,
+     "seats": 0,
+     "winner": false
+    },
+    {
+     "name": "Independent",
+     "candidate_id": 221374,
+     "party": "Independent",
+     "color": "#63c660",
+     "votes": 0,
+     "percent": 0,
+     "seats": 0,
+     "winner": false
+    },
+    {
+     "name": "Independent American",
+     "candidate_id": 221375,
+     "party": "Independent American",
+     "color": "#808080",
+     "votes": 0,
+     "percent": 0,
+     "seats": 0,
+     "winner": false
+    },
+    {
+     "name": "Independent Party of Florida",
+     "candidate_id": 221376,
+     "party": "Independent Party of Florida",
+     "color": "#808080",
+     "votes": 0,
+     "percent": 0,
+     "seats": 0,
+     "winner": false
+    },
+    {
+     "name": "Kentucky Party",
+     "candidate_id": 221378,
+     "party": "Kentucky Party",
+     "color": "#808080",
+     "votes": 0,
+     "percent": 0,
+     "seats": 0,
+     "winner": false
+    }
+   ]
+  },
+  {
+   "id": 86076,
+   "type": "House of Representatives",
+   "country": "US",
+   "province": "VT",
+   "district": null,
+   "municipality": null,
+   "election_name": "Vermont US House At-Large Republican Primary",
+   "election_type": "Primary",
+   "election_date": "2026-08-11T05:00:00.000Z",
+   "has_breakdown": true,
+   "has_map": true,
+   "percent_reporting": 100,
+   "candidates": [
+    {
+     "name": "Gerald Malloy",
+     "candidate_id": 217960,
+     "party": "Republican",
+     "color": "#e0bb24",
+     "votes": 15657,
+     "percent": 77.6,
+     "winner": true
+    },
+    {
+     "name": "Mark Coester",
+     "candidate_id": 217961,
+     "party": "Republican",
+     "color": "#c6606b",
+     "votes": 4520,
+     "percent": 22.4,
+     "winner": false
+    }
+   ]
+  },
+  {
+   "id": 86297,
+   "type": "House of Representatives",
+   "country": "US",
+   "province": "VT",
+   "district": null,
+   "municipality": null,
+   "election_name": "Vermont US House At-Large Democratic Primary",
+   "election_type": "Primary",
+   "election_date": "2026-08-11T05:00:00.000Z",
+   "has_breakdown": true,
+   "has_map": true,
+   "percent_reporting": 100,
+   "candidates": [
+    {
+     "name": "Becca Balint",
+     "candidate_id": 218248,
+     "party": "Democratic",
+     "color": "#4874a3",
+     "votes": 79699,
+     "percent": 100,
+     "winner": true
+    }
+   ]
+  },
+  {
+   "id": 83478,
+   "type": "House of Representatives",
+   "country": "US",
+   "province": "DC",
+   "district": null,
+   "municipality": null,
+   "election_name": "DC House Delegate Democratic Primary",
+   "election_type": "Primary",
+   "election_date": "2026-06-16T05:00:00.000Z",
+   "has_breakdown": true,
+   "has_map": false,
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Kinney Zalesne",
+     "candidate_id": 211205,
+     "party": "Democratic",
+     "color": "#4874a3",
+     "votes": 0,
+     "percent": 0,
+     "winner": false
+    },
+    {
+     "name": "Robert White",
+     "candidate_id": 211206,
+     "party": "Democratic",
+     "color": "#AA00BB",
+     "votes": 0,
+     "percent": 0,
+     "winner": false
+    },
+    {
+     "name": "Trent Holbrook",
+     "candidate_id": 211207,
+     "party": "Democratic",
+     "color": "#00b0b0",
+     "votes": 0,
+     "percent": 0,
+     "winner": false
+    },
+    {
+     "name": "Brooke Pinto",
+     "candidate_id": 211208,
+     "party": "Democratic",
+     "color": "#45cd47",
+     "votes": 0,
+     "percent": 0,
+     "winner": false
+    },
+    {
+     "name": "Greg Jaczko",
+     "candidate_id": 211209,
+     "party": "Democratic",
+     "color": "#2a9bbd",
+     "votes": 0,
+     "percent": 0,
+     "winner": false
+    },
+    {
+     "name": "Total Write-ins",
+     "candidate_id": 989739,
+     "party": "Write-in",
+     "color": "#808080",
+     "votes": 0,
+     "percent": 0,
+     "winner": false
+    }
+   ]
+  },
+  {
+   "id": 46316,
+   "type": "House of Representatives",
+   "country": "US",
+   "province": "NC",
+   "district": null,
+   "municipality": null,
+   "election_name": "North Carolina US House 11 Republican Primary",
+   "election_type": "Primary",
+   "election_date": "2026-03-03T05:00:00.000Z",
+   "has_breakdown": true,
+   "has_map": true,
+   "percent_reporting": 100,
+   "candidates": [
+    {
+     "name": "Chuck Edwards",
+     "candidate_id": 118915,
+     "party": "Republican",
+     "color": "#e0bb24",
+     "votes": 47795,
+     "percent": 70.1,
+     "winner": true
+    },
+    {
+     "name": "Adam R. Smith",
+     "candidate_id": 118916,
+     "party": "Republican",
+     "color": "#c6606b",
+     "votes": 20389,
+     "percent": 29.9,
+     "winner": false
+    }
+   ]
+  },
+  {
+   "id": 46305,
+   "type": "House of Representatives",
+   "country": "US",
+   "province": "NC",
+   "district": null,
+   "municipality": null,
+   "election_name": "North Carolina US House 3 Democratic Primary",
+   "election_type": "Primary",
+   "election_date": "2026-03-03T05:00:00.000Z",
+   "has_breakdown": true,
+   "has_map": true,
+   "percent_reporting": 100,
+   "candidates": [
+    {
+     "name": "Raymond Smith",
+     "candidate_id": 118878,
+     "party": "Democratic",
+     "color": "#AA00BB",
+     "votes": 23552,
+     "percent": 56.65,
+     "winner": true
+    },
+    {
+     "name": "Allison Jaslow",
+     "candidate_id": 118879,
+     "party": "Democratic",
+     "color": "#4874a3",
+     "votes": 18020,
+     "percent": 43.35,
+     "winner": false
+    }
+   ]
+  },
+  {
+   "id": 46314,
+   "type": "House of Representatives",
+   "country": "US",
+   "province": "NC",
+   "district": null,
+   "municipality": null,
+   "election_name": "North Carolina US House 10 Republican Primary",
+   "election_type": "Primary",
+   "election_date": "2026-03-03T05:00:00.000Z",
+   "has_breakdown": true,
+   "has_map": true,
+   "percent_reporting": 100,
+   "candidates": [
+    {
+     "name": "Pat Harrigan",
+     "candidate_id": 118908,
+     "party": "Republican",
+     "color": "#e0bb24",
+     "votes": 46270,
+     "percent": 87.67,
+     "winner": true
+    },
+    {
+     "name": "Matthew Sin",
+     "candidate_id": 118909,
+     "party": "Republican",
+     "color": "#c6606b",
+     "votes": 6509,
+     "percent": 12.33,
+     "winner": false
+    }
+   ]
+  },
+  {
+   "id": 46321,
+   "type": "House of Representatives",
+   "country": "US",
+   "province": "NC",
+   "district": null,
+   "municipality": null,
+   "election_name": "North Carolina US House 14 Democratic Primary",
+   "election_type": "Primary",
+   "election_date": "2026-03-03T05:00:00.000Z",
+   "has_breakdown": true,
+   "has_map": true,
+   "percent_reporting": 100,
+   "candidates": [
+    {
+     "name": "Lakesha Womack",
+     "candidate_id": 118926,
+     "party": "Democratic",
+     "color": "#00b0b0",
+     "votes": 20641,
+     "percent": 52.24,
+     "winner": true
+    },
+    {
+     "name": "Brent Caldwell",
+     "candidate_id": 118927,
+     "party": "Democratic",
+     "color": "#AA00BB",
+     "votes": 16513,
+     "percent": 41.79,
+     "winner": false
+    },
+    {
+     "name": "Ahmid Kargbo",
+     "candidate_id": 118928,
+     "party": "Democratic",
+     "color": "#4874a3",
+     "votes": 2361,
+     "percent": 5.97,
+     "winner": false
+    }
+   ]
+  },
+  {
+   "id": 46304,
+   "type": "House of Representatives",
+   "country": "US",
+   "province": "NC",
+   "district": null,
+   "municipality": null,
+   "election_name": "North Carolina US House 1 Republican Primary",
+   "election_type": "Primary",
+   "election_date": "2026-03-03T05:00:00.000Z",
+   "has_breakdown": true,
+   "has_map": true,
+   "percent_reporting": 100,
+   "candidates": [
+    {
+     "name": "Laurie Buckhout",
+     "candidate_id": 118873,
+     "party": "Republican",
+     "color": "#e258f8",
+     "votes": 26624,
+     "percent": 39.52,
+     "winner": true
+    },
+    {
+     "name": "Asa Buck",
+     "candidate_id": 118874,
+     "party": "Republican",
+     "color": "#c6606b",
+     "votes": 23227,
+     "percent": 34.47,
+     "winner": false
+    },
+    {
+     "name": "Bobby Hanig",
+     "candidate_id": 118875,
+     "party": "Republican",
+     "color": "#CD7F32",
+     "votes": 10924,
+     "percent": 16.21,
+     "winner": false
+    },
+    {
+     "name": "Eric Rouse",
+     "candidate_id": 118876,
+     "party": "Republican",
+     "color": "#69cea8",
+     "votes": 3626,
+     "percent": 5.38,
+     "winner": false
+    },
+    {
+     "name": "Ashley-Nicole Russell",
+     "candidate_id": 118877,
+     "party": "Republican",
+     "color": "#e0bb24",
+     "votes": 2975,
+     "percent": 4.42,
+     "winner": false
+    }
+   ]
+  },
+  {
+   "id": 46319,
+   "type": "House of Representatives",
+   "country": "US",
+   "province": "NC",
+   "district": null,
+   "municipality": null,
+   "election_name": "North Carolina US House 13 Democratic Primary",
+   "election_type": "Primary",
+   "election_date": "2026-03-03T05:00:00.000Z",
+   "has_breakdown": true,
+   "has_map": true,
+   "percent_reporting": 100,
+   "candidates": [
+    {
+     "name": "Paul Barringer",
+     "candidate_id": 118921,
+     "party": "Democratic",
+     "color": "#00b0b0",
+     "votes": 29743,
+     "percent": 59.09,
+     "winner": true
+    },
+    {
+     "name": "Frank Pierce",
+     "candidate_id": 118922,
+     "party": "Democratic",
+     "color": "#AA00BB",
+     "votes": 14794,
+     "percent": 29.39,
+     "winner": false
+    },
+    {
+     "name": "Alexander Nicholi",
+     "candidate_id": 118923,
+     "party": "Democratic",
+     "color": "#4874a3",
+     "votes": 5800,
+     "percent": 11.52,
+     "winner": false
+    }
+   ]
+  },
+  {
+   "id": 46308,
+   "type": "House of Representatives",
+   "country": "US",
+   "province": "NC",
+   "district": null,
+   "municipality": null,
+   "election_name": "North Carolina US House 5 Republican Primary",
+   "election_type": "Primary",
+   "election_date": "2026-03-03T05:00:00.000Z",
+   "has_breakdown": true,
+   "has_map": true,
+   "percent_reporting": 100,
+   "candidates": [
+    {
+     "name": "Virginia Foxx",
+     "candidate_id": 118885,
+     "party": "Republican",
+     "color": "#69cea8",
+     "votes": 53627,
+     "percent": 74.54,
+     "winner": true
+    },
+    {
+     "name": "Joseph Osborne",
+     "candidate_id": 118886,
+     "party": "Republican",
+     "color": "#c6606b",
+     "votes": 7934,
+     "percent": 11.03,
+     "winner": false
+    },
+    {
+     "name": "Steve Girard",
+     "candidate_id": 118887,
+     "party": "Republican",
+     "color": "#CD7F32",
+     "votes": 6404,
+     "percent": 8.9,
+     "winner": false
+    },
+    {
+     "name": "Roman H. Williams II",
+     "candidate_id": 118888,
+     "party": "Republican",
+     "color": "#e0bb24",
+     "votes": 3979,
+     "percent": 5.53,
+     "winner": false
+    }
+   ]
+  },
+  {
+   "id": 46317,
+   "type": "House of Representatives",
+   "country": "US",
+   "province": "NC",
+   "district": null,
+   "municipality": null,
+   "election_name": "North Carolina US House 12 Democratic Primary",
+   "election_type": "Primary",
+   "election_date": "2026-03-03T05:00:00.000Z",
+   "has_breakdown": true,
+   "has_map": true,
+   "percent_reporting": 100,
+   "candidates": [
+    {
+     "name": "Alma Shealey Adams",
+     "candidate_id": 118917,
+     "party": "Democratic",
+     "color": "#4874a3",
+     "votes": 54630,
+     "percent": 78.92,
+     "winner": true
+    },
+    {
+     "name": "Monaca Maye Williamson",
+     "candidate_id": 118918,
+     "party": "Democratic",
+     "color": "#AA00BB",
+     "votes": 14589,
+     "percent": 21.08,
+     "winner": false
+    }
+   ]
+  },
+  {
+   "id": 46306,
+   "type": "House of Representatives",
+   "country": "US",
+   "province": "NC",
+   "district": null,
+   "municipality": null,
+   "election_name": "North Carolina US House 4 Democratic Primary",
+   "election_type": "Primary",
+   "election_date": "2026-03-03T05:00:00.000Z",
+   "has_breakdown": true,
+   "has_map": true,
+   "percent_reporting": 100,
+   "candidates": [
+    {
+     "name": "Valerie P. Foushee",
+     "candidate_id": 118880,
+     "party": "Democratic",
+     "color": "#00b0b0",
+     "votes": 61776,
+     "percent": 49.16,
+     "winner": true
+    },
+    {
+     "name": "Nida Allam",
+     "candidate_id": 118881,
+     "party": "Democratic",
+     "color": "#AA00BB",
+     "votes": 60605,
+     "percent": 48.23,
+     "winner": false
+    },
+    {
+     "name": "Mary Patterson",
+     "candidate_id": 118882,
+     "party": "Democratic",
+     "color": "#4874a3",
+     "votes": 3274,
+     "percent": 2.61,
+     "winner": false
+    }
+   ]
+  },
+  {
+   "id": 46315,
+   "type": "House of Representatives",
+   "country": "US",
+   "province": "NC",
+   "district": null,
+   "municipality": null,
+   "election_name": "North Carolina US House 11 Democratic Primary",
+   "election_type": "Primary",
+   "election_date": "2026-03-03T05:00:00.000Z",
+   "has_breakdown": true,
+   "has_map": true,
+   "percent_reporting": 100,
+   "candidates": [
+    {
+     "name": "Jamie Ager",
+     "candidate_id": 118910,
+     "party": "Democratic",
+     "color": "#4874a3",
+     "votes": 49193,
+     "percent": 64.66,
+     "winner": true
+    },
+    {
+     "name": "Richard Hudspeth",
+     "candidate_id": 118911,
+     "party": "Democratic",
+     "color": "#45cd47",
+     "votes": 12063,
+     "percent": 15.85,
+     "winner": false
+    },
+    {
+     "name": "Zelda Briarwood",
+     "candidate_id": 118912,
+     "party": "Democratic",
+     "color": "#2a9bbd",
+     "votes": 9893,
+     "percent": 13,
+     "winner": false
+    },
+    {
+     "name": "Paul Maddox",
+     "candidate_id": 118913,
+     "party": "Democratic",
+     "color": "#00b0b0",
+     "votes": 3857,
+     "percent": 5.07,
+     "winner": false
+    },
+    {
+     "name": "Lee Whipple",
+     "candidate_id": 118914,
+     "party": "Democratic",
+     "color": "#AA00BB",
+     "votes": 1078,
+     "percent": 1.42,
+     "winner": false
+    }
+   ]
+  },
+  {
+   "id": 46322,
+   "type": "House of Representatives",
+   "country": "US",
+   "province": "NC",
+   "district": null,
+   "municipality": null,
+   "election_name": "North Carolina US House 14 Republican Primary",
+   "election_type": "Primary",
+   "election_date": "2026-03-03T05:00:00.000Z",
+   "has_breakdown": true,
+   "has_map": true,
+   "percent_reporting": 100,
+   "candidates": [
+    {
+     "name": "Tim Moore",
+     "candidate_id": 118929,
+     "party": "Republican",
+     "color": "#e0bb24",
+     "votes": 42545,
+     "percent": 83.02,
+     "winner": true
+    },
+    {
+     "name": "Kate Barr",
+     "candidate_id": 118930,
+     "party": "Republican",
+     "color": "#c6606b",
+     "votes": 8699,
+     "percent": 16.98,
+     "winner": false
+    }
+   ]
+  },
+  {
+   "id": 46313,
+   "type": "House of Representatives",
+   "country": "US",
+   "province": "NC",
+   "district": null,
+   "municipality": null,
+   "election_name": "North Carolina US House 10 Democratic Primary",
+   "election_type": "Primary",
+   "election_date": "2026-03-03T05:00:00.000Z",
+   "has_breakdown": true,
+   "has_map": true,
+   "percent_reporting": 100,
+   "candidates": [
+    {
+     "name": "Ashley Bell",
+     "candidate_id": 118902,
+     "party": "Democratic",
+     "color": "#4874a3",
+     "votes": 19472,
+     "percent": 47.31,
+     "winner": true
+    },
+    {
+     "name": "West Caudle",
+     "candidate_id": 118903,
+     "party": "Democratic",
+     "color": "#002C77",
+     "votes": 6404,
+     "percent": 15.56,
+     "winner": false
+    },
+    {
+     "name": "Harry Morley",
+     "candidate_id": 118904,
+     "party": "Democratic",
+     "color": "#AA00BB",
+     "votes": 4672,
+     "percent": 11.35,
+     "winner": false
+    },
+    {
+     "name": "Marcus Pearson",
+     "candidate_id": 118905,
+     "party": "Democratic",
+     "color": "#00b0b0",
+     "votes": 4070,
+     "percent": 9.89,
+     "winner": false
+    },
+    {
+     "name": "Mir Yarfitz",
+     "candidate_id": 118906,
+     "party": "Democratic",
+     "color": "#45cd47",
+     "votes": 3952,
+     "percent": 9.6,
+     "winner": false
+    },
+    {
+     "name": "Ralph Scott, Jr.",
+     "candidate_id": 118907,
+     "party": "Democratic",
+     "color": "#2a9bbd",
+     "votes": 2591,
+     "percent": 6.29,
+     "winner": false
+    }
+   ]
+  },
+  {
+   "id": 46320,
+   "type": "House of Representatives",
+   "country": "US",
+   "province": "NC",
+   "district": null,
+   "municipality": null,
+   "election_name": "North Carolina US House 13 Republican Primary",
+   "election_type": "Primary",
+   "election_date": "2026-03-03T05:00:00.000Z",
+   "has_breakdown": true,
+   "has_map": true,
+   "percent_reporting": 100,
+   "candidates": [
+    {
+     "name": "Brad Knott",
+     "candidate_id": 118924,
+     "party": "Republican",
+     "color": "#c6606b",
+     "votes": 44038,
+     "percent": 89.92,
+     "winner": true
+    },
+    {
+     "name": "Sid Sharma",
+     "candidate_id": 118925,
+     "party": "Republican",
+     "color": "#e0bb24",
+     "votes": 4935,
+     "percent": 10.08,
+     "winner": false
+    }
+   ]
+  },
+  {
+   "id": 46309,
+   "type": "House of Representatives",
+   "country": "US",
+   "province": "NC",
+   "district": null,
+   "municipality": null,
+   "election_name": "North Carolina US House 6 Democratic Primary",
+   "election_type": "Primary",
+   "election_date": "2026-03-03T05:00:00.000Z",
+   "has_breakdown": true,
+   "has_map": true,
+   "percent_reporting": 100,
+   "candidates": [
+    {
+     "name": "Cyril Jefferson",
+     "candidate_id": 118889,
+     "party": "Democratic",
+     "color": "#00b0b0",
+     "votes": 15274,
+     "percent": 39.16,
+     "winner": true
+    },
+    {
+     "name": "Alysa Kassay",
+     "candidate_id": 118890,
+     "party": "Democratic",
+     "color": "#4874a3",
+     "votes": 13316,
+     "percent": 34.14,
+     "winner": false
+    },
+    {
+     "name": "Keith Davenport",
+     "candidate_id": 118891,
+     "party": "Democratic",
+     "color": "#45cd47",
+     "votes": 6569,
+     "percent": 16.84,
+     "winner": false
+    },
+    {
+     "name": "Beau Blair",
+     "candidate_id": 118892,
+     "party": "Democratic",
+     "color": "#AA00BB",
+     "votes": 3848,
+     "percent": 9.86,
+     "winner": false
+    }
+   ]
+  },
+  {
+   "id": 46318,
+   "type": "House of Representatives",
+   "country": "US",
+   "province": "NC",
+   "district": null,
+   "municipality": null,
+   "election_name": "North Carolina US House 12 Republican Primary",
+   "election_type": "Primary",
+   "election_date": "2026-03-03T05:00:00.000Z",
+   "has_breakdown": true,
+   "has_map": true,
+   "percent_reporting": 100,
+   "candidates": [
+    {
+     "name": "Jack Codiga",
+     "candidate_id": 118919,
+     "party": "Republican",
+     "color": "#e0bb24",
+     "votes": 6569,
+     "percent": 67.36,
+     "winner": true
+    },
+    {
+     "name": "Addul Ali",
+     "candidate_id": 118920,
+     "party": "Republican",
+     "color": "#c6606b",
+     "votes": 3183,
+     "percent": 32.64,
+     "winner": false
+    }
+   ]
+  },
+  {
+   "id": 46307,
+   "type": "House of Representatives",
+   "country": "US",
+   "province": "NC",
+   "district": null,
+   "municipality": null,
+   "election_name": "North Carolina US House 5 Democratic Primary",
+   "election_type": "Primary",
+   "election_date": "2026-03-03T05:00:00.000Z",
+   "has_breakdown": true,
+   "has_map": true,
+   "percent_reporting": 100,
+   "candidates": [
+    {
+     "name": "Chuck Hubbard",
+     "candidate_id": 118883,
+     "party": "Democratic",
+     "color": "#4874a3",
+     "votes": 25655,
+     "percent": 56.71,
+     "winner": true
+    },
+    {
+     "name": "Kyah Creekmore",
+     "candidate_id": 118884,
+     "party": "Democratic",
+     "color": "#AA00BB",
+     "votes": 19585,
+     "percent": 43.29,
+     "winner": false
+    }
+   ]
+  }
+ ]
+}

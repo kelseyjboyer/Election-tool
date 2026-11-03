@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+state.db*
+tracker.log
+site/
+*.tmp

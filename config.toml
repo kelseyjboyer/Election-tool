@@ -1,0 +1,352 @@
+# Election results tracker configuration.
+# Race IDs come from civicAPI. Use `python -m tracker discover "<search text>"` to find more.
+#
+# Per-race keys:
+#   id        civicAPI race id (required)
+#   label     short name used in alerts (defaults to the civicAPI election_name)
+#   group     section on the results page: "control", "my_ballot", "senate", "house"
+#   critical  true = decides House/Senate control. Shorter batch throttle, higher push priority.
+#   priority  "normal" (default) or "low". Low races poll less often and get fewer batch alerts.
+#   majority  chamber tallies only: seats needed for control.
+#   note      free text shown on the results page.
+
+[settings]
+poll_interval_seconds = 90          # per race. Hard floor of 60 is enforced in code.
+low_priority_poll_interval_seconds = 300
+request_spacing_seconds = 1.0       # gap between any two API requests
+batch_throttle_minutes = 10         # max one "new results" alert per race per window
+critical_batch_throttle_minutes = 5
+low_priority_batch_throttle_minutes = 60
+milestones = [25, 50, 75, 90]
+state_db = "state.db"
+log_file = "tracker.log"
+display_timezone = "America/Los_Angeles"
+user_agent = "election-results-tracker/0.1"
+api_base = "https://civicapi.org/api/v2"
+
+[ntfy]
+server = "https://ntfy.sh"
+# Anyone who knows the topic name can read it. Pick something long and random.
+topic = "CHANGE-ME-to-a-long-random-topic"
+token = ""                          # only needed for a protected/self-hosted topic
+
+[delivery]
+# Calls, retractions, lead changes, anomalies and flags push immediately.
+# Routine updates (new results, milestones, seat counts) are bundled into one digest push.
+digest_minutes = 10
+# ntfy.sh allows 250 messages per day per IP without an account. Stay under it.
+daily_limit = 240
+# When fewer than this many sends remain, only high-priority alerts go out.
+reserve_for_urgent = 60
+
+[page]
+enabled = true
+port = 8765
+output_dir = "site"
+# Address your phone uses to reach this computer, e.g. "http://192.168.1.20:8765"
+# or a Tailscale address. Leave empty to make notifications open civicapi.org/results.
+public_url = ""
+
+# ---------------------------------------------------------------- control
+[[race]]
+id = 87528
+label = "US Senate control"
+group = "control"
+critical = true
+majority = 51
+note = "Seat tally. 50 seats plus the Vice President's tie-break also controls the chamber."
+
+[[race]]
+id = 87524
+label = "US House control"
+group = "control"
+critical = true
+majority = 218
+
+# ---------------------------------------------------------------- my ballot (Milwaukie, Clackamas County)
+[[race]]
+id = 87374
+label = "OR US Senate (Merkley)"
+group = "my_ballot"
+
+[[race]]
+id = 87372
+label = "OR-5 US House (Bynum)"
+group = "my_ballot"
+critical = true
+note = "Competitive seat (rated Lean D / Toss-up by some forecasters). Confirm OR-5 matches your ballot."
+
+[[race]]
+id = 87375
+label = "OR Governor"
+group = "my_ballot"
+
+[[race]]
+id = 159123
+label = "OR House District 41"
+group = "my_ballot"
+
+[[race]]
+id = 159554
+label = "OR State Senate seat tally"
+group = "my_ballot"
+majority = 16
+note = "Statewide seat tally. Milwaukie's own Senate District 21 is not up in 2026."
+
+[[race]]
+id = 185618
+label = "Milwaukie Mayor"
+group = "my_ballot"
+
+[[race]]
+id = 185610
+label = "Milwaukie Council Pos 2"
+group = "my_ballot"
+
+[[race]]
+id = 185622
+label = "Milwaukie Council Pos 4"
+group = "my_ballot"
+
+[[race]]
+id = 185604
+label = "Measure 03-639 (North Clackamas SD)"
+group = "my_ballot"
+
+[[race]]
+id = 185652
+label = "Clackamas Commissioner Pos 2"
+group = "my_ballot"
+
+[[race]]
+id = 185621
+label = "Clackamas Commissioner Pos 4 (2 yr)"
+group = "my_ballot"
+
+[[race]]
+id = 185624
+label = "Clackamas County Sheriff"
+group = "my_ballot"
+
+[[race]]
+id = 185628
+label = "Clackamas County Clerk"
+group = "my_ballot"
+
+[[race]]
+id = 159114
+label = "Circuit Court 5th Dist Pos 5"
+group = "my_ballot"
+
+[[race]]
+id = 185634
+label = "Clackamas County Treasurer"
+group = "my_ballot"
+priority = "low"
+
+[[race]]
+id = 185616
+label = "Clackamas Justice of the Peace"
+group = "my_ballot"
+priority = "low"
+
+[[race]]
+id = 185623
+label = "Clackamas SWCD At Large Pos 2"
+group = "my_ballot"
+priority = "low"
+
+# Soil & Water zone seats: only one zone is on your ballot. Delete the ones that are not.
+[[race]]
+id = 185620
+label = "Clackamas SWCD Zone 1"
+group = "my_ballot"
+priority = "low"
+
+[[race]]
+id = 185629
+label = "Clackamas SWCD Zone 4"
+group = "my_ballot"
+priority = "low"
+
+[[race]]
+id = 185614
+label = "Clackamas SWCD Zone 5"
+group = "my_ballot"
+priority = "low"
+
+# ---------------------------------------------------------------- Senate battleground
+[[race]]
+id = 86916
+label = "Alaska Senate"
+group = "senate"
+critical = true
+
+[[race]]
+id = 87151
+label = "Iowa Senate"
+group = "senate"
+critical = true
+
+[[race]]
+id = 87162
+label = "Kansas Senate"
+group = "senate"
+critical = true
+
+[[race]]
+id = 87188
+label = "Maine Senate"
+group = "senate"
+critical = true
+
+[[race]]
+id = 87214
+label = "Michigan Senate"
+group = "senate"
+critical = true
+
+[[race]]
+id = 87527
+label = "Ohio Senate (special)"
+group = "senate"
+critical = true
+
+[[race]]
+id = 87438
+label = "Texas Senate"
+group = "senate"
+critical = true
+
+[[race]]
+id = 87254
+label = "Nebraska Senate"
+group = "senate"
+critical = true
+
+[[race]]
+id = 87409
+label = "South Carolina Senate"
+group = "senate"
+critical = true
+
+[[race]]
+id = 87283
+label = "New Hampshire Senate"
+group = "senate"
+critical = true
+
+[[race]]
+id = 87087
+label = "Georgia Senate"
+group = "senate"
+critical = true
+
+[[race]]
+id = 87346
+label = "North Carolina Senate"
+group = "senate"
+critical = true
+
+[[race]]
+id = 87229
+label = "Minnesota Senate"
+group = "senate"
+critical = true
+
+# ---------------------------------------------------------------- House battleground
+[[race]]
+id = 87319
+label = "NY-17"
+group = "house"
+critical = true
+
+[[race]]
+id = 87245
+label = "MT-1"
+group = "house"
+critical = true
+
+[[race]]
+id = 87204
+label = "MI-4"
+group = "house"
+critical = true
+
+[[race]]
+id = 87210
+label = "MI-10"
+group = "house"
+critical = true
+
+[[race]]
+id = 87207
+label = "MI-7"
+group = "house"
+critical = true
+
+[[race]]
+id = 87061
+label = "FL-22"
+group = "house"
+critical = true
+
+[[race]]
+id = 87053
+label = "FL-14"
+group = "house"
+critical = true
+
+[[race]]
+id = 87148
+label = "IA-2"
+group = "house"
+critical = true
+
+[[race]]
+id = 87147
+label = "IA-1"
+group = "house"
+critical = true
+
+[[race]]
+id = 87149
+label = "IA-3"
+group = "house"
+critical = true
+
+[[race]]
+id = 86922
+label = "AZ-6"
+group = "house"
+critical = true
+
+[[race]]
+id = 86971
+label = "CA-22"
+group = "house"
+critical = true
+
+[[race]]
+id = 87383
+label = "PA-8"
+group = "house"
+critical = true
+
+[[race]]
+id = 87382
+label = "PA-7"
+group = "house"
+critical = true
+
+[[race]]
+id = 87385
+label = "PA-10"
+group = "house"
+critical = true
+
+[[race]]
+id = 87516
+label = "WA-3"
+group = "house"
+critical = true

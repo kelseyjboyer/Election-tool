@@ -1,0 +1,84 @@
+{
+ "election_name": "Oregon Measure 03-639 North Clackamas School District",
+ "election_type": "Referendum",
+ "election_scope": "Local",
+ "election_date": "2026-11-03T05:00:00.000Z",
+ "country": "US",
+ "province": "OR",
+ "district": "Clackamas",
+ "municipality": null,
+ "polls_open": "2026-11-03T15:00:00.000Z",
+ "polls_close": "2026-11-04T04:00:00.000Z",
+ "is_disputed": false,
+ "has_map": true,
+ "registered_voters": null,
+ "percent_reporting": 0,
+ "test_data": false,
+ "last_updated": "2026-11-03T04:17:32.351Z",
+ "round": 1,
+ "maps": [
+  {
+   "name": "Oregon",
+   "map": "assets/Oregon.svg"
+  }
+ ],
+ "candidates": [
+  {
+   "name": "Yes",
+   "candidate_id": 39448248,
+   "party": "Nonpartisan",
+   "incumbent": false,
+   "major_candidate": false,
+   "winner": false,
+   "advanced": false,
+   "color": "#63c660",
+   "votes": 0,
+   "percent": 0
+  },
+  {
+   "name": "No",
+   "candidate_id": 39448249,
+   "party": "Nonpartisan",
+   "incumbent": false,
+   "major_candidate": false,
+   "winner": false,
+   "advanced": false,
+   "color": "#c6606b",
+   "votes": 0,
+   "percent": 0
+  }
+ ],
+ "region_results": {
+  "clackamas": {
+   "name": "Clackamas",
+   "type": "County",
+   "fips": "41005",
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": "Nonpartisan",
+     "votes": 0,
+     "percent": 0,
+     "color": "#63c660",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "No",
+     "party": "Nonpartisan",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    }
+   ]
+  }
+ }
+}

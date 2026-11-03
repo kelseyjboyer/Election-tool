@@ -1,0 +1,251 @@
+{
+ "election_name": "Michigan US House 10",
+ "election_type": "House of Representatives",
+ "election_scope": "General",
+ "election_date": "2026-11-03T05:00:00.000Z",
+ "country": "US",
+ "province": "MI",
+ "district": "MI-10",
+ "municipality": null,
+ "polls_open": "2026-11-03T12:00:00.000Z",
+ "polls_close": "2026-11-04T01:00:00.000Z",
+ "is_disputed": false,
+ "has_map": true,
+ "registered_voters": null,
+ "percent_reporting": 0,
+ "test_data": false,
+ "last_updated": "2026-11-03T03:44:06.939Z",
+ "round": 1,
+ "maps": [
+  {
+   "name": "Michigan",
+   "map": "assets/Michigan.svg"
+  }
+ ],
+ "candidates": [
+  {
+   "name": "Christina Hines",
+   "candidate_id": 220544,
+   "party": "Democratic",
+   "incumbent": false,
+   "major_candidate": false,
+   "winner": false,
+   "advanced": false,
+   "color": "#4874a3",
+   "votes": 0,
+   "percent": 0
+  },
+  {
+   "name": "Michael Bouchard Jr.",
+   "candidate_id": 220545,
+   "party": "Republican",
+   "incumbent": false,
+   "major_candidate": false,
+   "winner": false,
+   "advanced": false,
+   "color": "#c6606b",
+   "votes": 0,
+   "percent": 0
+  },
+  {
+   "name": "Mike Saliba",
+   "candidate_id": 220546,
+   "party": "Libertarian",
+   "incumbent": false,
+   "major_candidate": false,
+   "winner": false,
+   "advanced": false,
+   "color": "#d4c029",
+   "votes": 0,
+   "percent": 0
+  },
+  {
+   "name": "Kwabena Nkromo",
+   "candidate_id": 220547,
+   "party": "Green",
+   "incumbent": false,
+   "major_candidate": false,
+   "winner": false,
+   "advanced": false,
+   "color": "#09ad00",
+   "votes": 0,
+   "percent": 0
+  },
+  {
+   "name": "Andrea L. Kirby",
+   "candidate_id": 220548,
+   "party": "Working Class",
+   "incumbent": false,
+   "major_candidate": false,
+   "winner": false,
+   "advanced": false,
+   "color": "#808080",
+   "votes": 0,
+   "percent": 0
+  },
+  {
+   "name": "Write-in",
+   "candidate_id": 32855780,
+   "party": "Nonpartisan",
+   "incumbent": false,
+   "major_candidate": false,
+   "winner": false,
+   "advanced": false,
+   "color": "#9A36FF",
+   "votes": 0,
+   "percent": 0
+  }
+ ],
+ "region_results": {
+  "macomb": {
+   "name": "Macomb",
+   "type": "County",
+   "fips": "26099",
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Christina Hines",
+     "party": "Democratic",
+     "votes": 0,
+     "percent": 0,
+     "color": "#4874a3",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Michael Bouchard Jr.",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Mike Saliba",
+     "party": "Libertarian",
+     "votes": 0,
+     "percent": 0,
+     "color": "#d4c029",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Kwabena Nkromo",
+     "party": "Green",
+     "votes": 0,
+     "percent": 0,
+     "color": "#09ad00",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Andrea L. Kirby",
+     "party": "Working Class",
+     "votes": 0,
+     "percent": 0,
+     "color": "#808080",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Write-in",
+     "party": "Nonpartisan",
+     "votes": 0,
+     "percent": 0,
+     "color": "#9A36FF",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    }
+   ]
+  },
+  "oakland": {
+   "name": "Oakland",
+   "type": "County",
+   "fips": "26125",
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Christina Hines",
+     "party": "Democratic",
+     "votes": 0,
+     "percent": 0,
+     "color": "#4874a3",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Michael Bouchard Jr.",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Mike Saliba",
+     "party": "Libertarian",
+     "votes": 0,
+     "percent": 0,
+     "color": "#d4c029",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Kwabena Nkromo",
+     "party": "Green",
+     "votes": 0,
+     "percent": 0,
+     "color": "#09ad00",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Andrea L. Kirby",
+     "party": "Working Class",
+     "votes": 0,
+     "percent": 0,
+     "color": "#808080",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Write-in",
+     "party": "Nonpartisan",
+     "votes": 0,
+     "percent": 0,
+     "color": "#9A36FF",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    }
+   ]
+  }
+ }
+}

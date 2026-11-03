@@ -1,0 +1,149 @@
+{
+ "election_name": "Oregon State House 41",
+ "election_type": "State House",
+ "election_scope": "Local",
+ "election_date": "2026-11-03T05:00:00.000Z",
+ "country": "US",
+ "province": "OR",
+ "district": "OR-HD-041",
+ "municipality": null,
+ "polls_open": "2026-11-03T15:00:00.000Z",
+ "polls_close": "2026-11-04T04:00:00.000Z",
+ "is_disputed": false,
+ "has_map": true,
+ "registered_voters": null,
+ "percent_reporting": 0,
+ "test_data": false,
+ "last_updated": "2026-11-03T04:16:03.200Z",
+ "round": 1,
+ "maps": [
+  {
+   "name": "Oregon",
+   "map": "assets/Oregon.svg"
+  }
+ ],
+ "candidates": [
+  {
+   "name": "Mark Gamba",
+   "candidate_id": 2670949,
+   "party": "Democratic",
+   "incumbent": false,
+   "major_candidate": false,
+   "winner": false,
+   "advanced": false,
+   "color": "#4874a3",
+   "votes": 0,
+   "percent": 0
+  },
+  {
+   "name": "Elvis Clark",
+   "candidate_id": 2670948,
+   "party": "Republican",
+   "incumbent": false,
+   "major_candidate": false,
+   "winner": false,
+   "advanced": false,
+   "color": "#c6606b",
+   "votes": 0,
+   "percent": 0
+  },
+  {
+   "name": "Write-in",
+   "candidate_id": 39442763,
+   "party": "Nonpartisan",
+   "incumbent": false,
+   "major_candidate": false,
+   "winner": false,
+   "advanced": false,
+   "color": "#9A36FF",
+   "votes": 0,
+   "percent": 0
+  }
+ ],
+ "region_results": {
+  "clackamas": {
+   "name": "Clackamas",
+   "type": "County",
+   "fips": "41005",
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Mark Gamba",
+     "party": "Democratic",
+     "votes": 0,
+     "percent": 0,
+     "color": "#4874a3",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Elvis Clark",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Write-in",
+     "party": "Nonpartisan",
+     "votes": 0,
+     "percent": 0,
+     "color": "#9A36FF",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    }
+   ]
+  },
+  "multnomah": {
+   "name": "Multnomah",
+   "type": "County",
+   "fips": "41051",
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Mark Gamba",
+     "party": "Democratic",
+     "votes": 0,
+     "percent": 0,
+     "color": "#4874a3",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Elvis Clark",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Write-in",
+     "party": "Nonpartisan",
+     "votes": 0,
+     "percent": 0,
+     "color": "#9A36FF",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    }
+   ]
+  }
+ }
+}

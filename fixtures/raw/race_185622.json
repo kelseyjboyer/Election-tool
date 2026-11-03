@@ -1,0 +1,115 @@
+{
+ "election_name": "Oregon City of Milwaukie Councilor Position 4",
+ "election_type": "City Council",
+ "election_scope": "Local",
+ "election_date": "2026-11-03T05:00:00.000Z",
+ "country": "US",
+ "province": "OR",
+ "district": null,
+ "municipality": null,
+ "polls_open": "2026-11-03T15:00:00.000Z",
+ "polls_close": "2026-11-04T04:00:00.000Z",
+ "is_disputed": false,
+ "has_map": true,
+ "registered_voters": null,
+ "percent_reporting": 0,
+ "test_data": false,
+ "last_updated": "2026-11-03T04:17:34.765Z",
+ "round": 1,
+ "maps": [
+  {
+   "name": "Oregon",
+   "map": "assets/Oregon.svg"
+  }
+ ],
+ "candidates": [
+  {
+   "name": "Rebecca Stavenjord",
+   "candidate_id": 39448295,
+   "party": "Democratic",
+   "incumbent": false,
+   "major_candidate": false,
+   "winner": false,
+   "advanced": false,
+   "color": "#4874a3",
+   "votes": 0,
+   "percent": 0
+  },
+  {
+   "name": "Write-in",
+   "candidate_id": 39448296,
+   "party": "Nonpartisan",
+   "incumbent": false,
+   "major_candidate": false,
+   "winner": false,
+   "advanced": false,
+   "color": "#9A36FF",
+   "votes": 0,
+   "percent": 0
+  }
+ ],
+ "region_results": {
+  "clackamas": {
+   "name": "Clackamas",
+   "type": "County",
+   "fips": "41005",
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Rebecca Stavenjord",
+     "party": "Democratic",
+     "votes": 0,
+     "percent": 0,
+     "color": "#4874a3",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Write-in",
+     "party": "Nonpartisan",
+     "votes": 0,
+     "percent": 0,
+     "color": "#9A36FF",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    }
+   ]
+  },
+  "multnomah": {
+   "name": "Multnomah",
+   "type": "County",
+   "fips": "41051",
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Rebecca Stavenjord",
+     "party": "Democratic",
+     "votes": 0,
+     "percent": 0,
+     "color": "#4874a3",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Write-in",
+     "party": "Nonpartisan",
+     "votes": 0,
+     "percent": 0,
+     "color": "#9A36FF",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    }
+   ]
+  }
+ }
+}

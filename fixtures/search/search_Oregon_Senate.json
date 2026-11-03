@@ -1,0 +1,989 @@
+{
+ "count": 20,
+ "offset": 0,
+ "limit": 20,
+ "races": [
+  {
+   "id": 159554,
+   "type": "State Senate",
+   "country": "US",
+   "province": "OR",
+   "district": null,
+   "municipality": null,
+   "election_name": "Oregon State Senate",
+   "election_type": "Statewide",
+   "election_date": "2026-11-03T05:00:00.000Z",
+   "seats": 30,
+   "has_breakdown": true,
+   "has_map": true,
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Republican",
+     "candidate_id": 16151636,
+     "party": "Republican",
+     "color": "#c6606b",
+     "votes": 0,
+     "percent": 0,
+     "seats": 8,
+     "winner": false
+    },
+    {
+     "name": "Democratic",
+     "candidate_id": 16151637,
+     "party": "Democratic",
+     "color": "#4874a3",
+     "votes": 0,
+     "percent": 0,
+     "seats": 9,
+     "winner": false
+    },
+    {
+     "name": "Independent",
+     "candidate_id": 16151638,
+     "party": "Independent",
+     "color": "#63c660",
+     "votes": 0,
+     "percent": 0,
+     "seats": 0,
+     "winner": false
+    },
+    {
+     "name": "Libertarian",
+     "candidate_id": 16151639,
+     "party": "Libertarian",
+     "color": "#d4c029",
+     "votes": 0,
+     "percent": 0,
+     "seats": 0,
+     "winner": false
+    }
+   ]
+  },
+  {
+   "id": 87374,
+   "type": "US Senate",
+   "country": "US",
+   "province": "OR",
+   "district": null,
+   "municipality": null,
+   "election_name": "Oregon US Senate",
+   "election_type": "General",
+   "election_date": "2026-11-03T05:00:00.000Z",
+   "has_breakdown": true,
+   "has_map": true,
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "David Brock Smith",
+     "candidate_id": 221012,
+     "party": "Republican",
+     "color": "#c6606b",
+     "votes": 0,
+     "percent": 0,
+     "winner": false
+    },
+    {
+     "name": "Jeff Merkley",
+     "candidate_id": 221011,
+     "party": "Democratic",
+     "color": "#4874a3",
+     "votes": 0,
+     "percent": 0,
+     "winner": false
+    },
+    {
+     "name": "Gary Lyndon Dye",
+     "candidate_id": 2670894,
+     "party": "Libertarian",
+     "color": "#d4c029",
+     "votes": 0,
+     "percent": 0,
+     "winner": false
+    },
+    {
+     "name": "Chris Henry",
+     "candidate_id": 2670895,
+     "party": "Progressive",
+     "color": "#e13c88",
+     "votes": 0,
+     "percent": 0,
+     "winner": false
+    },
+    {
+     "name": "Write-in",
+     "candidate_id": 39442240,
+     "party": "Nonpartisan",
+     "color": "#9A36FF",
+     "votes": 0,
+     "percent": 0,
+     "winner": false
+    }
+   ]
+  },
+  {
+   "id": 79430,
+   "type": "US Senate",
+   "country": "US",
+   "province": "OR",
+   "district": null,
+   "municipality": null,
+   "election_name": "Oregon US Senate Republican Primary",
+   "election_type": "Primary",
+   "election_date": "2026-05-19T05:00:00.000Z",
+   "has_breakdown": true,
+   "has_map": true,
+   "percent_reporting": 86,
+   "candidates": [
+    {
+     "name": "David Smith",
+     "candidate_id": 202663,
+     "party": "Republican",
+     "color": "#c6606b",
+     "votes": 87863,
+     "percent": 29.79,
+     "winner": false
+    },
+    {
+     "name": "Jo Rae Perkins",
+     "candidate_id": 202664,
+     "party": "Republican",
+     "color": "#e258f8",
+     "votes": 79784,
+     "percent": 27.05,
+     "winner": false
+    },
+    {
+     "name": "Brent Barker",
+     "candidate_id": 202665,
+     "party": "Republican",
+     "color": "#c6606b",
+     "votes": 68283,
+     "percent": 23.15,
+     "winner": false
+    },
+    {
+     "name": "Russell McAlmond",
+     "candidate_id": 202666,
+     "party": "Republican",
+     "color": "#69cea8",
+     "votes": 33668,
+     "percent": 11.41,
+     "winner": false
+    },
+    {
+     "name": "Deborah Brown",
+     "candidate_id": 202667,
+     "party": "Republican",
+     "color": "#e258f8",
+     "votes": 11253,
+     "percent": 3.82,
+     "winner": false
+    },
+    {
+     "name": "David Burch",
+     "candidate_id": 202668,
+     "party": "Republican",
+     "color": "#66F500",
+     "votes": 7088,
+     "percent": 2.4,
+     "winner": false
+    },
+    {
+     "name": "Timothy Skelton",
+     "candidate_id": 202669,
+     "party": "Republican",
+     "color": "#66F500",
+     "votes": 4475,
+     "percent": 1.52,
+     "winner": false
+    },
+    {
+     "name": "Total Write-ins",
+     "candidate_id": 979792,
+     "party": "Republican",
+     "color": "#1fcbc5",
+     "votes": 2544,
+     "percent": 0.86,
+     "winner": false
+    }
+   ]
+  },
+  {
+   "id": 79429,
+   "type": "US Senate",
+   "country": "US",
+   "province": "OR",
+   "district": null,
+   "municipality": null,
+   "election_name": "Oregon US Senate Democratic Primary",
+   "election_type": "Primary",
+   "election_date": "2026-05-19T05:00:00.000Z",
+   "has_breakdown": true,
+   "has_map": true,
+   "percent_reporting": 87,
+   "candidates": [
+    {
+     "name": "Jeff Merkley",
+     "candidate_id": 202660,
+     "party": "Democratic",
+     "color": "#4874a3",
+     "votes": 344404,
+     "percent": 93.3,
+     "winner": true
+    },
+    {
+     "name": "Paul Wells",
+     "candidate_id": 202661,
+     "party": "Democratic",
+     "color": "#AA00BB",
+     "votes": 22448,
+     "percent": 6.08,
+     "winner": false
+    },
+    {
+     "name": "Total Write-ins",
+     "candidate_id": 979791,
+     "party": "Democratic",
+     "color": "#00b0b0",
+     "votes": 2275,
+     "percent": 0.62,
+     "winner": false
+    }
+   ]
+  },
+  {
+   "id": 159145,
+   "type": "State Senate",
+   "country": "US",
+   "province": "OR",
+   "district": "OR-SD-015",
+   "municipality": null,
+   "election_name": "Oregon State Senate 15",
+   "election_type": "Local",
+   "election_date": "2026-11-03T05:00:00.000Z",
+   "has_breakdown": true,
+   "has_map": true,
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Myrna A Munoz",
+     "candidate_id": 2670991,
+     "party": "Democratic",
+     "color": "#4874a3",
+     "votes": 0,
+     "percent": 0,
+     "winner": false
+    },
+    {
+     "name": "Harold Hutchison",
+     "candidate_id": 2670990,
+     "party": "Republican",
+     "color": "#c6606b",
+     "votes": 0,
+     "percent": 0,
+     "winner": false
+    },
+    {
+     "name": "Write-in",
+     "candidate_id": 39442824,
+     "party": "Nonpartisan",
+     "color": "#9A36FF",
+     "votes": 0,
+     "percent": 0,
+     "winner": false
+    }
+   ]
+  },
+  {
+   "id": 159129,
+   "type": "State Senate",
+   "country": "US",
+   "province": "OR",
+   "district": "OR-SD-008",
+   "municipality": null,
+   "election_name": "Oregon State Senate 8",
+   "election_type": "Local",
+   "election_date": "2026-11-03T05:00:00.000Z",
+   "has_breakdown": true,
+   "has_map": true,
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Sara Gelser Blouin",
+     "candidate_id": 2670960,
+     "party": "Democratic",
+     "color": "#4874a3",
+     "votes": 0,
+     "percent": 0,
+     "winner": false
+    },
+    {
+     "name": "Valerie Draper Woldeit",
+     "candidate_id": 2670959,
+     "party": "Republican",
+     "color": "#c6606b",
+     "votes": 0,
+     "percent": 0,
+     "winner": false
+    },
+    {
+     "name": "Write-in",
+     "candidate_id": 39442780,
+     "party": "Nonpartisan",
+     "color": "#9A36FF",
+     "votes": 0,
+     "percent": 0,
+     "winner": false
+    }
+   ]
+  },
+  {
+   "id": 159121,
+   "type": "State Senate",
+   "country": "US",
+   "province": "OR",
+   "district": "OR-SD-017",
+   "municipality": null,
+   "election_name": "Oregon State Senate 17",
+   "election_type": "Local",
+   "election_date": "2026-11-03T05:00:00.000Z",
+   "has_breakdown": true,
+   "has_map": true,
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "John A N Chee",
+     "candidate_id": 2670944,
+     "party": "Republican",
+     "color": "#c6606b",
+     "votes": 0,
+     "percent": 0,
+     "winner": false
+    },
+    {
+     "name": "Lisa Reynolds",
+     "candidate_id": 2670945,
+     "party": "Democratic",
+     "color": "#4874a3",
+     "votes": 0,
+     "percent": 0,
+     "winner": false
+    },
+    {
+     "name": "Write-in",
+     "candidate_id": 39442757,
+     "party": "Nonpartisan",
+     "color": "#9A36FF",
+     "votes": 0,
+     "percent": 0,
+     "winner": false
+    }
+   ]
+  },
+  {
+   "id": 159108,
+   "type": "State Senate",
+   "country": "US",
+   "province": "OR",
+   "district": "OR-SD-003",
+   "municipality": null,
+   "election_name": "Oregon State Senate 3",
+   "election_type": "Local",
+   "election_date": "2026-11-03T05:00:00.000Z",
+   "has_breakdown": true,
+   "has_map": true,
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Denise D Krause",
+     "candidate_id": 2670918,
+     "party": "Democratic",
+     "color": "#4874a3",
+     "votes": 0,
+     "percent": 0,
+     "winner": false
+    },
+    {
+     "name": "Brad Hicks",
+     "candidate_id": 2670917,
+     "party": "Republican",
+     "color": "#c6606b",
+     "votes": 0,
+     "percent": 0,
+     "winner": false
+    },
+    {
+     "name": "Clay Bearnson",
+     "candidate_id": 2670919,
+     "party": "Independent",
+     "color": "#63c660",
+     "votes": 0,
+     "percent": 0,
+     "winner": false
+    },
+    {
+     "name": "Write-in",
+     "candidate_id": 39442475,
+     "party": "Nonpartisan",
+     "color": "#9A36FF",
+     "votes": 0,
+     "percent": 0,
+     "winner": false
+    }
+   ]
+  },
+  {
+   "id": 159176,
+   "type": "State Senate",
+   "country": "US",
+   "province": "OR",
+   "district": "OR-SD-004",
+   "municipality": null,
+   "election_name": "Oregon State Senate 4",
+   "election_type": "Local",
+   "election_date": "2026-11-03T05:00:00.000Z",
+   "has_breakdown": true,
+   "has_map": true,
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Floyd Prozanski",
+     "candidate_id": 2671044,
+     "party": "Democratic",
+     "color": "#4874a3",
+     "votes": 0,
+     "percent": 0,
+     "winner": false
+    },
+    {
+     "name": "Write-in",
+     "candidate_id": 39442900,
+     "party": "Nonpartisan",
+     "color": "#9A36FF",
+     "votes": 0,
+     "percent": 0,
+     "winner": false
+    }
+   ]
+  },
+  {
+   "id": 159125,
+   "type": "State Senate",
+   "country": "US",
+   "province": "OR",
+   "district": "OR-SD-011",
+   "municipality": null,
+   "election_name": "Oregon State Senate 11",
+   "election_type": "Local",
+   "election_date": "2026-11-03T05:00:00.000Z",
+   "has_breakdown": true,
+   "has_map": true,
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Virginia Stapleton",
+     "candidate_id": 2670953,
+     "party": "Democratic",
+     "color": "#4874a3",
+     "votes": 0,
+     "percent": 0,
+     "winner": false
+    },
+    {
+     "name": "Tracy M Cramer",
+     "candidate_id": 2670952,
+     "party": "Republican",
+     "color": "#c6606b",
+     "votes": 0,
+     "percent": 0,
+     "winner": false
+    },
+    {
+     "name": "Write-in",
+     "candidate_id": 39442769,
+     "party": "Nonpartisan",
+     "color": "#9A36FF",
+     "votes": 0,
+     "percent": 0,
+     "winner": false
+    }
+   ]
+  },
+  {
+   "id": 159183,
+   "type": "State Senate",
+   "country": "US",
+   "province": "OR",
+   "district": "OR-SD-006",
+   "municipality": null,
+   "election_name": "Oregon State Senate 6",
+   "election_type": "Local",
+   "election_date": "2026-11-03T05:00:00.000Z",
+   "has_breakdown": true,
+   "has_map": true,
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Sierrah Williams",
+     "candidate_id": 2671057,
+     "party": "Democratic",
+     "color": "#4874a3",
+     "votes": 0,
+     "percent": 0,
+     "winner": false
+    },
+    {
+     "name": "Jack Tibbetts",
+     "candidate_id": 2671056,
+     "party": "Republican",
+     "color": "#c6606b",
+     "votes": 0,
+     "percent": 0,
+     "winner": false
+    },
+    {
+     "name": "Caleb Ticer",
+     "candidate_id": 2671058,
+     "party": "Libertarian",
+     "color": "#d4c029",
+     "votes": 0,
+     "percent": 0,
+     "winner": false
+    },
+    {
+     "name": "Write-in",
+     "candidate_id": 39442918,
+     "party": "Nonpartisan",
+     "color": "#9A36FF",
+     "votes": 0,
+     "percent": 0,
+     "winner": false
+    }
+   ]
+  },
+  {
+   "id": 159148,
+   "type": "State Senate",
+   "country": "US",
+   "province": "OR",
+   "district": "OR-SD-024",
+   "municipality": null,
+   "election_name": "Oregon State Senate 24",
+   "election_type": "Local",
+   "election_date": "2026-11-03T05:00:00.000Z",
+   "has_breakdown": true,
+   "has_map": true,
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Kayse Jama",
+     "candidate_id": 2670996,
+     "party": "Democratic",
+     "color": "#4874a3",
+     "votes": 0,
+     "percent": 0,
+     "winner": false
+    },
+    {
+     "name": "Write-in",
+     "candidate_id": 39442832,
+     "party": "Nonpartisan",
+     "color": "#9A36FF",
+     "votes": 0,
+     "percent": 0,
+     "winner": false
+    }
+   ]
+  },
+  {
+   "id": 159154,
+   "type": "State Senate",
+   "country": "US",
+   "province": "OR",
+   "district": "OR-SD-013",
+   "municipality": null,
+   "election_name": "Oregon State Senate 13",
+   "election_type": "Local",
+   "election_date": "2026-11-03T05:00:00.000Z",
+   "has_breakdown": true,
+   "has_map": true,
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Courtney Neron Misslin",
+     "candidate_id": 2671007,
+     "party": "Democratic",
+     "color": "#4874a3",
+     "votes": 0,
+     "percent": 0,
+     "winner": false
+    },
+    {
+     "name": "Glenn Lancaster",
+     "candidate_id": 2671006,
+     "party": "Republican",
+     "color": "#c6606b",
+     "votes": 0,
+     "percent": 0,
+     "winner": false
+    },
+    {
+     "name": "Tim E Nelson",
+     "candidate_id": 2671008,
+     "party": "Libertarian",
+     "color": "#d4c029",
+     "votes": 0,
+     "percent": 0,
+     "winner": false
+    },
+    {
+     "name": "Write-in",
+     "candidate_id": 39442848,
+     "party": "Nonpartisan",
+     "color": "#9A36FF",
+     "votes": 0,
+     "percent": 0,
+     "winner": false
+    }
+   ]
+  },
+  {
+   "id": 159107,
+   "type": "State Senate",
+   "country": "US",
+   "province": "OR",
+   "district": "OR-SD-026",
+   "municipality": null,
+   "election_name": "Oregon State Senate 26",
+   "election_type": "Local",
+   "election_date": "2026-11-03T05:00:00.000Z",
+   "has_breakdown": true,
+   "has_map": true,
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Nicole Bassett",
+     "candidate_id": 2670915,
+     "party": "Democratic",
+     "color": "#4874a3",
+     "votes": 0,
+     "percent": 0,
+     "winner": false
+    },
+    {
+     "name": "Jeff Helfrich",
+     "candidate_id": 2670916,
+     "party": "Republican",
+     "color": "#c6606b",
+     "votes": 0,
+     "percent": 0,
+     "winner": false
+    },
+    {
+     "name": "Write-in",
+     "candidate_id": 39442453,
+     "party": "Nonpartisan",
+     "color": "#9A36FF",
+     "votes": 0,
+     "percent": 0,
+     "winner": false
+    }
+   ]
+  },
+  {
+   "id": 159104,
+   "type": "State Senate",
+   "country": "US",
+   "province": "OR",
+   "district": "OR-SD-016",
+   "municipality": null,
+   "election_name": "Oregon State Senate 16",
+   "election_type": "Local",
+   "election_date": "2026-11-03T05:00:00.000Z",
+   "has_breakdown": true,
+   "has_map": true,
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Courtney Bangs",
+     "candidate_id": 2670906,
+     "party": "Republican",
+     "color": "#c6606b",
+     "votes": 0,
+     "percent": 0,
+     "winner": false
+    },
+    {
+     "name": "Rachel Armitage",
+     "candidate_id": 2670905,
+     "party": "Democratic",
+     "color": "#4874a3",
+     "votes": 0,
+     "percent": 0,
+     "winner": false
+    },
+    {
+     "name": "Melisa Finkle",
+     "candidate_id": 2670907,
+     "party": "Independent",
+     "color": "#63c660",
+     "votes": 0,
+     "percent": 0,
+     "winner": false
+    },
+    {
+     "name": "Write-in",
+     "candidate_id": 39442394,
+     "party": "Nonpartisan",
+     "color": "#9A36FF",
+     "votes": 0,
+     "percent": 0,
+     "winner": false
+    }
+   ]
+  },
+  {
+   "id": 159175,
+   "type": "State Senate",
+   "country": "US",
+   "province": "OR",
+   "district": "OR-SD-010",
+   "municipality": null,
+   "election_name": "Oregon State Senate 10",
+   "election_type": "Local",
+   "election_date": "2026-11-03T05:00:00.000Z",
+   "has_breakdown": true,
+   "has_map": true,
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Deb Patterson",
+     "candidate_id": 2671042,
+     "party": "Democratic",
+     "color": "#4874a3",
+     "votes": 0,
+     "percent": 0,
+     "winner": false
+    },
+    {
+     "name": "Angela Plowhead",
+     "candidate_id": 2671043,
+     "party": "Republican",
+     "color": "#c6606b",
+     "votes": 0,
+     "percent": 0,
+     "winner": false
+    },
+    {
+     "name": "Write-in",
+     "candidate_id": 39442898,
+     "party": "Nonpartisan",
+     "color": "#9A36FF",
+     "votes": 0,
+     "percent": 0,
+     "winner": false
+    }
+   ]
+  },
+  {
+   "id": 159127,
+   "type": "State Senate",
+   "country": "US",
+   "province": "OR",
+   "district": "OR-SD-019",
+   "municipality": null,
+   "election_name": "Oregon State Senate 19",
+   "election_type": "Local",
+   "election_date": "2026-11-03T05:00:00.000Z",
+   "has_breakdown": true,
+   "has_map": true,
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Rob Wagner",
+     "candidate_id": 2670957,
+     "party": "Democratic",
+     "color": "#4874a3",
+     "votes": 0,
+     "percent": 0,
+     "winner": false
+    },
+    {
+     "name": "Mary Dirksen",
+     "candidate_id": 2670956,
+     "party": "Republican",
+     "color": "#c6606b",
+     "votes": 0,
+     "percent": 0,
+     "winner": false
+    },
+    {
+     "name": "Write-in",
+     "candidate_id": 39442775,
+     "party": "Nonpartisan",
+     "color": "#9A36FF",
+     "votes": 0,
+     "percent": 0,
+     "winner": false
+    }
+   ]
+  },
+  {
+   "id": 159144,
+   "type": "State Senate",
+   "country": "US",
+   "province": "OR",
+   "district": "OR-SD-007",
+   "municipality": null,
+   "election_name": "Oregon State Senate 7",
+   "election_type": "Local",
+   "election_date": "2026-11-03T05:00:00.000Z",
+   "has_breakdown": true,
+   "has_map": true,
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "James I Manning Jr",
+     "candidate_id": 2670989,
+     "party": "Democratic",
+     "color": "#4874a3",
+     "votes": 0,
+     "percent": 0,
+     "winner": false
+    },
+    {
+     "name": "Jack (Jake) D Huff",
+     "candidate_id": 2670988,
+     "party": "Republican",
+     "color": "#c6606b",
+     "votes": 0,
+     "percent": 0,
+     "winner": false
+    },
+    {
+     "name": "Write-in",
+     "candidate_id": 39442821,
+     "party": "Nonpartisan",
+     "color": "#9A36FF",
+     "votes": 0,
+     "percent": 0,
+     "winner": false
+    }
+   ]
+  },
+  {
+   "id": 159165,
+   "type": "State Senate",
+   "country": "US",
+   "province": "OR",
+   "district": "OR-SD-020",
+   "municipality": null,
+   "election_name": "Oregon State Senate 20",
+   "election_type": "Local",
+   "election_date": "2026-11-03T05:00:00.000Z",
+   "has_breakdown": true,
+   "has_map": true,
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Michele Stroh",
+     "candidate_id": 2671027,
+     "party": "Republican",
+     "color": "#c6606b",
+     "votes": 0,
+     "percent": 0,
+     "winner": false
+    },
+    {
+     "name": "Mark Meek",
+     "candidate_id": 2671026,
+     "party": "Democratic",
+     "color": "#4874a3",
+     "votes": 0,
+     "percent": 0,
+     "winner": false
+    },
+    {
+     "name": "Write-in",
+     "candidate_id": 39442876,
+     "party": "Nonpartisan",
+     "color": "#9A36FF",
+     "votes": 0,
+     "percent": 0,
+     "winner": false
+    }
+   ]
+  },
+  {
+   "id": 79408,
+   "type": "State Senate",
+   "country": "US",
+   "province": "OR",
+   "district": "OR-SD-003",
+   "municipality": null,
+   "election_name": "Oregon State Senate 3 Democratic Primary",
+   "election_type": "Primary",
+   "election_date": "2026-05-19T05:00:00.000Z",
+   "has_breakdown": false,
+   "has_map": true,
+   "percent_reporting": 97,
+   "candidates": [
+    {
+     "name": "Denise Krause",
+     "candidate_id": 202606,
+     "party": "Democratic",
+     "color": "#4874a3",
+     "votes": 6078,
+     "percent": 35.31,
+     "winner": false
+    },
+    {
+     "name": "Tonia Moro",
+     "candidate_id": 202607,
+     "party": "Democratic",
+     "color": "#45cd47",
+     "votes": 5869,
+     "percent": 34.09,
+     "winner": false
+    },
+    {
+     "name": "Cristian Mendoza Ruvalcaba",
+     "candidate_id": 202608,
+     "party": "Democratic",
+     "color": "#00b0b0",
+     "votes": 3051,
+     "percent": 17.72,
+     "winner": false
+    },
+    {
+     "name": "Kevin Stine",
+     "candidate_id": 202609,
+     "party": "Democratic",
+     "color": "#2a9bbd",
+     "votes": 1766,
+     "percent": 10.26,
+     "winner": false
+    },
+    {
+     "name": "James Crary",
+     "candidate_id": 202610,
+     "party": "Democratic",
+     "color": "#2a9bbd",
+     "votes": 369,
+     "percent": 2.14,
+     "winner": false
+    },
+    {
+     "name": "Total Write-ins",
+     "candidate_id": 979780,
+     "party": "Democratic",
+     "color": "#002C77",
+     "votes": 82,
+     "percent": 0.48,
+     "winner": false
+    }
+   ]
+  }
+ ]
+}

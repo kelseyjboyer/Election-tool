@@ -1,0 +1,937 @@
+{
+ "election_name": "Oregon State Senate",
+ "election_type": "State Senate",
+ "election_scope": "Statewide",
+ "election_date": "2026-11-03T05:00:00.000Z",
+ "country": "US",
+ "province": "OR",
+ "district": null,
+ "municipality": null,
+ "polls_open": "2026-11-03T15:00:00.000Z",
+ "polls_close": "2026-11-04T04:00:00.000Z",
+ "is_disputed": false,
+ "has_map": true,
+ "registered_voters": null,
+ "percent_reporting": 0,
+ "test_data": false,
+ "last_updated": "2026-11-03T04:16:10.448Z",
+ "round": 1,
+ "seats": 30,
+ "maps": [
+  {
+   "name": "Oregon",
+   "map": "https://civicapi.org/data/geojson/state_leg/OR_sldu_2026.json"
+  }
+ ],
+ "candidates": [
+  {
+   "name": "Republican",
+   "candidate_id": 16151636,
+   "party": "Republican",
+   "incumbent": false,
+   "major_candidate": false,
+   "winner": false,
+   "advanced": false,
+   "color": "#c6606b",
+   "votes": 0,
+   "seats": 8,
+   "percent": 0
+  },
+  {
+   "name": "Democratic",
+   "candidate_id": 16151637,
+   "party": "Democratic",
+   "incumbent": false,
+   "major_candidate": false,
+   "winner": false,
+   "advanced": false,
+   "color": "#4874a3",
+   "votes": 0,
+   "seats": 9,
+   "percent": 0
+  },
+  {
+   "name": "Independent",
+   "candidate_id": 16151638,
+   "party": "Independent",
+   "incumbent": false,
+   "major_candidate": false,
+   "winner": false,
+   "advanced": false,
+   "color": "#63c660",
+   "votes": 0,
+   "seats": 0,
+   "percent": 0
+  },
+  {
+   "name": "Libertarian",
+   "candidate_id": 16151639,
+   "party": "Libertarian",
+   "incumbent": false,
+   "major_candidate": false,
+   "winner": false,
+   "advanced": false,
+   "color": "#d4c029",
+   "votes": 0,
+   "seats": 0,
+   "percent": 0
+  }
+ ],
+ "region_results": {
+  "district_3": {
+   "name": "District 3",
+   "type": "District",
+   "election_id": 159108,
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Republican",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false,
+     "seats": 0
+    },
+    {
+     "name": "Democratic",
+     "party": "Democratic",
+     "votes": 0,
+     "percent": 0,
+     "color": "#4874a3",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false,
+     "seats": 0
+    },
+    {
+     "name": "Independent",
+     "party": "Independent",
+     "votes": 0,
+     "percent": 0,
+     "color": "#63c660",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false,
+     "seats": 0
+    },
+    {
+     "name": "Libertarian",
+     "party": "Libertarian",
+     "votes": 0,
+     "percent": 0,
+     "color": "#d4c029",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false,
+     "seats": 0
+    }
+   ]
+  },
+  "district_4": {
+   "name": "District 4",
+   "type": "District",
+   "election_id": 159176,
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Democratic",
+     "party": "Democratic",
+     "votes": 0,
+     "percent": 0,
+     "color": "#4874a3",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false,
+     "seats": 1
+    },
+    {
+     "name": "Republican",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false,
+     "seats": 0
+    },
+    {
+     "name": "Independent",
+     "party": "Independent",
+     "votes": 0,
+     "percent": 0,
+     "color": "#63c660",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false,
+     "seats": 0
+    },
+    {
+     "name": "Libertarian",
+     "party": "Libertarian",
+     "votes": 0,
+     "percent": 0,
+     "color": "#d4c029",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false,
+     "seats": 0
+    }
+   ]
+  },
+  "district_6": {
+   "name": "District 6",
+   "type": "District",
+   "election_id": 159183,
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Republican",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false,
+     "seats": 0
+    },
+    {
+     "name": "Democratic",
+     "party": "Democratic",
+     "votes": 0,
+     "percent": 0,
+     "color": "#4874a3",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false,
+     "seats": 0
+    },
+    {
+     "name": "Libertarian",
+     "party": "Libertarian",
+     "votes": 0,
+     "percent": 0,
+     "color": "#d4c029",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false,
+     "seats": 0
+    },
+    {
+     "name": "Independent",
+     "party": "Independent",
+     "votes": 0,
+     "percent": 0,
+     "color": "#63c660",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false,
+     "seats": 0
+    }
+   ]
+  },
+  "district_7": {
+   "name": "District 7",
+   "type": "District",
+   "election_id": 159144,
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Republican",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false,
+     "seats": 0
+    },
+    {
+     "name": "Democratic",
+     "party": "Democratic",
+     "votes": 0,
+     "percent": 0,
+     "color": "#4874a3",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false,
+     "seats": 0
+    },
+    {
+     "name": "Independent",
+     "party": "Independent",
+     "votes": 0,
+     "percent": 0,
+     "color": "#63c660",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false,
+     "seats": 0
+    },
+    {
+     "name": "Libertarian",
+     "party": "Libertarian",
+     "votes": 0,
+     "percent": 0,
+     "color": "#d4c029",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false,
+     "seats": 0
+    }
+   ]
+  },
+  "district_8": {
+   "name": "District 8",
+   "type": "District",
+   "election_id": 159129,
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Republican",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false,
+     "seats": 0
+    },
+    {
+     "name": "Democratic",
+     "party": "Democratic",
+     "votes": 0,
+     "percent": 0,
+     "color": "#4874a3",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false,
+     "seats": 0
+    },
+    {
+     "name": "Independent",
+     "party": "Independent",
+     "votes": 0,
+     "percent": 0,
+     "color": "#63c660",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false,
+     "seats": 0
+    },
+    {
+     "name": "Libertarian",
+     "party": "Libertarian",
+     "votes": 0,
+     "percent": 0,
+     "color": "#d4c029",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false,
+     "seats": 0
+    }
+   ]
+  },
+  "district_10": {
+   "name": "District 10",
+   "type": "District",
+   "election_id": 159175,
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Democratic",
+     "party": "Democratic",
+     "votes": 0,
+     "percent": 0,
+     "color": "#4874a3",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false,
+     "seats": 0
+    },
+    {
+     "name": "Republican",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false,
+     "seats": 0
+    },
+    {
+     "name": "Independent",
+     "party": "Independent",
+     "votes": 0,
+     "percent": 0,
+     "color": "#63c660",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false,
+     "seats": 0
+    },
+    {
+     "name": "Libertarian",
+     "party": "Libertarian",
+     "votes": 0,
+     "percent": 0,
+     "color": "#d4c029",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false,
+     "seats": 0
+    }
+   ]
+  },
+  "district_11": {
+   "name": "District 11",
+   "type": "District",
+   "election_id": 159125,
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Republican",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false,
+     "seats": 0
+    },
+    {
+     "name": "Democratic",
+     "party": "Democratic",
+     "votes": 0,
+     "percent": 0,
+     "color": "#4874a3",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false,
+     "seats": 0
+    },
+    {
+     "name": "Independent",
+     "party": "Independent",
+     "votes": 0,
+     "percent": 0,
+     "color": "#63c660",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false,
+     "seats": 0
+    },
+    {
+     "name": "Libertarian",
+     "party": "Libertarian",
+     "votes": 0,
+     "percent": 0,
+     "color": "#d4c029",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false,
+     "seats": 0
+    }
+   ]
+  },
+  "district_13": {
+   "name": "District 13",
+   "type": "District",
+   "election_id": 159154,
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Republican",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false,
+     "seats": 0
+    },
+    {
+     "name": "Democratic",
+     "party": "Democratic",
+     "votes": 0,
+     "percent": 0,
+     "color": "#4874a3",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false,
+     "seats": 0
+    },
+    {
+     "name": "Libertarian",
+     "party": "Libertarian",
+     "votes": 0,
+     "percent": 0,
+     "color": "#d4c029",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false,
+     "seats": 0
+    },
+    {
+     "name": "Independent",
+     "party": "Independent",
+     "votes": 0,
+     "percent": 0,
+     "color": "#63c660",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false,
+     "seats": 0
+    }
+   ]
+  },
+  "district_15": {
+   "name": "District 15",
+   "type": "District",
+   "election_id": 159145,
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Republican",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false,
+     "seats": 0
+    },
+    {
+     "name": "Democratic",
+     "party": "Democratic",
+     "votes": 0,
+     "percent": 0,
+     "color": "#4874a3",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false,
+     "seats": 0
+    },
+    {
+     "name": "Independent",
+     "party": "Independent",
+     "votes": 0,
+     "percent": 0,
+     "color": "#63c660",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false,
+     "seats": 0
+    },
+    {
+     "name": "Libertarian",
+     "party": "Libertarian",
+     "votes": 0,
+     "percent": 0,
+     "color": "#d4c029",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false,
+     "seats": 0
+    }
+   ]
+  },
+  "district_16": {
+   "name": "District 16",
+   "type": "District",
+   "election_id": 159104,
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Democratic",
+     "party": "Democratic",
+     "votes": 0,
+     "percent": 0,
+     "color": "#4874a3",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false,
+     "seats": 0
+    },
+    {
+     "name": "Republican",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false,
+     "seats": 0
+    },
+    {
+     "name": "Independent",
+     "party": "Independent",
+     "votes": 0,
+     "percent": 0,
+     "color": "#63c660",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false,
+     "seats": 0
+    },
+    {
+     "name": "Libertarian",
+     "party": "Libertarian",
+     "votes": 0,
+     "percent": 0,
+     "color": "#d4c029",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false,
+     "seats": 0
+    }
+   ]
+  },
+  "district_17": {
+   "name": "District 17",
+   "type": "District",
+   "election_id": 159121,
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Republican",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false,
+     "seats": 0
+    },
+    {
+     "name": "Democratic",
+     "party": "Democratic",
+     "votes": 0,
+     "percent": 0,
+     "color": "#4874a3",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false,
+     "seats": 0
+    },
+    {
+     "name": "Independent",
+     "party": "Independent",
+     "votes": 0,
+     "percent": 0,
+     "color": "#63c660",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false,
+     "seats": 0
+    },
+    {
+     "name": "Libertarian",
+     "party": "Libertarian",
+     "votes": 0,
+     "percent": 0,
+     "color": "#d4c029",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false,
+     "seats": 0
+    }
+   ]
+  },
+  "district_19": {
+   "name": "District 19",
+   "type": "District",
+   "election_id": 159127,
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Republican",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false,
+     "seats": 0
+    },
+    {
+     "name": "Democratic",
+     "party": "Democratic",
+     "votes": 0,
+     "percent": 0,
+     "color": "#4874a3",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false,
+     "seats": 0
+    },
+    {
+     "name": "Independent",
+     "party": "Independent",
+     "votes": 0,
+     "percent": 0,
+     "color": "#63c660",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false,
+     "seats": 0
+    },
+    {
+     "name": "Libertarian",
+     "party": "Libertarian",
+     "votes": 0,
+     "percent": 0,
+     "color": "#d4c029",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false,
+     "seats": 0
+    }
+   ]
+  },
+  "district_20": {
+   "name": "District 20",
+   "type": "District",
+   "election_id": 159165,
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Democratic",
+     "party": "Democratic",
+     "votes": 0,
+     "percent": 0,
+     "color": "#4874a3",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false,
+     "seats": 0
+    },
+    {
+     "name": "Republican",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false,
+     "seats": 0
+    },
+    {
+     "name": "Independent",
+     "party": "Independent",
+     "votes": 0,
+     "percent": 0,
+     "color": "#63c660",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false,
+     "seats": 0
+    },
+    {
+     "name": "Libertarian",
+     "party": "Libertarian",
+     "votes": 0,
+     "percent": 0,
+     "color": "#d4c029",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false,
+     "seats": 0
+    }
+   ]
+  },
+  "district_24": {
+   "name": "District 24",
+   "type": "District",
+   "election_id": 159148,
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Democratic",
+     "party": "Democratic",
+     "votes": 0,
+     "percent": 0,
+     "color": "#4874a3",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false,
+     "seats": 1
+    },
+    {
+     "name": "Republican",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false,
+     "seats": 0
+    },
+    {
+     "name": "Independent",
+     "party": "Independent",
+     "votes": 0,
+     "percent": 0,
+     "color": "#63c660",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false,
+     "seats": 0
+    },
+    {
+     "name": "Libertarian",
+     "party": "Libertarian",
+     "votes": 0,
+     "percent": 0,
+     "color": "#d4c029",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false,
+     "seats": 0
+    }
+   ]
+  },
+  "district_26": {
+   "name": "District 26",
+   "type": "District",
+   "election_id": 159107,
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Democratic",
+     "party": "Democratic",
+     "votes": 0,
+     "percent": 0,
+     "color": "#4874a3",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false,
+     "seats": 0
+    },
+    {
+     "name": "Republican",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false,
+     "seats": 0
+    },
+    {
+     "name": "Independent",
+     "party": "Independent",
+     "votes": 0,
+     "percent": 0,
+     "color": "#63c660",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false,
+     "seats": 0
+    },
+    {
+     "name": "Libertarian",
+     "party": "Libertarian",
+     "votes": 0,
+     "percent": 0,
+     "color": "#d4c029",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false,
+     "seats": 0
+    }
+   ]
+  }
+ }
+}

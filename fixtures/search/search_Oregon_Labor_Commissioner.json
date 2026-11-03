@@ -1,0 +1,50 @@
+{
+ "count": 1,
+ "offset": 0,
+ "limit": 20,
+ "races": [
+  {
+   "id": 79203,
+   "type": "Labor Commissioner",
+   "country": "US",
+   "province": "OR",
+   "district": null,
+   "municipality": null,
+   "election_name": "Oregon Commissioner of the Bureau of Labor and Industries Nonpartisan Primary",
+   "election_type": "Primary",
+   "election_date": "2026-05-19T05:00:00.000Z",
+   "has_breakdown": true,
+   "has_map": true,
+   "percent_reporting": 86,
+   "candidates": [
+    {
+     "name": "Christina Stephenson",
+     "candidate_id": 202279,
+     "party": "Nonpartisan",
+     "color": "#9A36FF",
+     "votes": 452638,
+     "percent": 62.24,
+     "winner": false
+    },
+    {
+     "name": "Chris Lynch",
+     "candidate_id": 202280,
+     "party": "Nonpartisan",
+     "color": "#9A36FF",
+     "votes": 270367,
+     "percent": 37.18,
+     "winner": false
+    },
+    {
+     "name": "Total Write-ins",
+     "candidate_id": 979744,
+     "party": "Nonpartisan",
+     "color": "#009A9A",
+     "votes": 4211,
+     "percent": 0.58,
+     "winner": false
+    }
+   ]
+  }
+ ]
+}

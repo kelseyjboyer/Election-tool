@@ -1,0 +1,3821 @@
+{
+ "election_name": "Alaska US Senate",
+ "election_type": "US Senate",
+ "election_scope": "General",
+ "election_date": "2026-11-03T05:00:00.000Z",
+ "country": "US",
+ "province": "AK",
+ "district": null,
+ "municipality": null,
+ "polls_open": "2026-11-03T16:00:00.000Z",
+ "polls_close": "2026-11-04T05:00:00.000Z",
+ "is_disputed": false,
+ "has_map": true,
+ "registered_voters": null,
+ "percent_reporting": 0,
+ "test_data": false,
+ "last_updated": "2026-11-03T06:22:31.339Z",
+ "round": 1,
+ "maps": [
+  {
+   "name": "Alaska",
+   "map": "assets/Alaska.svg"
+  }
+ ],
+ "candidates": [
+  {
+   "name": "Gerald L. Heikes",
+   "candidate_id": 219758,
+   "party": "Republican",
+   "incumbent": false,
+   "major_candidate": false,
+   "winner": false,
+   "advanced": false,
+   "color": "#c6606b",
+   "votes": 0,
+   "percent": 0
+  },
+  {
+   "name": "Mary Peltola",
+   "candidate_id": 219759,
+   "party": "Democratic",
+   "incumbent": false,
+   "major_candidate": false,
+   "winner": false,
+   "advanced": false,
+   "color": "#4874a3",
+   "votes": 0,
+   "percent": 0
+  },
+  {
+   "name": "Daniel J. Jr. Sullivan",
+   "candidate_id": 219761,
+   "party": "Nonpartisan",
+   "incumbent": false,
+   "major_candidate": false,
+   "winner": false,
+   "advanced": false,
+   "color": "#9A36FF",
+   "votes": 0,
+   "percent": 0
+  },
+  {
+   "name": "Dan Sullivan",
+   "candidate_id": 219760,
+   "party": "Republican",
+   "incumbent": true,
+   "major_candidate": false,
+   "winner": false,
+   "advanced": false,
+   "color": "#e0bb24",
+   "votes": 0,
+   "percent": 0
+  }
+ ],
+ "region_results": {
+  "alaska": {
+   "name": "Alaska",
+   "type": "State",
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Gerald L. Heikes",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Mary Peltola",
+     "party": "Democratic",
+     "votes": 0,
+     "percent": 0,
+     "color": "#4874a3",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Daniel J. Jr. Sullivan",
+     "party": "Nonpartisan",
+     "votes": 0,
+     "percent": 0,
+     "color": "#9A36FF",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Dan Sullivan",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#e0bb24",
+     "winner": false,
+     "advanced": false,
+     "incumbent": true,
+     "major_candidate": false
+    }
+   ]
+  },
+  "aleutians_east_borough": {
+   "name": "Aleutians East Borough",
+   "type": "Borough",
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Gerald L. Heikes",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Mary Peltola",
+     "party": "Democratic",
+     "votes": 0,
+     "percent": 0,
+     "color": "#4874a3",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Daniel J. Jr. Sullivan",
+     "party": "Nonpartisan",
+     "votes": 0,
+     "percent": 0,
+     "color": "#9A36FF",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Dan Sullivan",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#e0bb24",
+     "winner": false,
+     "advanced": false,
+     "incumbent": true,
+     "major_candidate": false
+    }
+   ]
+  },
+  "aleutians_west_census_area": {
+   "name": "Aleutians West Census Area",
+   "type": "Borough",
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Gerald L. Heikes",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Mary Peltola",
+     "party": "Democratic",
+     "votes": 0,
+     "percent": 0,
+     "color": "#4874a3",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Daniel J. Jr. Sullivan",
+     "party": "Nonpartisan",
+     "votes": 0,
+     "percent": 0,
+     "color": "#9A36FF",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Dan Sullivan",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#e0bb24",
+     "winner": false,
+     "advanced": false,
+     "incumbent": true,
+     "major_candidate": false
+    }
+   ]
+  },
+  "anchorage_municipality": {
+   "name": "Anchorage Municipality",
+   "type": "Borough",
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Gerald L. Heikes",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Mary Peltola",
+     "party": "Democratic",
+     "votes": 0,
+     "percent": 0,
+     "color": "#4874a3",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Daniel J. Jr. Sullivan",
+     "party": "Nonpartisan",
+     "votes": 0,
+     "percent": 0,
+     "color": "#9A36FF",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Dan Sullivan",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#e0bb24",
+     "winner": false,
+     "advanced": false,
+     "incumbent": true,
+     "major_candidate": false
+    }
+   ]
+  },
+  "bethel_census_area": {
+   "name": "Bethel Census Area",
+   "type": "Borough",
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Gerald L. Heikes",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Mary Peltola",
+     "party": "Democratic",
+     "votes": 0,
+     "percent": 0,
+     "color": "#4874a3",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Daniel J. Jr. Sullivan",
+     "party": "Nonpartisan",
+     "votes": 0,
+     "percent": 0,
+     "color": "#9A36FF",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Dan Sullivan",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#e0bb24",
+     "winner": false,
+     "advanced": false,
+     "incumbent": true,
+     "major_candidate": false
+    }
+   ]
+  },
+  "bristol_bay_borough": {
+   "name": "Bristol Bay Borough",
+   "type": "Borough",
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Gerald L. Heikes",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Mary Peltola",
+     "party": "Democratic",
+     "votes": 0,
+     "percent": 0,
+     "color": "#4874a3",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Daniel J. Jr. Sullivan",
+     "party": "Nonpartisan",
+     "votes": 0,
+     "percent": 0,
+     "color": "#9A36FF",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Dan Sullivan",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#e0bb24",
+     "winner": false,
+     "advanced": false,
+     "incumbent": true,
+     "major_candidate": false
+    }
+   ]
+  },
+  "chugach_census_area": {
+   "name": "Chugach Census Area",
+   "type": "Borough",
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Gerald L. Heikes",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Mary Peltola",
+     "party": "Democratic",
+     "votes": 0,
+     "percent": 0,
+     "color": "#4874a3",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Daniel J. Jr. Sullivan",
+     "party": "Nonpartisan",
+     "votes": 0,
+     "percent": 0,
+     "color": "#9A36FF",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Dan Sullivan",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#e0bb24",
+     "winner": false,
+     "advanced": false,
+     "incumbent": true,
+     "major_candidate": false
+    }
+   ]
+  },
+  "copper_river_census_area": {
+   "name": "Copper River Census Area",
+   "type": "Borough",
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Gerald L. Heikes",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Mary Peltola",
+     "party": "Democratic",
+     "votes": 0,
+     "percent": 0,
+     "color": "#4874a3",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Daniel J. Jr. Sullivan",
+     "party": "Nonpartisan",
+     "votes": 0,
+     "percent": 0,
+     "color": "#9A36FF",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Dan Sullivan",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#e0bb24",
+     "winner": false,
+     "advanced": false,
+     "incumbent": true,
+     "major_candidate": false
+    }
+   ]
+  },
+  "denali_borough": {
+   "name": "Denali Borough",
+   "type": "Borough",
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Gerald L. Heikes",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Mary Peltola",
+     "party": "Democratic",
+     "votes": 0,
+     "percent": 0,
+     "color": "#4874a3",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Daniel J. Jr. Sullivan",
+     "party": "Nonpartisan",
+     "votes": 0,
+     "percent": 0,
+     "color": "#9A36FF",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Dan Sullivan",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#e0bb24",
+     "winner": false,
+     "advanced": false,
+     "incumbent": true,
+     "major_candidate": false
+    }
+   ]
+  },
+  "dillingham_census_area": {
+   "name": "Dillingham Census Area",
+   "type": "Borough",
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Gerald L. Heikes",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Mary Peltola",
+     "party": "Democratic",
+     "votes": 0,
+     "percent": 0,
+     "color": "#4874a3",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Daniel J. Jr. Sullivan",
+     "party": "Nonpartisan",
+     "votes": 0,
+     "percent": 0,
+     "color": "#9A36FF",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Dan Sullivan",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#e0bb24",
+     "winner": false,
+     "advanced": false,
+     "incumbent": true,
+     "major_candidate": false
+    }
+   ]
+  },
+  "fairbanks_north_star_borough": {
+   "name": "Fairbanks North Star Borough",
+   "type": "Borough",
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Gerald L. Heikes",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Mary Peltola",
+     "party": "Democratic",
+     "votes": 0,
+     "percent": 0,
+     "color": "#4874a3",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Daniel J. Jr. Sullivan",
+     "party": "Nonpartisan",
+     "votes": 0,
+     "percent": 0,
+     "color": "#9A36FF",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Dan Sullivan",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#e0bb24",
+     "winner": false,
+     "advanced": false,
+     "incumbent": true,
+     "major_candidate": false
+    }
+   ]
+  },
+  "federal_overseas_absentee": {
+   "name": "Federal Overseas Absentee",
+   "type": "Overseas",
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Gerald L. Heikes",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Mary Peltola",
+     "party": "Democratic",
+     "votes": 0,
+     "percent": 0,
+     "color": "#4874a3",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Daniel J. Jr. Sullivan",
+     "party": "Nonpartisan",
+     "votes": 0,
+     "percent": 0,
+     "color": "#9A36FF",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Dan Sullivan",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#e0bb24",
+     "winner": false,
+     "advanced": false,
+     "incumbent": true,
+     "major_candidate": false
+    }
+   ]
+  },
+  "haines_borough": {
+   "name": "Haines Borough",
+   "type": "Borough",
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Gerald L. Heikes",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Mary Peltola",
+     "party": "Democratic",
+     "votes": 0,
+     "percent": 0,
+     "color": "#4874a3",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Daniel J. Jr. Sullivan",
+     "party": "Nonpartisan",
+     "votes": 0,
+     "percent": 0,
+     "color": "#9A36FF",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Dan Sullivan",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#e0bb24",
+     "winner": false,
+     "advanced": false,
+     "incumbent": true,
+     "major_candidate": false
+    }
+   ]
+  },
+  "hoonah_angoon_census_area": {
+   "name": "Hoonah-Angoon Census Area",
+   "type": "Borough",
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Gerald L. Heikes",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Mary Peltola",
+     "party": "Democratic",
+     "votes": 0,
+     "percent": 0,
+     "color": "#4874a3",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Daniel J. Jr. Sullivan",
+     "party": "Nonpartisan",
+     "votes": 0,
+     "percent": 0,
+     "color": "#9A36FF",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Dan Sullivan",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#e0bb24",
+     "winner": false,
+     "advanced": false,
+     "incumbent": true,
+     "major_candidate": false
+    }
+   ]
+  },
+  "juneau_city_and_borough": {
+   "name": "Juneau City and Borough",
+   "type": "Borough",
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Gerald L. Heikes",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Mary Peltola",
+     "party": "Democratic",
+     "votes": 0,
+     "percent": 0,
+     "color": "#4874a3",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Daniel J. Jr. Sullivan",
+     "party": "Nonpartisan",
+     "votes": 0,
+     "percent": 0,
+     "color": "#9A36FF",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Dan Sullivan",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#e0bb24",
+     "winner": false,
+     "advanced": false,
+     "incumbent": true,
+     "major_candidate": false
+    }
+   ]
+  },
+  "kenai_peninsula_borough": {
+   "name": "Kenai Peninsula Borough",
+   "type": "Borough",
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Gerald L. Heikes",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Mary Peltola",
+     "party": "Democratic",
+     "votes": 0,
+     "percent": 0,
+     "color": "#4874a3",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Daniel J. Jr. Sullivan",
+     "party": "Nonpartisan",
+     "votes": 0,
+     "percent": 0,
+     "color": "#9A36FF",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Dan Sullivan",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#e0bb24",
+     "winner": false,
+     "advanced": false,
+     "incumbent": true,
+     "major_candidate": false
+    }
+   ]
+  },
+  "ketchikan_gateway_borough": {
+   "name": "Ketchikan Gateway Borough",
+   "type": "Borough",
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Gerald L. Heikes",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Mary Peltola",
+     "party": "Democratic",
+     "votes": 0,
+     "percent": 0,
+     "color": "#4874a3",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Daniel J. Jr. Sullivan",
+     "party": "Nonpartisan",
+     "votes": 0,
+     "percent": 0,
+     "color": "#9A36FF",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Dan Sullivan",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#e0bb24",
+     "winner": false,
+     "advanced": false,
+     "incumbent": true,
+     "major_candidate": false
+    }
+   ]
+  },
+  "kodiak_island_borough": {
+   "name": "Kodiak Island Borough",
+   "type": "Borough",
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Gerald L. Heikes",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Mary Peltola",
+     "party": "Democratic",
+     "votes": 0,
+     "percent": 0,
+     "color": "#4874a3",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Daniel J. Jr. Sullivan",
+     "party": "Nonpartisan",
+     "votes": 0,
+     "percent": 0,
+     "color": "#9A36FF",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Dan Sullivan",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#e0bb24",
+     "winner": false,
+     "advanced": false,
+     "incumbent": true,
+     "major_candidate": false
+    }
+   ]
+  },
+  "kusilvak_census_area": {
+   "name": "Kusilvak Census Area",
+   "type": "Borough",
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Gerald L. Heikes",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Mary Peltola",
+     "party": "Democratic",
+     "votes": 0,
+     "percent": 0,
+     "color": "#4874a3",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Daniel J. Jr. Sullivan",
+     "party": "Nonpartisan",
+     "votes": 0,
+     "percent": 0,
+     "color": "#9A36FF",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Dan Sullivan",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#e0bb24",
+     "winner": false,
+     "advanced": false,
+     "incumbent": true,
+     "major_candidate": false
+    }
+   ]
+  },
+  "lake_and_peninsula_borough": {
+   "name": "Lake and Peninsula Borough",
+   "type": "Borough",
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Gerald L. Heikes",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Mary Peltola",
+     "party": "Democratic",
+     "votes": 0,
+     "percent": 0,
+     "color": "#4874a3",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Daniel J. Jr. Sullivan",
+     "party": "Nonpartisan",
+     "votes": 0,
+     "percent": 0,
+     "color": "#9A36FF",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Dan Sullivan",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#e0bb24",
+     "winner": false,
+     "advanced": false,
+     "incumbent": true,
+     "major_candidate": false
+    }
+   ]
+  },
+  "matanuska_susitna_borough": {
+   "name": "Matanuska-Susitna Borough",
+   "type": "Borough",
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Gerald L. Heikes",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Mary Peltola",
+     "party": "Democratic",
+     "votes": 0,
+     "percent": 0,
+     "color": "#4874a3",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Daniel J. Jr. Sullivan",
+     "party": "Nonpartisan",
+     "votes": 0,
+     "percent": 0,
+     "color": "#9A36FF",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Dan Sullivan",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#e0bb24",
+     "winner": false,
+     "advanced": false,
+     "incumbent": true,
+     "major_candidate": false
+    }
+   ]
+  },
+  "nome_census_area": {
+   "name": "Nome Census Area",
+   "type": "Borough",
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Gerald L. Heikes",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Mary Peltola",
+     "party": "Democratic",
+     "votes": 0,
+     "percent": 0,
+     "color": "#4874a3",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Daniel J. Jr. Sullivan",
+     "party": "Nonpartisan",
+     "votes": 0,
+     "percent": 0,
+     "color": "#9A36FF",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Dan Sullivan",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#e0bb24",
+     "winner": false,
+     "advanced": false,
+     "incumbent": true,
+     "major_candidate": false
+    }
+   ]
+  },
+  "north_slope_borough": {
+   "name": "North Slope Borough",
+   "type": "Borough",
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Gerald L. Heikes",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Mary Peltola",
+     "party": "Democratic",
+     "votes": 0,
+     "percent": 0,
+     "color": "#4874a3",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Daniel J. Jr. Sullivan",
+     "party": "Nonpartisan",
+     "votes": 0,
+     "percent": 0,
+     "color": "#9A36FF",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Dan Sullivan",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#e0bb24",
+     "winner": false,
+     "advanced": false,
+     "incumbent": true,
+     "major_candidate": false
+    }
+   ]
+  },
+  "northwest_arctic_borough": {
+   "name": "Northwest Arctic Borough",
+   "type": "Borough",
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Gerald L. Heikes",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Mary Peltola",
+     "party": "Democratic",
+     "votes": 0,
+     "percent": 0,
+     "color": "#4874a3",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Daniel J. Jr. Sullivan",
+     "party": "Nonpartisan",
+     "votes": 0,
+     "percent": 0,
+     "color": "#9A36FF",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Dan Sullivan",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#e0bb24",
+     "winner": false,
+     "advanced": false,
+     "incumbent": true,
+     "major_candidate": false
+    }
+   ]
+  },
+  "petersburg_borough": {
+   "name": "Petersburg Borough",
+   "type": "Borough",
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Gerald L. Heikes",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Mary Peltola",
+     "party": "Democratic",
+     "votes": 0,
+     "percent": 0,
+     "color": "#4874a3",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Daniel J. Jr. Sullivan",
+     "party": "Nonpartisan",
+     "votes": 0,
+     "percent": 0,
+     "color": "#9A36FF",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Dan Sullivan",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#e0bb24",
+     "winner": false,
+     "advanced": false,
+     "incumbent": true,
+     "major_candidate": false
+    }
+   ]
+  },
+  "prince_of_wales_hyder_census_area": {
+   "name": "Prince of Wales-Hyder Census Area",
+   "type": "Borough",
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Gerald L. Heikes",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Mary Peltola",
+     "party": "Democratic",
+     "votes": 0,
+     "percent": 0,
+     "color": "#4874a3",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Daniel J. Jr. Sullivan",
+     "party": "Nonpartisan",
+     "votes": 0,
+     "percent": 0,
+     "color": "#9A36FF",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Dan Sullivan",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#e0bb24",
+     "winner": false,
+     "advanced": false,
+     "incumbent": true,
+     "major_candidate": false
+    }
+   ]
+  },
+  "sitka_city_and_borough": {
+   "name": "Sitka City and Borough",
+   "type": "Borough",
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Gerald L. Heikes",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Mary Peltola",
+     "party": "Democratic",
+     "votes": 0,
+     "percent": 0,
+     "color": "#4874a3",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Daniel J. Jr. Sullivan",
+     "party": "Nonpartisan",
+     "votes": 0,
+     "percent": 0,
+     "color": "#9A36FF",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Dan Sullivan",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#e0bb24",
+     "winner": false,
+     "advanced": false,
+     "incumbent": true,
+     "major_candidate": false
+    }
+   ]
+  },
+  "skagway_municipality": {
+   "name": "Skagway Municipality",
+   "type": "Borough",
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Gerald L. Heikes",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Mary Peltola",
+     "party": "Democratic",
+     "votes": 0,
+     "percent": 0,
+     "color": "#4874a3",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Daniel J. Jr. Sullivan",
+     "party": "Nonpartisan",
+     "votes": 0,
+     "percent": 0,
+     "color": "#9A36FF",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Dan Sullivan",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#e0bb24",
+     "winner": false,
+     "advanced": false,
+     "incumbent": true,
+     "major_candidate": false
+    }
+   ]
+  },
+  "southeast_fairbanks_census_area": {
+   "name": "Southeast Fairbanks Census Area",
+   "type": "Borough",
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Gerald L. Heikes",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Mary Peltola",
+     "party": "Democratic",
+     "votes": 0,
+     "percent": 0,
+     "color": "#4874a3",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Daniel J. Jr. Sullivan",
+     "party": "Nonpartisan",
+     "votes": 0,
+     "percent": 0,
+     "color": "#9A36FF",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Dan Sullivan",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#e0bb24",
+     "winner": false,
+     "advanced": false,
+     "incumbent": true,
+     "major_candidate": false
+    }
+   ]
+  },
+  "wrangell_city_and_borough": {
+   "name": "Wrangell City and Borough",
+   "type": "Borough",
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Gerald L. Heikes",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Mary Peltola",
+     "party": "Democratic",
+     "votes": 0,
+     "percent": 0,
+     "color": "#4874a3",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Daniel J. Jr. Sullivan",
+     "party": "Nonpartisan",
+     "votes": 0,
+     "percent": 0,
+     "color": "#9A36FF",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Dan Sullivan",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#e0bb24",
+     "winner": false,
+     "advanced": false,
+     "incumbent": true,
+     "major_candidate": false
+    }
+   ]
+  },
+  "yakutat_city_and_borough": {
+   "name": "Yakutat City and Borough",
+   "type": "Borough",
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Gerald L. Heikes",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Mary Peltola",
+     "party": "Democratic",
+     "votes": 0,
+     "percent": 0,
+     "color": "#4874a3",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Daniel J. Jr. Sullivan",
+     "party": "Nonpartisan",
+     "votes": 0,
+     "percent": 0,
+     "color": "#9A36FF",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Dan Sullivan",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#e0bb24",
+     "winner": false,
+     "advanced": false,
+     "incumbent": true,
+     "major_candidate": false
+    }
+   ]
+  },
+  "yukon_koyukuk_census_area": {
+   "name": "Yukon-Koyukuk Census Area",
+   "type": "Borough",
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Gerald L. Heikes",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Mary Peltola",
+     "party": "Democratic",
+     "votes": 0,
+     "percent": 0,
+     "color": "#4874a3",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Daniel J. Jr. Sullivan",
+     "party": "Nonpartisan",
+     "votes": 0,
+     "percent": 0,
+     "color": "#9A36FF",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Dan Sullivan",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#e0bb24",
+     "winner": false,
+     "advanced": false,
+     "incumbent": true,
+     "major_candidate": false
+    }
+   ]
+  },
+  "house_district_1": {
+   "name": "House District 1",
+   "type": "House District",
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Gerald L. Heikes",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Mary Peltola",
+     "party": "Democratic",
+     "votes": 0,
+     "percent": 0,
+     "color": "#4874a3",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Daniel J. Jr. Sullivan",
+     "party": "Nonpartisan",
+     "votes": 0,
+     "percent": 0,
+     "color": "#9A36FF",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Dan Sullivan",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#e0bb24",
+     "winner": false,
+     "advanced": false,
+     "incumbent": true,
+     "major_candidate": false
+    }
+   ]
+  },
+  "house_district_2": {
+   "name": "House District 2",
+   "type": "House District",
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Gerald L. Heikes",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Mary Peltola",
+     "party": "Democratic",
+     "votes": 0,
+     "percent": 0,
+     "color": "#4874a3",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Daniel J. Jr. Sullivan",
+     "party": "Nonpartisan",
+     "votes": 0,
+     "percent": 0,
+     "color": "#9A36FF",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Dan Sullivan",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#e0bb24",
+     "winner": false,
+     "advanced": false,
+     "incumbent": true,
+     "major_candidate": false
+    }
+   ]
+  },
+  "house_district_3": {
+   "name": "House District 3",
+   "type": "House District",
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Gerald L. Heikes",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Mary Peltola",
+     "party": "Democratic",
+     "votes": 0,
+     "percent": 0,
+     "color": "#4874a3",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Daniel J. Jr. Sullivan",
+     "party": "Nonpartisan",
+     "votes": 0,
+     "percent": 0,
+     "color": "#9A36FF",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Dan Sullivan",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#e0bb24",
+     "winner": false,
+     "advanced": false,
+     "incumbent": true,
+     "major_candidate": false
+    }
+   ]
+  },
+  "house_district_4": {
+   "name": "House District 4",
+   "type": "House District",
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Gerald L. Heikes",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Mary Peltola",
+     "party": "Democratic",
+     "votes": 0,
+     "percent": 0,
+     "color": "#4874a3",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Daniel J. Jr. Sullivan",
+     "party": "Nonpartisan",
+     "votes": 0,
+     "percent": 0,
+     "color": "#9A36FF",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Dan Sullivan",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#e0bb24",
+     "winner": false,
+     "advanced": false,
+     "incumbent": true,
+     "major_candidate": false
+    }
+   ]
+  },
+  "house_district_5": {
+   "name": "House District 5",
+   "type": "House District",
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Gerald L. Heikes",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Mary Peltola",
+     "party": "Democratic",
+     "votes": 0,
+     "percent": 0,
+     "color": "#4874a3",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Daniel J. Jr. Sullivan",
+     "party": "Nonpartisan",
+     "votes": 0,
+     "percent": 0,
+     "color": "#9A36FF",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Dan Sullivan",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#e0bb24",
+     "winner": false,
+     "advanced": false,
+     "incumbent": true,
+     "major_candidate": false
+    }
+   ]
+  },
+  "house_district_6": {
+   "name": "House District 6",
+   "type": "House District",
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Gerald L. Heikes",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Mary Peltola",
+     "party": "Democratic",
+     "votes": 0,
+     "percent": 0,
+     "color": "#4874a3",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Daniel J. Jr. Sullivan",
+     "party": "Nonpartisan",
+     "votes": 0,
+     "percent": 0,
+     "color": "#9A36FF",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Dan Sullivan",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#e0bb24",
+     "winner": false,
+     "advanced": false,
+     "incumbent": true,
+     "major_candidate": false
+    }
+   ]
+  },
+  "house_district_7": {
+   "name": "House District 7",
+   "type": "House District",
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Gerald L. Heikes",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Mary Peltola",
+     "party": "Democratic",
+     "votes": 0,
+     "percent": 0,
+     "color": "#4874a3",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Daniel J. Jr. Sullivan",
+     "party": "Nonpartisan",
+     "votes": 0,
+     "percent": 0,
+     "color": "#9A36FF",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Dan Sullivan",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#e0bb24",
+     "winner": false,
+     "advanced": false,
+     "incumbent": true,
+     "major_candidate": false
+    }
+   ]
+  },
+  "house_district_8": {
+   "name": "House District 8",
+   "type": "House District",
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Gerald L. Heikes",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Mary Peltola",
+     "party": "Democratic",
+     "votes": 0,
+     "percent": 0,
+     "color": "#4874a3",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Daniel J. Jr. Sullivan",
+     "party": "Nonpartisan",
+     "votes": 0,
+     "percent": 0,
+     "color": "#9A36FF",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Dan Sullivan",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#e0bb24",
+     "winner": false,
+     "advanced": false,
+     "incumbent": true,
+     "major_candidate": false
+    }
+   ]
+  },
+  "house_district_9": {
+   "name": "House District 9",
+   "type": "House District",
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Gerald L. Heikes",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Mary Peltola",
+     "party": "Democratic",
+     "votes": 0,
+     "percent": 0,
+     "color": "#4874a3",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Daniel J. Jr. Sullivan",
+     "party": "Nonpartisan",
+     "votes": 0,
+     "percent": 0,
+     "color": "#9A36FF",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Dan Sullivan",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#e0bb24",
+     "winner": false,
+     "advanced": false,
+     "incumbent": true,
+     "major_candidate": false
+    }
+   ]
+  },
+  "house_district_10": {
+   "name": "House District 10",
+   "type": "House District",
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Gerald L. Heikes",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Mary Peltola",
+     "party": "Democratic",
+     "votes": 0,
+     "percent": 0,
+     "color": "#4874a3",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Daniel J. Jr. Sullivan",
+     "party": "Nonpartisan",
+     "votes": 0,
+     "percent": 0,
+     "color": "#9A36FF",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Dan Sullivan",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#e0bb24",
+     "winner": false,
+     "advanced": false,
+     "incumbent": true,
+     "major_candidate": false
+    }
+   ]
+  },
+  "house_district_11": {
+   "name": "House District 11",
+   "type": "House District",
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Gerald L. Heikes",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Mary Peltola",
+     "party": "Democratic",
+     "votes": 0,
+     "percent": 0,
+     "color": "#4874a3",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Daniel J. Jr. Sullivan",
+     "party": "Nonpartisan",
+     "votes": 0,
+     "percent": 0,
+     "color": "#9A36FF",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Dan Sullivan",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#e0bb24",
+     "winner": false,
+     "advanced": false,
+     "incumbent": true,
+     "major_candidate": false
+    }
+   ]
+  },
+  "house_district_12": {
+   "name": "House District 12",
+   "type": "House District",
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Gerald L. Heikes",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Mary Peltola",
+     "party": "Democratic",
+     "votes": 0,
+     "percent": 0,
+     "color": "#4874a3",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Daniel J. Jr. Sullivan",
+     "party": "Nonpartisan",
+     "votes": 0,
+     "percent": 0,
+     "color": "#9A36FF",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Dan Sullivan",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#e0bb24",
+     "winner": false,
+     "advanced": false,
+     "incumbent": true,
+     "major_candidate": false
+    }
+   ]
+  },
+  "house_district_13": {
+   "name": "House District 13",
+   "type": "House District",
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Gerald L. Heikes",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Mary Peltola",
+     "party": "Democratic",
+     "votes": 0,
+     "percent": 0,
+     "color": "#4874a3",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Daniel J. Jr. Sullivan",
+     "party": "Nonpartisan",
+     "votes": 0,
+     "percent": 0,
+     "color": "#9A36FF",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Dan Sullivan",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#e0bb24",
+     "winner": false,
+     "advanced": false,
+     "incumbent": true,
+     "major_candidate": false
+    }
+   ]
+  },
+  "house_district_14": {
+   "name": "House District 14",
+   "type": "House District",
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Gerald L. Heikes",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Mary Peltola",
+     "party": "Democratic",
+     "votes": 0,
+     "percent": 0,
+     "color": "#4874a3",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Daniel J. Jr. Sullivan",
+     "party": "Nonpartisan",
+     "votes": 0,
+     "percent": 0,
+     "color": "#9A36FF",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Dan Sullivan",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#e0bb24",
+     "winner": false,
+     "advanced": false,
+     "incumbent": true,
+     "major_candidate": false
+    }
+   ]
+  },
+  "house_district_15": {
+   "name": "House District 15",
+   "type": "House District",
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Gerald L. Heikes",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Mary Peltola",
+     "party": "Democratic",
+     "votes": 0,
+     "percent": 0,
+     "color": "#4874a3",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Daniel J. Jr. Sullivan",
+     "party": "Nonpartisan",
+     "votes": 0,
+     "percent": 0,
+     "color": "#9A36FF",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Dan Sullivan",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#e0bb24",
+     "winner": false,
+     "advanced": false,
+     "incumbent": true,
+     "major_candidate": false
+    }
+   ]
+  },
+  "house_district_16": {
+   "name": "House District 16",
+   "type": "House District",
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Gerald L. Heikes",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Mary Peltola",
+     "party": "Democratic",
+     "votes": 0,
+     "percent": 0,
+     "color": "#4874a3",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Daniel J. Jr. Sullivan",
+     "party": "Nonpartisan",
+     "votes": 0,
+     "percent": 0,
+     "color": "#9A36FF",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Dan Sullivan",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#e0bb24",
+     "winner": false,
+     "advanced": false,
+     "incumbent": true,
+     "major_candidate": false
+    }
+   ]
+  },
+  "house_district_17": {
+   "name": "House District 17",
+   "type": "House District",
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Gerald L. Heikes",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Mary Peltola",
+     "party": "Democratic",
+     "votes": 0,
+     "percent": 0,
+     "color": "#4874a3",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Daniel J. Jr. Sullivan",
+     "party": "Nonpartisan",
+     "votes": 0,
+     "percent": 0,
+     "color": "#9A36FF",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Dan Sullivan",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#e0bb24",
+     "winner": false,
+     "advanced": false,
+     "incumbent": true,
+     "major_candidate": false
+    }
+   ]
+  },
+  "house_district_18": {
+   "name": "House District 18",
+   "type": "House District",
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Gerald L. Heikes",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Mary Peltola",
+     "party": "Democratic",
+     "votes": 0,
+     "percent": 0,
+     "color": "#4874a3",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Daniel J. Jr. Sullivan",
+     "party": "Nonpartisan",
+     "votes": 0,
+     "percent": 0,
+     "color": "#9A36FF",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Dan Sullivan",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#e0bb24",
+     "winner": false,
+     "advanced": false,
+     "incumbent": true,
+     "major_candidate": false
+    }
+   ]
+  },
+  "house_district_19": {
+   "name": "House District 19",
+   "type": "House District",
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Gerald L. Heikes",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Mary Peltola",
+     "party": "Democratic",
+     "votes": 0,
+     "percent": 0,
+     "color": "#4874a3",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Daniel J. Jr. Sullivan",
+     "party": "Nonpartisan",
+     "votes": 0,
+     "percent": 0,
+     "color": "#9A36FF",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Dan Sullivan",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#e0bb24",
+     "winner": false,
+     "advanced": false,
+     "incumbent": true,
+     "major_candidate": false
+    }
+   ]
+  },
+  "house_district_20": {
+   "name": "House District 20",
+   "type": "House District",
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Gerald L. Heikes",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Mary Peltola",
+     "party": "Democratic",
+     "votes": 0,
+     "percent": 0,
+     "color": "#4874a3",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Daniel J. Jr. Sullivan",
+     "party": "Nonpartisan",
+     "votes": 0,
+     "percent": 0,
+     "color": "#9A36FF",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Dan Sullivan",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#e0bb24",
+     "winner": false,
+     "advanced": false,
+     "incumbent": true,
+     "major_candidate": false
+    }
+   ]
+  },
+  "house_district_21": {
+   "name": "House District 21",
+   "type": "House District",
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Gerald L. Heikes",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Mary Peltola",
+     "party": "Democratic",
+     "votes": 0,
+     "percent": 0,
+     "color": "#4874a3",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Daniel J. Jr. Sullivan",
+     "party": "Nonpartisan",
+     "votes": 0,
+     "percent": 0,
+     "color": "#9A36FF",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Dan Sullivan",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#e0bb24",
+     "winner": false,
+     "advanced": false,
+     "incumbent": true,
+     "major_candidate": false
+    }
+   ]
+  },
+  "house_district_22": {
+   "name": "House District 22",
+   "type": "House District",
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Gerald L. Heikes",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Mary Peltola",
+     "party": "Democratic",
+     "votes": 0,
+     "percent": 0,
+     "color": "#4874a3",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Daniel J. Jr. Sullivan",
+     "party": "Nonpartisan",
+     "votes": 0,
+     "percent": 0,
+     "color": "#9A36FF",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Dan Sullivan",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#e0bb24",
+     "winner": false,
+     "advanced": false,
+     "incumbent": true,
+     "major_candidate": false
+    }
+   ]
+  },
+  "house_district_23": {
+   "name": "House District 23",
+   "type": "House District",
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Gerald L. Heikes",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Mary Peltola",
+     "party": "Democratic",
+     "votes": 0,
+     "percent": 0,
+     "color": "#4874a3",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Daniel J. Jr. Sullivan",
+     "party": "Nonpartisan",
+     "votes": 0,
+     "percent": 0,
+     "color": "#9A36FF",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Dan Sullivan",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#e0bb24",
+     "winner": false,
+     "advanced": false,
+     "incumbent": true,
+     "major_candidate": false
+    }
+   ]
+  },
+  "house_district_24": {
+   "name": "House District 24",
+   "type": "House District",
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Gerald L. Heikes",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Mary Peltola",
+     "party": "Democratic",
+     "votes": 0,
+     "percent": 0,
+     "color": "#4874a3",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Daniel J. Jr. Sullivan",
+     "party": "Nonpartisan",
+     "votes": 0,
+     "percent": 0,
+     "color": "#9A36FF",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Dan Sullivan",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#e0bb24",
+     "winner": false,
+     "advanced": false,
+     "incumbent": true,
+     "major_candidate": false
+    }
+   ]
+  },
+  "house_district_25": {
+   "name": "House District 25",
+   "type": "House District",
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Gerald L. Heikes",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Mary Peltola",
+     "party": "Democratic",
+     "votes": 0,
+     "percent": 0,
+     "color": "#4874a3",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Daniel J. Jr. Sullivan",
+     "party": "Nonpartisan",
+     "votes": 0,
+     "percent": 0,
+     "color": "#9A36FF",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Dan Sullivan",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#e0bb24",
+     "winner": false,
+     "advanced": false,
+     "incumbent": true,
+     "major_candidate": false
+    }
+   ]
+  },
+  "house_district_26": {
+   "name": "House District 26",
+   "type": "House District",
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Gerald L. Heikes",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Mary Peltola",
+     "party": "Democratic",
+     "votes": 0,
+     "percent": 0,
+     "color": "#4874a3",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Daniel J. Jr. Sullivan",
+     "party": "Nonpartisan",
+     "votes": 0,
+     "percent": 0,
+     "color": "#9A36FF",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Dan Sullivan",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#e0bb24",
+     "winner": false,
+     "advanced": false,
+     "incumbent": true,
+     "major_candidate": false
+    }
+   ]
+  },
+  "house_district_27": {
+   "name": "House District 27",
+   "type": "House District",
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Gerald L. Heikes",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Mary Peltola",
+     "party": "Democratic",
+     "votes": 0,
+     "percent": 0,
+     "color": "#4874a3",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Daniel J. Jr. Sullivan",
+     "party": "Nonpartisan",
+     "votes": 0,
+     "percent": 0,
+     "color": "#9A36FF",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Dan Sullivan",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#e0bb24",
+     "winner": false,
+     "advanced": false,
+     "incumbent": true,
+     "major_candidate": false
+    }
+   ]
+  },
+  "house_district_28": {
+   "name": "House District 28",
+   "type": "House District",
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Gerald L. Heikes",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Mary Peltola",
+     "party": "Democratic",
+     "votes": 0,
+     "percent": 0,
+     "color": "#4874a3",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Daniel J. Jr. Sullivan",
+     "party": "Nonpartisan",
+     "votes": 0,
+     "percent": 0,
+     "color": "#9A36FF",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Dan Sullivan",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#e0bb24",
+     "winner": false,
+     "advanced": false,
+     "incumbent": true,
+     "major_candidate": false
+    }
+   ]
+  },
+  "house_district_29": {
+   "name": "House District 29",
+   "type": "House District",
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Gerald L. Heikes",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Mary Peltola",
+     "party": "Democratic",
+     "votes": 0,
+     "percent": 0,
+     "color": "#4874a3",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Daniel J. Jr. Sullivan",
+     "party": "Nonpartisan",
+     "votes": 0,
+     "percent": 0,
+     "color": "#9A36FF",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Dan Sullivan",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#e0bb24",
+     "winner": false,
+     "advanced": false,
+     "incumbent": true,
+     "major_candidate": false
+    }
+   ]
+  },
+  "house_district_30": {
+   "name": "House District 30",
+   "type": "House District",
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Gerald L. Heikes",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Mary Peltola",
+     "party": "Democratic",
+     "votes": 0,
+     "percent": 0,
+     "color": "#4874a3",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Daniel J. Jr. Sullivan",
+     "party": "Nonpartisan",
+     "votes": 0,
+     "percent": 0,
+     "color": "#9A36FF",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Dan Sullivan",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#e0bb24",
+     "winner": false,
+     "advanced": false,
+     "incumbent": true,
+     "major_candidate": false
+    }
+   ]
+  },
+  "house_district_31": {
+   "name": "House District 31",
+   "type": "House District",
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Gerald L. Heikes",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Mary Peltola",
+     "party": "Democratic",
+     "votes": 0,
+     "percent": 0,
+     "color": "#4874a3",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Daniel J. Jr. Sullivan",
+     "party": "Nonpartisan",
+     "votes": 0,
+     "percent": 0,
+     "color": "#9A36FF",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Dan Sullivan",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#e0bb24",
+     "winner": false,
+     "advanced": false,
+     "incumbent": true,
+     "major_candidate": false
+    }
+   ]
+  },
+  "house_district_32": {
+   "name": "House District 32",
+   "type": "House District",
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Gerald L. Heikes",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Mary Peltola",
+     "party": "Democratic",
+     "votes": 0,
+     "percent": 0,
+     "color": "#4874a3",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Daniel J. Jr. Sullivan",
+     "party": "Nonpartisan",
+     "votes": 0,
+     "percent": 0,
+     "color": "#9A36FF",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Dan Sullivan",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#e0bb24",
+     "winner": false,
+     "advanced": false,
+     "incumbent": true,
+     "major_candidate": false
+    }
+   ]
+  },
+  "house_district_33": {
+   "name": "House District 33",
+   "type": "House District",
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Gerald L. Heikes",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Mary Peltola",
+     "party": "Democratic",
+     "votes": 0,
+     "percent": 0,
+     "color": "#4874a3",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Daniel J. Jr. Sullivan",
+     "party": "Nonpartisan",
+     "votes": 0,
+     "percent": 0,
+     "color": "#9A36FF",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Dan Sullivan",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#e0bb24",
+     "winner": false,
+     "advanced": false,
+     "incumbent": true,
+     "major_candidate": false
+    }
+   ]
+  },
+  "house_district_34": {
+   "name": "House District 34",
+   "type": "House District",
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Gerald L. Heikes",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Mary Peltola",
+     "party": "Democratic",
+     "votes": 0,
+     "percent": 0,
+     "color": "#4874a3",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Daniel J. Jr. Sullivan",
+     "party": "Nonpartisan",
+     "votes": 0,
+     "percent": 0,
+     "color": "#9A36FF",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Dan Sullivan",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#e0bb24",
+     "winner": false,
+     "advanced": false,
+     "incumbent": true,
+     "major_candidate": false
+    }
+   ]
+  },
+  "house_district_35": {
+   "name": "House District 35",
+   "type": "House District",
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Gerald L. Heikes",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Mary Peltola",
+     "party": "Democratic",
+     "votes": 0,
+     "percent": 0,
+     "color": "#4874a3",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Daniel J. Jr. Sullivan",
+     "party": "Nonpartisan",
+     "votes": 0,
+     "percent": 0,
+     "color": "#9A36FF",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Dan Sullivan",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#e0bb24",
+     "winner": false,
+     "advanced": false,
+     "incumbent": true,
+     "major_candidate": false
+    }
+   ]
+  },
+  "house_district_36": {
+   "name": "House District 36",
+   "type": "House District",
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Gerald L. Heikes",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Mary Peltola",
+     "party": "Democratic",
+     "votes": 0,
+     "percent": 0,
+     "color": "#4874a3",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Daniel J. Jr. Sullivan",
+     "party": "Nonpartisan",
+     "votes": 0,
+     "percent": 0,
+     "color": "#9A36FF",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Dan Sullivan",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#e0bb24",
+     "winner": false,
+     "advanced": false,
+     "incumbent": true,
+     "major_candidate": false
+    }
+   ]
+  },
+  "house_district_37": {
+   "name": "House District 37",
+   "type": "House District",
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Gerald L. Heikes",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Mary Peltola",
+     "party": "Democratic",
+     "votes": 0,
+     "percent": 0,
+     "color": "#4874a3",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Daniel J. Jr. Sullivan",
+     "party": "Nonpartisan",
+     "votes": 0,
+     "percent": 0,
+     "color": "#9A36FF",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Dan Sullivan",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#e0bb24",
+     "winner": false,
+     "advanced": false,
+     "incumbent": true,
+     "major_candidate": false
+    }
+   ]
+  },
+  "house_district_38": {
+   "name": "House District 38",
+   "type": "House District",
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Gerald L. Heikes",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Mary Peltola",
+     "party": "Democratic",
+     "votes": 0,
+     "percent": 0,
+     "color": "#4874a3",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Daniel J. Jr. Sullivan",
+     "party": "Nonpartisan",
+     "votes": 0,
+     "percent": 0,
+     "color": "#9A36FF",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Dan Sullivan",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#e0bb24",
+     "winner": false,
+     "advanced": false,
+     "incumbent": true,
+     "major_candidate": false
+    }
+   ]
+  },
+  "house_district_39": {
+   "name": "House District 39",
+   "type": "House District",
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Gerald L. Heikes",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Mary Peltola",
+     "party": "Democratic",
+     "votes": 0,
+     "percent": 0,
+     "color": "#4874a3",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Daniel J. Jr. Sullivan",
+     "party": "Nonpartisan",
+     "votes": 0,
+     "percent": 0,
+     "color": "#9A36FF",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Dan Sullivan",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#e0bb24",
+     "winner": false,
+     "advanced": false,
+     "incumbent": true,
+     "major_candidate": false
+    }
+   ]
+  },
+  "house_district_40": {
+   "name": "House District 40",
+   "type": "House District",
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Gerald L. Heikes",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Mary Peltola",
+     "party": "Democratic",
+     "votes": 0,
+     "percent": 0,
+     "color": "#4874a3",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Daniel J. Jr. Sullivan",
+     "party": "Nonpartisan",
+     "votes": 0,
+     "percent": 0,
+     "color": "#9A36FF",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Dan Sullivan",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#e0bb24",
+     "winner": false,
+     "advanced": false,
+     "incumbent": true,
+     "major_candidate": false
+    }
+   ]
+  }
+ }
+}

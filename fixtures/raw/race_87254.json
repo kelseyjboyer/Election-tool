@@ -1,0 +1,6041 @@
+{
+ "election_name": "Nebraska US Senate",
+ "election_type": "US Senate",
+ "election_scope": "General",
+ "election_date": "2026-11-03T05:00:00.000Z",
+ "country": "US",
+ "province": "NE",
+ "district": null,
+ "municipality": null,
+ "polls_open": "2026-11-03T14:00:00.000Z",
+ "polls_close": "2026-11-04T02:00:00.000Z",
+ "is_disputed": false,
+ "has_map": true,
+ "registered_voters": null,
+ "percent_reporting": 0,
+ "test_data": false,
+ "last_updated": "2026-10-15T15:58:47.187Z",
+ "round": 1,
+ "maps": [
+  {
+   "name": "Nebraska",
+   "map": "assets/Nebraska.svg"
+  }
+ ],
+ "candidates": [
+  {
+   "name": "Pete  Ricketts",
+   "candidate_id": 220702,
+   "party": "Republican",
+   "incumbent": false,
+   "major_candidate": false,
+   "winner": false,
+   "advanced": false,
+   "color": "#c6606b",
+   "votes": 0,
+   "percent": 0
+  },
+  {
+   "name": "Mike  Marvin",
+   "candidate_id": 220703,
+   "party": "Legal Marijuana Now",
+   "incumbent": false,
+   "major_candidate": false,
+   "winner": false,
+   "advanced": false,
+   "color": "#09ad00",
+   "votes": 0,
+   "percent": 0
+  },
+  {
+   "name": "Robin  Richards",
+   "candidate_id": 220704,
+   "party": "Nebraska Working People",
+   "incumbent": false,
+   "major_candidate": false,
+   "winner": false,
+   "advanced": false,
+   "color": "#CC5500",
+   "votes": 0,
+   "percent": 0
+  },
+  {
+   "name": "Chuck  Conboy",
+   "candidate_id": 220705,
+   "party": "America First",
+   "incumbent": false,
+   "major_candidate": false,
+   "winner": false,
+   "advanced": false,
+   "color": "#8B0000",
+   "votes": 0,
+   "percent": 0
+  },
+  {
+   "name": "Dan  Osborn",
+   "candidate_id": 220706,
+   "party": "Independent",
+   "incumbent": false,
+   "major_candidate": false,
+   "winner": false,
+   "advanced": false,
+   "color": "#63c660",
+   "votes": 0,
+   "percent": 0
+  }
+ ],
+ "region_results": {
+  "adams": {
+   "name": "Adams",
+   "type": "County",
+   "fips": "31001",
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Pete  Ricketts",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Mike  Marvin",
+     "party": "Legal Marijuana Now",
+     "votes": 0,
+     "percent": 0,
+     "color": "#09ad00",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Robin  Richards",
+     "party": "Nebraska Working People",
+     "votes": 0,
+     "percent": 0,
+     "color": "#CC5500",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Chuck  Conboy",
+     "party": "America First",
+     "votes": 0,
+     "percent": 0,
+     "color": "#8B0000",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Dan  Osborn",
+     "party": "Independent",
+     "votes": 0,
+     "percent": 0,
+     "color": "#63c660",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    }
+   ]
+  },
+  "antelope": {
+   "name": "Antelope",
+   "type": "County",
+   "fips": "31003",
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Pete  Ricketts",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Mike  Marvin",
+     "party": "Legal Marijuana Now",
+     "votes": 0,
+     "percent": 0,
+     "color": "#09ad00",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Robin  Richards",
+     "party": "Nebraska Working People",
+     "votes": 0,
+     "percent": 0,
+     "color": "#CC5500",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Chuck  Conboy",
+     "party": "America First",
+     "votes": 0,
+     "percent": 0,
+     "color": "#8B0000",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Dan  Osborn",
+     "party": "Independent",
+     "votes": 0,
+     "percent": 0,
+     "color": "#63c660",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    }
+   ]
+  },
+  "arthur": {
+   "name": "Arthur",
+   "type": "County",
+   "fips": "31005",
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Pete  Ricketts",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Mike  Marvin",
+     "party": "Legal Marijuana Now",
+     "votes": 0,
+     "percent": 0,
+     "color": "#09ad00",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Robin  Richards",
+     "party": "Nebraska Working People",
+     "votes": 0,
+     "percent": 0,
+     "color": "#CC5500",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Chuck  Conboy",
+     "party": "America First",
+     "votes": 0,
+     "percent": 0,
+     "color": "#8B0000",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Dan  Osborn",
+     "party": "Independent",
+     "votes": 0,
+     "percent": 0,
+     "color": "#63c660",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    }
+   ]
+  },
+  "banner": {
+   "name": "Banner",
+   "type": "County",
+   "fips": "31007",
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Pete  Ricketts",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Mike  Marvin",
+     "party": "Legal Marijuana Now",
+     "votes": 0,
+     "percent": 0,
+     "color": "#09ad00",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Robin  Richards",
+     "party": "Nebraska Working People",
+     "votes": 0,
+     "percent": 0,
+     "color": "#CC5500",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Chuck  Conboy",
+     "party": "America First",
+     "votes": 0,
+     "percent": 0,
+     "color": "#8B0000",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Dan  Osborn",
+     "party": "Independent",
+     "votes": 0,
+     "percent": 0,
+     "color": "#63c660",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    }
+   ]
+  },
+  "blaine": {
+   "name": "Blaine",
+   "type": "County",
+   "fips": "31009",
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Pete  Ricketts",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Mike  Marvin",
+     "party": "Legal Marijuana Now",
+     "votes": 0,
+     "percent": 0,
+     "color": "#09ad00",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Robin  Richards",
+     "party": "Nebraska Working People",
+     "votes": 0,
+     "percent": 0,
+     "color": "#CC5500",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Chuck  Conboy",
+     "party": "America First",
+     "votes": 0,
+     "percent": 0,
+     "color": "#8B0000",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Dan  Osborn",
+     "party": "Independent",
+     "votes": 0,
+     "percent": 0,
+     "color": "#63c660",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    }
+   ]
+  },
+  "boone": {
+   "name": "Boone",
+   "type": "County",
+   "fips": "31011",
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Pete  Ricketts",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Mike  Marvin",
+     "party": "Legal Marijuana Now",
+     "votes": 0,
+     "percent": 0,
+     "color": "#09ad00",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Robin  Richards",
+     "party": "Nebraska Working People",
+     "votes": 0,
+     "percent": 0,
+     "color": "#CC5500",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Chuck  Conboy",
+     "party": "America First",
+     "votes": 0,
+     "percent": 0,
+     "color": "#8B0000",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Dan  Osborn",
+     "party": "Independent",
+     "votes": 0,
+     "percent": 0,
+     "color": "#63c660",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    }
+   ]
+  },
+  "box_butte": {
+   "name": "Box Butte",
+   "type": "County",
+   "fips": "31013",
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Pete  Ricketts",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Mike  Marvin",
+     "party": "Legal Marijuana Now",
+     "votes": 0,
+     "percent": 0,
+     "color": "#09ad00",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Robin  Richards",
+     "party": "Nebraska Working People",
+     "votes": 0,
+     "percent": 0,
+     "color": "#CC5500",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Chuck  Conboy",
+     "party": "America First",
+     "votes": 0,
+     "percent": 0,
+     "color": "#8B0000",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Dan  Osborn",
+     "party": "Independent",
+     "votes": 0,
+     "percent": 0,
+     "color": "#63c660",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    }
+   ]
+  },
+  "boyd": {
+   "name": "Boyd",
+   "type": "County",
+   "fips": "31015",
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Pete  Ricketts",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Mike  Marvin",
+     "party": "Legal Marijuana Now",
+     "votes": 0,
+     "percent": 0,
+     "color": "#09ad00",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Robin  Richards",
+     "party": "Nebraska Working People",
+     "votes": 0,
+     "percent": 0,
+     "color": "#CC5500",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Chuck  Conboy",
+     "party": "America First",
+     "votes": 0,
+     "percent": 0,
+     "color": "#8B0000",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Dan  Osborn",
+     "party": "Independent",
+     "votes": 0,
+     "percent": 0,
+     "color": "#63c660",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    }
+   ]
+  },
+  "brown": {
+   "name": "Brown",
+   "type": "County",
+   "fips": "31017",
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Pete  Ricketts",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Mike  Marvin",
+     "party": "Legal Marijuana Now",
+     "votes": 0,
+     "percent": 0,
+     "color": "#09ad00",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Robin  Richards",
+     "party": "Nebraska Working People",
+     "votes": 0,
+     "percent": 0,
+     "color": "#CC5500",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Chuck  Conboy",
+     "party": "America First",
+     "votes": 0,
+     "percent": 0,
+     "color": "#8B0000",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Dan  Osborn",
+     "party": "Independent",
+     "votes": 0,
+     "percent": 0,
+     "color": "#63c660",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    }
+   ]
+  },
+  "buffalo": {
+   "name": "Buffalo",
+   "type": "County",
+   "fips": "31019",
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Pete  Ricketts",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Mike  Marvin",
+     "party": "Legal Marijuana Now",
+     "votes": 0,
+     "percent": 0,
+     "color": "#09ad00",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Robin  Richards",
+     "party": "Nebraska Working People",
+     "votes": 0,
+     "percent": 0,
+     "color": "#CC5500",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Chuck  Conboy",
+     "party": "America First",
+     "votes": 0,
+     "percent": 0,
+     "color": "#8B0000",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Dan  Osborn",
+     "party": "Independent",
+     "votes": 0,
+     "percent": 0,
+     "color": "#63c660",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    }
+   ]
+  },
+  "burt": {
+   "name": "Burt",
+   "type": "County",
+   "fips": "31021",
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Pete  Ricketts",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Mike  Marvin",
+     "party": "Legal Marijuana Now",
+     "votes": 0,
+     "percent": 0,
+     "color": "#09ad00",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Robin  Richards",
+     "party": "Nebraska Working People",
+     "votes": 0,
+     "percent": 0,
+     "color": "#CC5500",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Chuck  Conboy",
+     "party": "America First",
+     "votes": 0,
+     "percent": 0,
+     "color": "#8B0000",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Dan  Osborn",
+     "party": "Independent",
+     "votes": 0,
+     "percent": 0,
+     "color": "#63c660",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    }
+   ]
+  },
+  "butler": {
+   "name": "Butler",
+   "type": "County",
+   "fips": "31023",
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Pete  Ricketts",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Mike  Marvin",
+     "party": "Legal Marijuana Now",
+     "votes": 0,
+     "percent": 0,
+     "color": "#09ad00",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Robin  Richards",
+     "party": "Nebraska Working People",
+     "votes": 0,
+     "percent": 0,
+     "color": "#CC5500",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Chuck  Conboy",
+     "party": "America First",
+     "votes": 0,
+     "percent": 0,
+     "color": "#8B0000",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Dan  Osborn",
+     "party": "Independent",
+     "votes": 0,
+     "percent": 0,
+     "color": "#63c660",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    }
+   ]
+  },
+  "cass": {
+   "name": "Cass",
+   "type": "County",
+   "fips": "31025",
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Pete  Ricketts",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Mike  Marvin",
+     "party": "Legal Marijuana Now",
+     "votes": 0,
+     "percent": 0,
+     "color": "#09ad00",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Robin  Richards",
+     "party": "Nebraska Working People",
+     "votes": 0,
+     "percent": 0,
+     "color": "#CC5500",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Chuck  Conboy",
+     "party": "America First",
+     "votes": 0,
+     "percent": 0,
+     "color": "#8B0000",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Dan  Osborn",
+     "party": "Independent",
+     "votes": 0,
+     "percent": 0,
+     "color": "#63c660",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    }
+   ]
+  },
+  "cedar": {
+   "name": "Cedar",
+   "type": "County",
+   "fips": "31027",
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Pete  Ricketts",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Mike  Marvin",
+     "party": "Legal Marijuana Now",
+     "votes": 0,
+     "percent": 0,
+     "color": "#09ad00",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Robin  Richards",
+     "party": "Nebraska Working People",
+     "votes": 0,
+     "percent": 0,
+     "color": "#CC5500",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Chuck  Conboy",
+     "party": "America First",
+     "votes": 0,
+     "percent": 0,
+     "color": "#8B0000",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Dan  Osborn",
+     "party": "Independent",
+     "votes": 0,
+     "percent": 0,
+     "color": "#63c660",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    }
+   ]
+  },
+  "chase": {
+   "name": "Chase",
+   "type": "County",
+   "fips": "31029",
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Pete  Ricketts",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Mike  Marvin",
+     "party": "Legal Marijuana Now",
+     "votes": 0,
+     "percent": 0,
+     "color": "#09ad00",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Robin  Richards",
+     "party": "Nebraska Working People",
+     "votes": 0,
+     "percent": 0,
+     "color": "#CC5500",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Chuck  Conboy",
+     "party": "America First",
+     "votes": 0,
+     "percent": 0,
+     "color": "#8B0000",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Dan  Osborn",
+     "party": "Independent",
+     "votes": 0,
+     "percent": 0,
+     "color": "#63c660",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    }
+   ]
+  },
+  "cherry": {
+   "name": "Cherry",
+   "type": "County",
+   "fips": "31031",
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Pete  Ricketts",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Mike  Marvin",
+     "party": "Legal Marijuana Now",
+     "votes": 0,
+     "percent": 0,
+     "color": "#09ad00",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Robin  Richards",
+     "party": "Nebraska Working People",
+     "votes": 0,
+     "percent": 0,
+     "color": "#CC5500",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Chuck  Conboy",
+     "party": "America First",
+     "votes": 0,
+     "percent": 0,
+     "color": "#8B0000",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Dan  Osborn",
+     "party": "Independent",
+     "votes": 0,
+     "percent": 0,
+     "color": "#63c660",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    }
+   ]
+  },
+  "cheyenne": {
+   "name": "Cheyenne",
+   "type": "County",
+   "fips": "31033",
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Pete  Ricketts",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Mike  Marvin",
+     "party": "Legal Marijuana Now",
+     "votes": 0,
+     "percent": 0,
+     "color": "#09ad00",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Robin  Richards",
+     "party": "Nebraska Working People",
+     "votes": 0,
+     "percent": 0,
+     "color": "#CC5500",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Chuck  Conboy",
+     "party": "America First",
+     "votes": 0,
+     "percent": 0,
+     "color": "#8B0000",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Dan  Osborn",
+     "party": "Independent",
+     "votes": 0,
+     "percent": 0,
+     "color": "#63c660",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    }
+   ]
+  },
+  "clay": {
+   "name": "Clay",
+   "type": "County",
+   "fips": "31035",
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Pete  Ricketts",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Mike  Marvin",
+     "party": "Legal Marijuana Now",
+     "votes": 0,
+     "percent": 0,
+     "color": "#09ad00",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Robin  Richards",
+     "party": "Nebraska Working People",
+     "votes": 0,
+     "percent": 0,
+     "color": "#CC5500",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Chuck  Conboy",
+     "party": "America First",
+     "votes": 0,
+     "percent": 0,
+     "color": "#8B0000",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Dan  Osborn",
+     "party": "Independent",
+     "votes": 0,
+     "percent": 0,
+     "color": "#63c660",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    }
+   ]
+  },
+  "colfax": {
+   "name": "Colfax",
+   "type": "County",
+   "fips": "31037",
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Pete  Ricketts",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Mike  Marvin",
+     "party": "Legal Marijuana Now",
+     "votes": 0,
+     "percent": 0,
+     "color": "#09ad00",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Robin  Richards",
+     "party": "Nebraska Working People",
+     "votes": 0,
+     "percent": 0,
+     "color": "#CC5500",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Chuck  Conboy",
+     "party": "America First",
+     "votes": 0,
+     "percent": 0,
+     "color": "#8B0000",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Dan  Osborn",
+     "party": "Independent",
+     "votes": 0,
+     "percent": 0,
+     "color": "#63c660",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    }
+   ]
+  },
+  "cuming": {
+   "name": "Cuming",
+   "type": "County",
+   "fips": "31039",
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Pete  Ricketts",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Mike  Marvin",
+     "party": "Legal Marijuana Now",
+     "votes": 0,
+     "percent": 0,
+     "color": "#09ad00",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Robin  Richards",
+     "party": "Nebraska Working People",
+     "votes": 0,
+     "percent": 0,
+     "color": "#CC5500",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Chuck  Conboy",
+     "party": "America First",
+     "votes": 0,
+     "percent": 0,
+     "color": "#8B0000",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Dan  Osborn",
+     "party": "Independent",
+     "votes": 0,
+     "percent": 0,
+     "color": "#63c660",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    }
+   ]
+  },
+  "custer": {
+   "name": "Custer",
+   "type": "County",
+   "fips": "31041",
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Pete  Ricketts",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Mike  Marvin",
+     "party": "Legal Marijuana Now",
+     "votes": 0,
+     "percent": 0,
+     "color": "#09ad00",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Robin  Richards",
+     "party": "Nebraska Working People",
+     "votes": 0,
+     "percent": 0,
+     "color": "#CC5500",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Chuck  Conboy",
+     "party": "America First",
+     "votes": 0,
+     "percent": 0,
+     "color": "#8B0000",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Dan  Osborn",
+     "party": "Independent",
+     "votes": 0,
+     "percent": 0,
+     "color": "#63c660",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    }
+   ]
+  },
+  "dakota": {
+   "name": "Dakota",
+   "type": "County",
+   "fips": "31043",
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Pete  Ricketts",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Mike  Marvin",
+     "party": "Legal Marijuana Now",
+     "votes": 0,
+     "percent": 0,
+     "color": "#09ad00",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Robin  Richards",
+     "party": "Nebraska Working People",
+     "votes": 0,
+     "percent": 0,
+     "color": "#CC5500",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Chuck  Conboy",
+     "party": "America First",
+     "votes": 0,
+     "percent": 0,
+     "color": "#8B0000",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Dan  Osborn",
+     "party": "Independent",
+     "votes": 0,
+     "percent": 0,
+     "color": "#63c660",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    }
+   ]
+  },
+  "dawes": {
+   "name": "Dawes",
+   "type": "County",
+   "fips": "31045",
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Pete  Ricketts",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Mike  Marvin",
+     "party": "Legal Marijuana Now",
+     "votes": 0,
+     "percent": 0,
+     "color": "#09ad00",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Robin  Richards",
+     "party": "Nebraska Working People",
+     "votes": 0,
+     "percent": 0,
+     "color": "#CC5500",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Chuck  Conboy",
+     "party": "America First",
+     "votes": 0,
+     "percent": 0,
+     "color": "#8B0000",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Dan  Osborn",
+     "party": "Independent",
+     "votes": 0,
+     "percent": 0,
+     "color": "#63c660",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    }
+   ]
+  },
+  "dawson": {
+   "name": "Dawson",
+   "type": "County",
+   "fips": "31047",
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Pete  Ricketts",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Mike  Marvin",
+     "party": "Legal Marijuana Now",
+     "votes": 0,
+     "percent": 0,
+     "color": "#09ad00",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Robin  Richards",
+     "party": "Nebraska Working People",
+     "votes": 0,
+     "percent": 0,
+     "color": "#CC5500",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Chuck  Conboy",
+     "party": "America First",
+     "votes": 0,
+     "percent": 0,
+     "color": "#8B0000",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Dan  Osborn",
+     "party": "Independent",
+     "votes": 0,
+     "percent": 0,
+     "color": "#63c660",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    }
+   ]
+  },
+  "deuel": {
+   "name": "Deuel",
+   "type": "County",
+   "fips": "31049",
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Pete  Ricketts",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Mike  Marvin",
+     "party": "Legal Marijuana Now",
+     "votes": 0,
+     "percent": 0,
+     "color": "#09ad00",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Robin  Richards",
+     "party": "Nebraska Working People",
+     "votes": 0,
+     "percent": 0,
+     "color": "#CC5500",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Chuck  Conboy",
+     "party": "America First",
+     "votes": 0,
+     "percent": 0,
+     "color": "#8B0000",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Dan  Osborn",
+     "party": "Independent",
+     "votes": 0,
+     "percent": 0,
+     "color": "#63c660",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    }
+   ]
+  },
+  "dixon": {
+   "name": "Dixon",
+   "type": "County",
+   "fips": "31051",
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Pete  Ricketts",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Mike  Marvin",
+     "party": "Legal Marijuana Now",
+     "votes": 0,
+     "percent": 0,
+     "color": "#09ad00",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Robin  Richards",
+     "party": "Nebraska Working People",
+     "votes": 0,
+     "percent": 0,
+     "color": "#CC5500",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Chuck  Conboy",
+     "party": "America First",
+     "votes": 0,
+     "percent": 0,
+     "color": "#8B0000",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Dan  Osborn",
+     "party": "Independent",
+     "votes": 0,
+     "percent": 0,
+     "color": "#63c660",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    }
+   ]
+  },
+  "dodge": {
+   "name": "Dodge",
+   "type": "County",
+   "fips": "31053",
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Pete  Ricketts",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Mike  Marvin",
+     "party": "Legal Marijuana Now",
+     "votes": 0,
+     "percent": 0,
+     "color": "#09ad00",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Robin  Richards",
+     "party": "Nebraska Working People",
+     "votes": 0,
+     "percent": 0,
+     "color": "#CC5500",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Chuck  Conboy",
+     "party": "America First",
+     "votes": 0,
+     "percent": 0,
+     "color": "#8B0000",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Dan  Osborn",
+     "party": "Independent",
+     "votes": 0,
+     "percent": 0,
+     "color": "#63c660",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    }
+   ]
+  },
+  "douglas": {
+   "name": "Douglas",
+   "type": "County",
+   "fips": "31055",
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Pete  Ricketts",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Mike  Marvin",
+     "party": "Legal Marijuana Now",
+     "votes": 0,
+     "percent": 0,
+     "color": "#09ad00",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Robin  Richards",
+     "party": "Nebraska Working People",
+     "votes": 0,
+     "percent": 0,
+     "color": "#CC5500",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Chuck  Conboy",
+     "party": "America First",
+     "votes": 0,
+     "percent": 0,
+     "color": "#8B0000",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Dan  Osborn",
+     "party": "Independent",
+     "votes": 0,
+     "percent": 0,
+     "color": "#63c660",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    }
+   ]
+  },
+  "dundy": {
+   "name": "Dundy",
+   "type": "County",
+   "fips": "31057",
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Pete  Ricketts",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Mike  Marvin",
+     "party": "Legal Marijuana Now",
+     "votes": 0,
+     "percent": 0,
+     "color": "#09ad00",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Robin  Richards",
+     "party": "Nebraska Working People",
+     "votes": 0,
+     "percent": 0,
+     "color": "#CC5500",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Chuck  Conboy",
+     "party": "America First",
+     "votes": 0,
+     "percent": 0,
+     "color": "#8B0000",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Dan  Osborn",
+     "party": "Independent",
+     "votes": 0,
+     "percent": 0,
+     "color": "#63c660",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    }
+   ]
+  },
+  "fillmore": {
+   "name": "Fillmore",
+   "type": "County",
+   "fips": "31059",
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Pete  Ricketts",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Mike  Marvin",
+     "party": "Legal Marijuana Now",
+     "votes": 0,
+     "percent": 0,
+     "color": "#09ad00",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Robin  Richards",
+     "party": "Nebraska Working People",
+     "votes": 0,
+     "percent": 0,
+     "color": "#CC5500",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Chuck  Conboy",
+     "party": "America First",
+     "votes": 0,
+     "percent": 0,
+     "color": "#8B0000",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Dan  Osborn",
+     "party": "Independent",
+     "votes": 0,
+     "percent": 0,
+     "color": "#63c660",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    }
+   ]
+  },
+  "franklin": {
+   "name": "Franklin",
+   "type": "County",
+   "fips": "31061",
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Pete  Ricketts",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Mike  Marvin",
+     "party": "Legal Marijuana Now",
+     "votes": 0,
+     "percent": 0,
+     "color": "#09ad00",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Robin  Richards",
+     "party": "Nebraska Working People",
+     "votes": 0,
+     "percent": 0,
+     "color": "#CC5500",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Chuck  Conboy",
+     "party": "America First",
+     "votes": 0,
+     "percent": 0,
+     "color": "#8B0000",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Dan  Osborn",
+     "party": "Independent",
+     "votes": 0,
+     "percent": 0,
+     "color": "#63c660",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    }
+   ]
+  },
+  "frontier": {
+   "name": "Frontier",
+   "type": "County",
+   "fips": "31063",
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Pete  Ricketts",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Mike  Marvin",
+     "party": "Legal Marijuana Now",
+     "votes": 0,
+     "percent": 0,
+     "color": "#09ad00",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Robin  Richards",
+     "party": "Nebraska Working People",
+     "votes": 0,
+     "percent": 0,
+     "color": "#CC5500",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Chuck  Conboy",
+     "party": "America First",
+     "votes": 0,
+     "percent": 0,
+     "color": "#8B0000",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Dan  Osborn",
+     "party": "Independent",
+     "votes": 0,
+     "percent": 0,
+     "color": "#63c660",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    }
+   ]
+  },
+  "furnas": {
+   "name": "Furnas",
+   "type": "County",
+   "fips": "31065",
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Pete  Ricketts",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Mike  Marvin",
+     "party": "Legal Marijuana Now",
+     "votes": 0,
+     "percent": 0,
+     "color": "#09ad00",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Robin  Richards",
+     "party": "Nebraska Working People",
+     "votes": 0,
+     "percent": 0,
+     "color": "#CC5500",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Chuck  Conboy",
+     "party": "America First",
+     "votes": 0,
+     "percent": 0,
+     "color": "#8B0000",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Dan  Osborn",
+     "party": "Independent",
+     "votes": 0,
+     "percent": 0,
+     "color": "#63c660",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    }
+   ]
+  },
+  "gage": {
+   "name": "Gage",
+   "type": "County",
+   "fips": "31067",
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Pete  Ricketts",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Mike  Marvin",
+     "party": "Legal Marijuana Now",
+     "votes": 0,
+     "percent": 0,
+     "color": "#09ad00",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Robin  Richards",
+     "party": "Nebraska Working People",
+     "votes": 0,
+     "percent": 0,
+     "color": "#CC5500",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Chuck  Conboy",
+     "party": "America First",
+     "votes": 0,
+     "percent": 0,
+     "color": "#8B0000",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Dan  Osborn",
+     "party": "Independent",
+     "votes": 0,
+     "percent": 0,
+     "color": "#63c660",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    }
+   ]
+  },
+  "garden": {
+   "name": "Garden",
+   "type": "County",
+   "fips": "31069",
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Pete  Ricketts",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Mike  Marvin",
+     "party": "Legal Marijuana Now",
+     "votes": 0,
+     "percent": 0,
+     "color": "#09ad00",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Robin  Richards",
+     "party": "Nebraska Working People",
+     "votes": 0,
+     "percent": 0,
+     "color": "#CC5500",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Chuck  Conboy",
+     "party": "America First",
+     "votes": 0,
+     "percent": 0,
+     "color": "#8B0000",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Dan  Osborn",
+     "party": "Independent",
+     "votes": 0,
+     "percent": 0,
+     "color": "#63c660",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    }
+   ]
+  },
+  "garfield": {
+   "name": "Garfield",
+   "type": "County",
+   "fips": "31071",
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Pete  Ricketts",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Mike  Marvin",
+     "party": "Legal Marijuana Now",
+     "votes": 0,
+     "percent": 0,
+     "color": "#09ad00",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Robin  Richards",
+     "party": "Nebraska Working People",
+     "votes": 0,
+     "percent": 0,
+     "color": "#CC5500",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Chuck  Conboy",
+     "party": "America First",
+     "votes": 0,
+     "percent": 0,
+     "color": "#8B0000",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Dan  Osborn",
+     "party": "Independent",
+     "votes": 0,
+     "percent": 0,
+     "color": "#63c660",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    }
+   ]
+  },
+  "gosper": {
+   "name": "Gosper",
+   "type": "County",
+   "fips": "31073",
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Pete  Ricketts",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Mike  Marvin",
+     "party": "Legal Marijuana Now",
+     "votes": 0,
+     "percent": 0,
+     "color": "#09ad00",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Robin  Richards",
+     "party": "Nebraska Working People",
+     "votes": 0,
+     "percent": 0,
+     "color": "#CC5500",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Chuck  Conboy",
+     "party": "America First",
+     "votes": 0,
+     "percent": 0,
+     "color": "#8B0000",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Dan  Osborn",
+     "party": "Independent",
+     "votes": 0,
+     "percent": 0,
+     "color": "#63c660",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    }
+   ]
+  },
+  "grant": {
+   "name": "Grant",
+   "type": "County",
+   "fips": "31075",
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Pete  Ricketts",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Mike  Marvin",
+     "party": "Legal Marijuana Now",
+     "votes": 0,
+     "percent": 0,
+     "color": "#09ad00",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Robin  Richards",
+     "party": "Nebraska Working People",
+     "votes": 0,
+     "percent": 0,
+     "color": "#CC5500",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Chuck  Conboy",
+     "party": "America First",
+     "votes": 0,
+     "percent": 0,
+     "color": "#8B0000",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Dan  Osborn",
+     "party": "Independent",
+     "votes": 0,
+     "percent": 0,
+     "color": "#63c660",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    }
+   ]
+  },
+  "greeley": {
+   "name": "Greeley",
+   "type": "County",
+   "fips": "31077",
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Pete  Ricketts",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Mike  Marvin",
+     "party": "Legal Marijuana Now",
+     "votes": 0,
+     "percent": 0,
+     "color": "#09ad00",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Robin  Richards",
+     "party": "Nebraska Working People",
+     "votes": 0,
+     "percent": 0,
+     "color": "#CC5500",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Chuck  Conboy",
+     "party": "America First",
+     "votes": 0,
+     "percent": 0,
+     "color": "#8B0000",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Dan  Osborn",
+     "party": "Independent",
+     "votes": 0,
+     "percent": 0,
+     "color": "#63c660",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    }
+   ]
+  },
+  "hall": {
+   "name": "Hall",
+   "type": "County",
+   "fips": "31079",
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Pete  Ricketts",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Mike  Marvin",
+     "party": "Legal Marijuana Now",
+     "votes": 0,
+     "percent": 0,
+     "color": "#09ad00",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Robin  Richards",
+     "party": "Nebraska Working People",
+     "votes": 0,
+     "percent": 0,
+     "color": "#CC5500",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Chuck  Conboy",
+     "party": "America First",
+     "votes": 0,
+     "percent": 0,
+     "color": "#8B0000",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Dan  Osborn",
+     "party": "Independent",
+     "votes": 0,
+     "percent": 0,
+     "color": "#63c660",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    }
+   ]
+  },
+  "hamilton": {
+   "name": "Hamilton",
+   "type": "County",
+   "fips": "31081",
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Pete  Ricketts",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Mike  Marvin",
+     "party": "Legal Marijuana Now",
+     "votes": 0,
+     "percent": 0,
+     "color": "#09ad00",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Robin  Richards",
+     "party": "Nebraska Working People",
+     "votes": 0,
+     "percent": 0,
+     "color": "#CC5500",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Chuck  Conboy",
+     "party": "America First",
+     "votes": 0,
+     "percent": 0,
+     "color": "#8B0000",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Dan  Osborn",
+     "party": "Independent",
+     "votes": 0,
+     "percent": 0,
+     "color": "#63c660",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    }
+   ]
+  },
+  "harlan": {
+   "name": "Harlan",
+   "type": "County",
+   "fips": "31083",
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Pete  Ricketts",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Mike  Marvin",
+     "party": "Legal Marijuana Now",
+     "votes": 0,
+     "percent": 0,
+     "color": "#09ad00",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Robin  Richards",
+     "party": "Nebraska Working People",
+     "votes": 0,
+     "percent": 0,
+     "color": "#CC5500",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Chuck  Conboy",
+     "party": "America First",
+     "votes": 0,
+     "percent": 0,
+     "color": "#8B0000",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Dan  Osborn",
+     "party": "Independent",
+     "votes": 0,
+     "percent": 0,
+     "color": "#63c660",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    }
+   ]
+  },
+  "hayes": {
+   "name": "Hayes",
+   "type": "County",
+   "fips": "31085",
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Pete  Ricketts",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Mike  Marvin",
+     "party": "Legal Marijuana Now",
+     "votes": 0,
+     "percent": 0,
+     "color": "#09ad00",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Robin  Richards",
+     "party": "Nebraska Working People",
+     "votes": 0,
+     "percent": 0,
+     "color": "#CC5500",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Chuck  Conboy",
+     "party": "America First",
+     "votes": 0,
+     "percent": 0,
+     "color": "#8B0000",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Dan  Osborn",
+     "party": "Independent",
+     "votes": 0,
+     "percent": 0,
+     "color": "#63c660",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    }
+   ]
+  },
+  "hitchcock": {
+   "name": "Hitchcock",
+   "type": "County",
+   "fips": "31087",
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Pete  Ricketts",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Mike  Marvin",
+     "party": "Legal Marijuana Now",
+     "votes": 0,
+     "percent": 0,
+     "color": "#09ad00",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Robin  Richards",
+     "party": "Nebraska Working People",
+     "votes": 0,
+     "percent": 0,
+     "color": "#CC5500",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Chuck  Conboy",
+     "party": "America First",
+     "votes": 0,
+     "percent": 0,
+     "color": "#8B0000",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Dan  Osborn",
+     "party": "Independent",
+     "votes": 0,
+     "percent": 0,
+     "color": "#63c660",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    }
+   ]
+  },
+  "holt": {
+   "name": "Holt",
+   "type": "County",
+   "fips": "31089",
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Pete  Ricketts",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Mike  Marvin",
+     "party": "Legal Marijuana Now",
+     "votes": 0,
+     "percent": 0,
+     "color": "#09ad00",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Robin  Richards",
+     "party": "Nebraska Working People",
+     "votes": 0,
+     "percent": 0,
+     "color": "#CC5500",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Chuck  Conboy",
+     "party": "America First",
+     "votes": 0,
+     "percent": 0,
+     "color": "#8B0000",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Dan  Osborn",
+     "party": "Independent",
+     "votes": 0,
+     "percent": 0,
+     "color": "#63c660",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    }
+   ]
+  },
+  "hooker": {
+   "name": "Hooker",
+   "type": "County",
+   "fips": "31091",
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Pete  Ricketts",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Mike  Marvin",
+     "party": "Legal Marijuana Now",
+     "votes": 0,
+     "percent": 0,
+     "color": "#09ad00",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Robin  Richards",
+     "party": "Nebraska Working People",
+     "votes": 0,
+     "percent": 0,
+     "color": "#CC5500",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Chuck  Conboy",
+     "party": "America First",
+     "votes": 0,
+     "percent": 0,
+     "color": "#8B0000",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Dan  Osborn",
+     "party": "Independent",
+     "votes": 0,
+     "percent": 0,
+     "color": "#63c660",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    }
+   ]
+  },
+  "howard": {
+   "name": "Howard",
+   "type": "County",
+   "fips": "31093",
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Pete  Ricketts",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Mike  Marvin",
+     "party": "Legal Marijuana Now",
+     "votes": 0,
+     "percent": 0,
+     "color": "#09ad00",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Robin  Richards",
+     "party": "Nebraska Working People",
+     "votes": 0,
+     "percent": 0,
+     "color": "#CC5500",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Chuck  Conboy",
+     "party": "America First",
+     "votes": 0,
+     "percent": 0,
+     "color": "#8B0000",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Dan  Osborn",
+     "party": "Independent",
+     "votes": 0,
+     "percent": 0,
+     "color": "#63c660",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    }
+   ]
+  },
+  "jefferson": {
+   "name": "Jefferson",
+   "type": "County",
+   "fips": "31095",
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Pete  Ricketts",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Mike  Marvin",
+     "party": "Legal Marijuana Now",
+     "votes": 0,
+     "percent": 0,
+     "color": "#09ad00",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Robin  Richards",
+     "party": "Nebraska Working People",
+     "votes": 0,
+     "percent": 0,
+     "color": "#CC5500",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Chuck  Conboy",
+     "party": "America First",
+     "votes": 0,
+     "percent": 0,
+     "color": "#8B0000",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Dan  Osborn",
+     "party": "Independent",
+     "votes": 0,
+     "percent": 0,
+     "color": "#63c660",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    }
+   ]
+  },
+  "johnson": {
+   "name": "Johnson",
+   "type": "County",
+   "fips": "31097",
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Pete  Ricketts",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Mike  Marvin",
+     "party": "Legal Marijuana Now",
+     "votes": 0,
+     "percent": 0,
+     "color": "#09ad00",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Robin  Richards",
+     "party": "Nebraska Working People",
+     "votes": 0,
+     "percent": 0,
+     "color": "#CC5500",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Chuck  Conboy",
+     "party": "America First",
+     "votes": 0,
+     "percent": 0,
+     "color": "#8B0000",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Dan  Osborn",
+     "party": "Independent",
+     "votes": 0,
+     "percent": 0,
+     "color": "#63c660",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    }
+   ]
+  },
+  "kearney": {
+   "name": "Kearney",
+   "type": "County",
+   "fips": "31099",
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Pete  Ricketts",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Mike  Marvin",
+     "party": "Legal Marijuana Now",
+     "votes": 0,
+     "percent": 0,
+     "color": "#09ad00",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Robin  Richards",
+     "party": "Nebraska Working People",
+     "votes": 0,
+     "percent": 0,
+     "color": "#CC5500",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Chuck  Conboy",
+     "party": "America First",
+     "votes": 0,
+     "percent": 0,
+     "color": "#8B0000",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Dan  Osborn",
+     "party": "Independent",
+     "votes": 0,
+     "percent": 0,
+     "color": "#63c660",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    }
+   ]
+  },
+  "keith": {
+   "name": "Keith",
+   "type": "County",
+   "fips": "31101",
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Pete  Ricketts",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Mike  Marvin",
+     "party": "Legal Marijuana Now",
+     "votes": 0,
+     "percent": 0,
+     "color": "#09ad00",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Robin  Richards",
+     "party": "Nebraska Working People",
+     "votes": 0,
+     "percent": 0,
+     "color": "#CC5500",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Chuck  Conboy",
+     "party": "America First",
+     "votes": 0,
+     "percent": 0,
+     "color": "#8B0000",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Dan  Osborn",
+     "party": "Independent",
+     "votes": 0,
+     "percent": 0,
+     "color": "#63c660",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    }
+   ]
+  },
+  "keya_paha": {
+   "name": "Keya Paha",
+   "type": "County",
+   "fips": "31103",
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Pete  Ricketts",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Mike  Marvin",
+     "party": "Legal Marijuana Now",
+     "votes": 0,
+     "percent": 0,
+     "color": "#09ad00",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Robin  Richards",
+     "party": "Nebraska Working People",
+     "votes": 0,
+     "percent": 0,
+     "color": "#CC5500",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Chuck  Conboy",
+     "party": "America First",
+     "votes": 0,
+     "percent": 0,
+     "color": "#8B0000",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Dan  Osborn",
+     "party": "Independent",
+     "votes": 0,
+     "percent": 0,
+     "color": "#63c660",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    }
+   ]
+  },
+  "kimball": {
+   "name": "Kimball",
+   "type": "County",
+   "fips": "31105",
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Pete  Ricketts",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Mike  Marvin",
+     "party": "Legal Marijuana Now",
+     "votes": 0,
+     "percent": 0,
+     "color": "#09ad00",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Robin  Richards",
+     "party": "Nebraska Working People",
+     "votes": 0,
+     "percent": 0,
+     "color": "#CC5500",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Chuck  Conboy",
+     "party": "America First",
+     "votes": 0,
+     "percent": 0,
+     "color": "#8B0000",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Dan  Osborn",
+     "party": "Independent",
+     "votes": 0,
+     "percent": 0,
+     "color": "#63c660",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    }
+   ]
+  },
+  "knox": {
+   "name": "Knox",
+   "type": "County",
+   "fips": "31107",
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Pete  Ricketts",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Mike  Marvin",
+     "party": "Legal Marijuana Now",
+     "votes": 0,
+     "percent": 0,
+     "color": "#09ad00",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Robin  Richards",
+     "party": "Nebraska Working People",
+     "votes": 0,
+     "percent": 0,
+     "color": "#CC5500",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Chuck  Conboy",
+     "party": "America First",
+     "votes": 0,
+     "percent": 0,
+     "color": "#8B0000",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Dan  Osborn",
+     "party": "Independent",
+     "votes": 0,
+     "percent": 0,
+     "color": "#63c660",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    }
+   ]
+  },
+  "lancaster": {
+   "name": "Lancaster",
+   "type": "County",
+   "fips": "31109",
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Pete  Ricketts",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Mike  Marvin",
+     "party": "Legal Marijuana Now",
+     "votes": 0,
+     "percent": 0,
+     "color": "#09ad00",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Robin  Richards",
+     "party": "Nebraska Working People",
+     "votes": 0,
+     "percent": 0,
+     "color": "#CC5500",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Chuck  Conboy",
+     "party": "America First",
+     "votes": 0,
+     "percent": 0,
+     "color": "#8B0000",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Dan  Osborn",
+     "party": "Independent",
+     "votes": 0,
+     "percent": 0,
+     "color": "#63c660",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    }
+   ]
+  },
+  "lincoln": {
+   "name": "Lincoln",
+   "type": "County",
+   "fips": "31111",
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Pete  Ricketts",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Mike  Marvin",
+     "party": "Legal Marijuana Now",
+     "votes": 0,
+     "percent": 0,
+     "color": "#09ad00",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Robin  Richards",
+     "party": "Nebraska Working People",
+     "votes": 0,
+     "percent": 0,
+     "color": "#CC5500",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Chuck  Conboy",
+     "party": "America First",
+     "votes": 0,
+     "percent": 0,
+     "color": "#8B0000",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Dan  Osborn",
+     "party": "Independent",
+     "votes": 0,
+     "percent": 0,
+     "color": "#63c660",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    }
+   ]
+  },
+  "logan": {
+   "name": "Logan",
+   "type": "County",
+   "fips": "31113",
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Pete  Ricketts",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Mike  Marvin",
+     "party": "Legal Marijuana Now",
+     "votes": 0,
+     "percent": 0,
+     "color": "#09ad00",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Robin  Richards",
+     "party": "Nebraska Working People",
+     "votes": 0,
+     "percent": 0,
+     "color": "#CC5500",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Chuck  Conboy",
+     "party": "America First",
+     "votes": 0,
+     "percent": 0,
+     "color": "#8B0000",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Dan  Osborn",
+     "party": "Independent",
+     "votes": 0,
+     "percent": 0,
+     "color": "#63c660",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    }
+   ]
+  },
+  "loup": {
+   "name": "Loup",
+   "type": "County",
+   "fips": "31115",
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Pete  Ricketts",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Mike  Marvin",
+     "party": "Legal Marijuana Now",
+     "votes": 0,
+     "percent": 0,
+     "color": "#09ad00",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Robin  Richards",
+     "party": "Nebraska Working People",
+     "votes": 0,
+     "percent": 0,
+     "color": "#CC5500",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Chuck  Conboy",
+     "party": "America First",
+     "votes": 0,
+     "percent": 0,
+     "color": "#8B0000",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Dan  Osborn",
+     "party": "Independent",
+     "votes": 0,
+     "percent": 0,
+     "color": "#63c660",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    }
+   ]
+  },
+  "madison": {
+   "name": "Madison",
+   "type": "County",
+   "fips": "31119",
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Pete  Ricketts",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Mike  Marvin",
+     "party": "Legal Marijuana Now",
+     "votes": 0,
+     "percent": 0,
+     "color": "#09ad00",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Robin  Richards",
+     "party": "Nebraska Working People",
+     "votes": 0,
+     "percent": 0,
+     "color": "#CC5500",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Chuck  Conboy",
+     "party": "America First",
+     "votes": 0,
+     "percent": 0,
+     "color": "#8B0000",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Dan  Osborn",
+     "party": "Independent",
+     "votes": 0,
+     "percent": 0,
+     "color": "#63c660",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    }
+   ]
+  },
+  "mcpherson": {
+   "name": "McPherson",
+   "type": "County",
+   "fips": "31117",
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Pete  Ricketts",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Mike  Marvin",
+     "party": "Legal Marijuana Now",
+     "votes": 0,
+     "percent": 0,
+     "color": "#09ad00",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Robin  Richards",
+     "party": "Nebraska Working People",
+     "votes": 0,
+     "percent": 0,
+     "color": "#CC5500",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Chuck  Conboy",
+     "party": "America First",
+     "votes": 0,
+     "percent": 0,
+     "color": "#8B0000",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Dan  Osborn",
+     "party": "Independent",
+     "votes": 0,
+     "percent": 0,
+     "color": "#63c660",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    }
+   ]
+  },
+  "merrick": {
+   "name": "Merrick",
+   "type": "County",
+   "fips": "31121",
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Pete  Ricketts",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Mike  Marvin",
+     "party": "Legal Marijuana Now",
+     "votes": 0,
+     "percent": 0,
+     "color": "#09ad00",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Robin  Richards",
+     "party": "Nebraska Working People",
+     "votes": 0,
+     "percent": 0,
+     "color": "#CC5500",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Chuck  Conboy",
+     "party": "America First",
+     "votes": 0,
+     "percent": 0,
+     "color": "#8B0000",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Dan  Osborn",
+     "party": "Independent",
+     "votes": 0,
+     "percent": 0,
+     "color": "#63c660",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    }
+   ]
+  },
+  "morrill": {
+   "name": "Morrill",
+   "type": "County",
+   "fips": "31123",
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Pete  Ricketts",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Mike  Marvin",
+     "party": "Legal Marijuana Now",
+     "votes": 0,
+     "percent": 0,
+     "color": "#09ad00",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Robin  Richards",
+     "party": "Nebraska Working People",
+     "votes": 0,
+     "percent": 0,
+     "color": "#CC5500",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Chuck  Conboy",
+     "party": "America First",
+     "votes": 0,
+     "percent": 0,
+     "color": "#8B0000",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Dan  Osborn",
+     "party": "Independent",
+     "votes": 0,
+     "percent": 0,
+     "color": "#63c660",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    }
+   ]
+  },
+  "nance": {
+   "name": "Nance",
+   "type": "County",
+   "fips": "31125",
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Pete  Ricketts",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Mike  Marvin",
+     "party": "Legal Marijuana Now",
+     "votes": 0,
+     "percent": 0,
+     "color": "#09ad00",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Robin  Richards",
+     "party": "Nebraska Working People",
+     "votes": 0,
+     "percent": 0,
+     "color": "#CC5500",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Chuck  Conboy",
+     "party": "America First",
+     "votes": 0,
+     "percent": 0,
+     "color": "#8B0000",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Dan  Osborn",
+     "party": "Independent",
+     "votes": 0,
+     "percent": 0,
+     "color": "#63c660",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    }
+   ]
+  },
+  "nemaha": {
+   "name": "Nemaha",
+   "type": "County",
+   "fips": "31127",
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Pete  Ricketts",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Mike  Marvin",
+     "party": "Legal Marijuana Now",
+     "votes": 0,
+     "percent": 0,
+     "color": "#09ad00",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Robin  Richards",
+     "party": "Nebraska Working People",
+     "votes": 0,
+     "percent": 0,
+     "color": "#CC5500",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Chuck  Conboy",
+     "party": "America First",
+     "votes": 0,
+     "percent": 0,
+     "color": "#8B0000",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Dan  Osborn",
+     "party": "Independent",
+     "votes": 0,
+     "percent": 0,
+     "color": "#63c660",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    }
+   ]
+  },
+  "nuckolls": {
+   "name": "Nuckolls",
+   "type": "County",
+   "fips": "31129",
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Pete  Ricketts",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Mike  Marvin",
+     "party": "Legal Marijuana Now",
+     "votes": 0,
+     "percent": 0,
+     "color": "#09ad00",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Robin  Richards",
+     "party": "Nebraska Working People",
+     "votes": 0,
+     "percent": 0,
+     "color": "#CC5500",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Chuck  Conboy",
+     "party": "America First",
+     "votes": 0,
+     "percent": 0,
+     "color": "#8B0000",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Dan  Osborn",
+     "party": "Independent",
+     "votes": 0,
+     "percent": 0,
+     "color": "#63c660",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    }
+   ]
+  },
+  "otoe": {
+   "name": "Otoe",
+   "type": "County",
+   "fips": "31131",
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Pete  Ricketts",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Mike  Marvin",
+     "party": "Legal Marijuana Now",
+     "votes": 0,
+     "percent": 0,
+     "color": "#09ad00",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Robin  Richards",
+     "party": "Nebraska Working People",
+     "votes": 0,
+     "percent": 0,
+     "color": "#CC5500",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Chuck  Conboy",
+     "party": "America First",
+     "votes": 0,
+     "percent": 0,
+     "color": "#8B0000",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Dan  Osborn",
+     "party": "Independent",
+     "votes": 0,
+     "percent": 0,
+     "color": "#63c660",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    }
+   ]
+  },
+  "pawnee": {
+   "name": "Pawnee",
+   "type": "County",
+   "fips": "31133",
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Pete  Ricketts",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Mike  Marvin",
+     "party": "Legal Marijuana Now",
+     "votes": 0,
+     "percent": 0,
+     "color": "#09ad00",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Robin  Richards",
+     "party": "Nebraska Working People",
+     "votes": 0,
+     "percent": 0,
+     "color": "#CC5500",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Chuck  Conboy",
+     "party": "America First",
+     "votes": 0,
+     "percent": 0,
+     "color": "#8B0000",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Dan  Osborn",
+     "party": "Independent",
+     "votes": 0,
+     "percent": 0,
+     "color": "#63c660",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    }
+   ]
+  },
+  "perkins": {
+   "name": "Perkins",
+   "type": "County",
+   "fips": "31135",
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Pete  Ricketts",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Mike  Marvin",
+     "party": "Legal Marijuana Now",
+     "votes": 0,
+     "percent": 0,
+     "color": "#09ad00",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Robin  Richards",
+     "party": "Nebraska Working People",
+     "votes": 0,
+     "percent": 0,
+     "color": "#CC5500",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Chuck  Conboy",
+     "party": "America First",
+     "votes": 0,
+     "percent": 0,
+     "color": "#8B0000",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Dan  Osborn",
+     "party": "Independent",
+     "votes": 0,
+     "percent": 0,
+     "color": "#63c660",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    }
+   ]
+  },
+  "phelps": {
+   "name": "Phelps",
+   "type": "County",
+   "fips": "31137",
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Pete  Ricketts",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Mike  Marvin",
+     "party": "Legal Marijuana Now",
+     "votes": 0,
+     "percent": 0,
+     "color": "#09ad00",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Robin  Richards",
+     "party": "Nebraska Working People",
+     "votes": 0,
+     "percent": 0,
+     "color": "#CC5500",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Chuck  Conboy",
+     "party": "America First",
+     "votes": 0,
+     "percent": 0,
+     "color": "#8B0000",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Dan  Osborn",
+     "party": "Independent",
+     "votes": 0,
+     "percent": 0,
+     "color": "#63c660",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    }
+   ]
+  },
+  "pierce": {
+   "name": "Pierce",
+   "type": "County",
+   "fips": "31139",
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Pete  Ricketts",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Mike  Marvin",
+     "party": "Legal Marijuana Now",
+     "votes": 0,
+     "percent": 0,
+     "color": "#09ad00",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Robin  Richards",
+     "party": "Nebraska Working People",
+     "votes": 0,
+     "percent": 0,
+     "color": "#CC5500",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Chuck  Conboy",
+     "party": "America First",
+     "votes": 0,
+     "percent": 0,
+     "color": "#8B0000",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Dan  Osborn",
+     "party": "Independent",
+     "votes": 0,
+     "percent": 0,
+     "color": "#63c660",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    }
+   ]
+  },
+  "platte": {
+   "name": "Platte",
+   "type": "County",
+   "fips": "31141",
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Pete  Ricketts",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Mike  Marvin",
+     "party": "Legal Marijuana Now",
+     "votes": 0,
+     "percent": 0,
+     "color": "#09ad00",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Robin  Richards",
+     "party": "Nebraska Working People",
+     "votes": 0,
+     "percent": 0,
+     "color": "#CC5500",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Chuck  Conboy",
+     "party": "America First",
+     "votes": 0,
+     "percent": 0,
+     "color": "#8B0000",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Dan  Osborn",
+     "party": "Independent",
+     "votes": 0,
+     "percent": 0,
+     "color": "#63c660",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    }
+   ]
+  },
+  "polk": {
+   "name": "Polk",
+   "type": "County",
+   "fips": "31143",
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Pete  Ricketts",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Mike  Marvin",
+     "party": "Legal Marijuana Now",
+     "votes": 0,
+     "percent": 0,
+     "color": "#09ad00",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Robin  Richards",
+     "party": "Nebraska Working People",
+     "votes": 0,
+     "percent": 0,
+     "color": "#CC5500",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Chuck  Conboy",
+     "party": "America First",
+     "votes": 0,
+     "percent": 0,
+     "color": "#8B0000",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Dan  Osborn",
+     "party": "Independent",
+     "votes": 0,
+     "percent": 0,
+     "color": "#63c660",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    }
+   ]
+  },
+  "red_willow": {
+   "name": "Red Willow",
+   "type": "County",
+   "fips": "31145",
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Pete  Ricketts",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Mike  Marvin",
+     "party": "Legal Marijuana Now",
+     "votes": 0,
+     "percent": 0,
+     "color": "#09ad00",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Robin  Richards",
+     "party": "Nebraska Working People",
+     "votes": 0,
+     "percent": 0,
+     "color": "#CC5500",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Chuck  Conboy",
+     "party": "America First",
+     "votes": 0,
+     "percent": 0,
+     "color": "#8B0000",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Dan  Osborn",
+     "party": "Independent",
+     "votes": 0,
+     "percent": 0,
+     "color": "#63c660",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    }
+   ]
+  },
+  "richardson": {
+   "name": "Richardson",
+   "type": "County",
+   "fips": "31147",
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Pete  Ricketts",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Mike  Marvin",
+     "party": "Legal Marijuana Now",
+     "votes": 0,
+     "percent": 0,
+     "color": "#09ad00",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Robin  Richards",
+     "party": "Nebraska Working People",
+     "votes": 0,
+     "percent": 0,
+     "color": "#CC5500",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Chuck  Conboy",
+     "party": "America First",
+     "votes": 0,
+     "percent": 0,
+     "color": "#8B0000",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Dan  Osborn",
+     "party": "Independent",
+     "votes": 0,
+     "percent": 0,
+     "color": "#63c660",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    }
+   ]
+  },
+  "rock": {
+   "name": "Rock",
+   "type": "County",
+   "fips": "31149",
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Pete  Ricketts",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Mike  Marvin",
+     "party": "Legal Marijuana Now",
+     "votes": 0,
+     "percent": 0,
+     "color": "#09ad00",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Robin  Richards",
+     "party": "Nebraska Working People",
+     "votes": 0,
+     "percent": 0,
+     "color": "#CC5500",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Chuck  Conboy",
+     "party": "America First",
+     "votes": 0,
+     "percent": 0,
+     "color": "#8B0000",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Dan  Osborn",
+     "party": "Independent",
+     "votes": 0,
+     "percent": 0,
+     "color": "#63c660",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    }
+   ]
+  },
+  "saline": {
+   "name": "Saline",
+   "type": "County",
+   "fips": "31151",
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Pete  Ricketts",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Mike  Marvin",
+     "party": "Legal Marijuana Now",
+     "votes": 0,
+     "percent": 0,
+     "color": "#09ad00",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Robin  Richards",
+     "party": "Nebraska Working People",
+     "votes": 0,
+     "percent": 0,
+     "color": "#CC5500",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Chuck  Conboy",
+     "party": "America First",
+     "votes": 0,
+     "percent": 0,
+     "color": "#8B0000",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Dan  Osborn",
+     "party": "Independent",
+     "votes": 0,
+     "percent": 0,
+     "color": "#63c660",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    }
+   ]
+  },
+  "sarpy": {
+   "name": "Sarpy",
+   "type": "County",
+   "fips": "31153",
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Pete  Ricketts",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Mike  Marvin",
+     "party": "Legal Marijuana Now",
+     "votes": 0,
+     "percent": 0,
+     "color": "#09ad00",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Robin  Richards",
+     "party": "Nebraska Working People",
+     "votes": 0,
+     "percent": 0,
+     "color": "#CC5500",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Chuck  Conboy",
+     "party": "America First",
+     "votes": 0,
+     "percent": 0,
+     "color": "#8B0000",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Dan  Osborn",
+     "party": "Independent",
+     "votes": 0,
+     "percent": 0,
+     "color": "#63c660",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    }
+   ]
+  },
+  "saunders": {
+   "name": "Saunders",
+   "type": "County",
+   "fips": "31155",
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Pete  Ricketts",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Mike  Marvin",
+     "party": "Legal Marijuana Now",
+     "votes": 0,
+     "percent": 0,
+     "color": "#09ad00",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Robin  Richards",
+     "party": "Nebraska Working People",
+     "votes": 0,
+     "percent": 0,
+     "color": "#CC5500",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Chuck  Conboy",
+     "party": "America First",
+     "votes": 0,
+     "percent": 0,
+     "color": "#8B0000",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Dan  Osborn",
+     "party": "Independent",
+     "votes": 0,
+     "percent": 0,
+     "color": "#63c660",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    }
+   ]
+  },
+  "scotts_bluff": {
+   "name": "Scotts Bluff",
+   "type": "County",
+   "fips": "31157",
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Pete  Ricketts",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Mike  Marvin",
+     "party": "Legal Marijuana Now",
+     "votes": 0,
+     "percent": 0,
+     "color": "#09ad00",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Robin  Richards",
+     "party": "Nebraska Working People",
+     "votes": 0,
+     "percent": 0,
+     "color": "#CC5500",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Chuck  Conboy",
+     "party": "America First",
+     "votes": 0,
+     "percent": 0,
+     "color": "#8B0000",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Dan  Osborn",
+     "party": "Independent",
+     "votes": 0,
+     "percent": 0,
+     "color": "#63c660",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    }
+   ]
+  },
+  "seward": {
+   "name": "Seward",
+   "type": "County",
+   "fips": "31159",
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Pete  Ricketts",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Mike  Marvin",
+     "party": "Legal Marijuana Now",
+     "votes": 0,
+     "percent": 0,
+     "color": "#09ad00",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Robin  Richards",
+     "party": "Nebraska Working People",
+     "votes": 0,
+     "percent": 0,
+     "color": "#CC5500",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Chuck  Conboy",
+     "party": "America First",
+     "votes": 0,
+     "percent": 0,
+     "color": "#8B0000",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Dan  Osborn",
+     "party": "Independent",
+     "votes": 0,
+     "percent": 0,
+     "color": "#63c660",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    }
+   ]
+  },
+  "sheridan": {
+   "name": "Sheridan",
+   "type": "County",
+   "fips": "31161",
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Pete  Ricketts",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Mike  Marvin",
+     "party": "Legal Marijuana Now",
+     "votes": 0,
+     "percent": 0,
+     "color": "#09ad00",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Robin  Richards",
+     "party": "Nebraska Working People",
+     "votes": 0,
+     "percent": 0,
+     "color": "#CC5500",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Chuck  Conboy",
+     "party": "America First",
+     "votes": 0,
+     "percent": 0,
+     "color": "#8B0000",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Dan  Osborn",
+     "party": "Independent",
+     "votes": 0,
+     "percent": 0,
+     "color": "#63c660",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    }
+   ]
+  },
+  "sherman": {
+   "name": "Sherman",
+   "type": "County",
+   "fips": "31163",
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Pete  Ricketts",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Mike  Marvin",
+     "party": "Legal Marijuana Now",
+     "votes": 0,
+     "percent": 0,
+     "color": "#09ad00",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Robin  Richards",
+     "party": "Nebraska Working People",
+     "votes": 0,
+     "percent": 0,
+     "color": "#CC5500",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Chuck  Conboy",
+     "party": "America First",
+     "votes": 0,
+     "percent": 0,
+     "color": "#8B0000",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Dan  Osborn",
+     "party": "Independent",
+     "votes": 0,
+     "percent": 0,
+     "color": "#63c660",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    }
+   ]
+  },
+  "sioux": {
+   "name": "Sioux",
+   "type": "County",
+   "fips": "31165",
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Pete  Ricketts",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Mike  Marvin",
+     "party": "Legal Marijuana Now",
+     "votes": 0,
+     "percent": 0,
+     "color": "#09ad00",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Robin  Richards",
+     "party": "Nebraska Working People",
+     "votes": 0,
+     "percent": 0,
+     "color": "#CC5500",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Chuck  Conboy",
+     "party": "America First",
+     "votes": 0,
+     "percent": 0,
+     "color": "#8B0000",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Dan  Osborn",
+     "party": "Independent",
+     "votes": 0,
+     "percent": 0,
+     "color": "#63c660",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    }
+   ]
+  },
+  "stanton": {
+   "name": "Stanton",
+   "type": "County",
+   "fips": "31167",
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Pete  Ricketts",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Mike  Marvin",
+     "party": "Legal Marijuana Now",
+     "votes": 0,
+     "percent": 0,
+     "color": "#09ad00",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Robin  Richards",
+     "party": "Nebraska Working People",
+     "votes": 0,
+     "percent": 0,
+     "color": "#CC5500",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Chuck  Conboy",
+     "party": "America First",
+     "votes": 0,
+     "percent": 0,
+     "color": "#8B0000",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Dan  Osborn",
+     "party": "Independent",
+     "votes": 0,
+     "percent": 0,
+     "color": "#63c660",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    }
+   ]
+  },
+  "thayer": {
+   "name": "Thayer",
+   "type": "County",
+   "fips": "31169",
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Pete  Ricketts",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Mike  Marvin",
+     "party": "Legal Marijuana Now",
+     "votes": 0,
+     "percent": 0,
+     "color": "#09ad00",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Robin  Richards",
+     "party": "Nebraska Working People",
+     "votes": 0,
+     "percent": 0,
+     "color": "#CC5500",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Chuck  Conboy",
+     "party": "America First",
+     "votes": 0,
+     "percent": 0,
+     "color": "#8B0000",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Dan  Osborn",
+     "party": "Independent",
+     "votes": 0,
+     "percent": 0,
+     "color": "#63c660",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    }
+   ]
+  },
+  "thomas": {
+   "name": "Thomas",
+   "type": "County",
+   "fips": "31171",
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Pete  Ricketts",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Mike  Marvin",
+     "party": "Legal Marijuana Now",
+     "votes": 0,
+     "percent": 0,
+     "color": "#09ad00",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Robin  Richards",
+     "party": "Nebraska Working People",
+     "votes": 0,
+     "percent": 0,
+     "color": "#CC5500",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Chuck  Conboy",
+     "party": "America First",
+     "votes": 0,
+     "percent": 0,
+     "color": "#8B0000",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Dan  Osborn",
+     "party": "Independent",
+     "votes": 0,
+     "percent": 0,
+     "color": "#63c660",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    }
+   ]
+  },
+  "thurston": {
+   "name": "Thurston",
+   "type": "County",
+   "fips": "31173",
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Pete  Ricketts",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Mike  Marvin",
+     "party": "Legal Marijuana Now",
+     "votes": 0,
+     "percent": 0,
+     "color": "#09ad00",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Robin  Richards",
+     "party": "Nebraska Working People",
+     "votes": 0,
+     "percent": 0,
+     "color": "#CC5500",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Chuck  Conboy",
+     "party": "America First",
+     "votes": 0,
+     "percent": 0,
+     "color": "#8B0000",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Dan  Osborn",
+     "party": "Independent",
+     "votes": 0,
+     "percent": 0,
+     "color": "#63c660",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    }
+   ]
+  },
+  "valley": {
+   "name": "Valley",
+   "type": "County",
+   "fips": "31175",
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Pete  Ricketts",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Mike  Marvin",
+     "party": "Legal Marijuana Now",
+     "votes": 0,
+     "percent": 0,
+     "color": "#09ad00",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Robin  Richards",
+     "party": "Nebraska Working People",
+     "votes": 0,
+     "percent": 0,
+     "color": "#CC5500",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Chuck  Conboy",
+     "party": "America First",
+     "votes": 0,
+     "percent": 0,
+     "color": "#8B0000",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Dan  Osborn",
+     "party": "Independent",
+     "votes": 0,
+     "percent": 0,
+     "color": "#63c660",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    }
+   ]
+  },
+  "washington": {
+   "name": "Washington",
+   "type": "County",
+   "fips": "31177",
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Pete  Ricketts",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Mike  Marvin",
+     "party": "Legal Marijuana Now",
+     "votes": 0,
+     "percent": 0,
+     "color": "#09ad00",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Robin  Richards",
+     "party": "Nebraska Working People",
+     "votes": 0,
+     "percent": 0,
+     "color": "#CC5500",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Chuck  Conboy",
+     "party": "America First",
+     "votes": 0,
+     "percent": 0,
+     "color": "#8B0000",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Dan  Osborn",
+     "party": "Independent",
+     "votes": 0,
+     "percent": 0,
+     "color": "#63c660",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    }
+   ]
+  },
+  "wayne": {
+   "name": "Wayne",
+   "type": "County",
+   "fips": "31179",
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Pete  Ricketts",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Mike  Marvin",
+     "party": "Legal Marijuana Now",
+     "votes": 0,
+     "percent": 0,
+     "color": "#09ad00",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Robin  Richards",
+     "party": "Nebraska Working People",
+     "votes": 0,
+     "percent": 0,
+     "color": "#CC5500",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Chuck  Conboy",
+     "party": "America First",
+     "votes": 0,
+     "percent": 0,
+     "color": "#8B0000",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Dan  Osborn",
+     "party": "Independent",
+     "votes": 0,
+     "percent": 0,
+     "color": "#63c660",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    }
+   ]
+  },
+  "webster": {
+   "name": "Webster",
+   "type": "County",
+   "fips": "31181",
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Pete  Ricketts",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Mike  Marvin",
+     "party": "Legal Marijuana Now",
+     "votes": 0,
+     "percent": 0,
+     "color": "#09ad00",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Robin  Richards",
+     "party": "Nebraska Working People",
+     "votes": 0,
+     "percent": 0,
+     "color": "#CC5500",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Chuck  Conboy",
+     "party": "America First",
+     "votes": 0,
+     "percent": 0,
+     "color": "#8B0000",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Dan  Osborn",
+     "party": "Independent",
+     "votes": 0,
+     "percent": 0,
+     "color": "#63c660",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    }
+   ]
+  },
+  "wheeler": {
+   "name": "Wheeler",
+   "type": "County",
+   "fips": "31183",
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Pete  Ricketts",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Mike  Marvin",
+     "party": "Legal Marijuana Now",
+     "votes": 0,
+     "percent": 0,
+     "color": "#09ad00",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Robin  Richards",
+     "party": "Nebraska Working People",
+     "votes": 0,
+     "percent": 0,
+     "color": "#CC5500",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Chuck  Conboy",
+     "party": "America First",
+     "votes": 0,
+     "percent": 0,
+     "color": "#8B0000",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Dan  Osborn",
+     "party": "Independent",
+     "votes": 0,
+     "percent": 0,
+     "color": "#63c660",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    }
+   ]
+  },
+  "york": {
+   "name": "York",
+   "type": "County",
+   "fips": "31185",
+   "fill": "#404040",
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Pete  Ricketts",
+     "party": "Republican",
+     "votes": 0,
+     "percent": 0,
+     "color": "#c6606b",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Mike  Marvin",
+     "party": "Legal Marijuana Now",
+     "votes": 0,
+     "percent": 0,
+     "color": "#09ad00",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Robin  Richards",
+     "party": "Nebraska Working People",
+     "votes": 0,
+     "percent": 0,
+     "color": "#CC5500",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Chuck  Conboy",
+     "party": "America First",
+     "votes": 0,
+     "percent": 0,
+     "color": "#8B0000",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    },
+    {
+     "name": "Dan  Osborn",
+     "party": "Independent",
+     "votes": 0,
+     "percent": 0,
+     "color": "#63c660",
+     "winner": false,
+     "advanced": false,
+     "incumbent": false,
+     "major_candidate": false
+    }
+   ]
+  }
+ }
+}

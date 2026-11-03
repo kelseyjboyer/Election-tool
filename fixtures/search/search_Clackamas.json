@@ -1,0 +1,417 @@
+{
+ "count": 11,
+ "offset": 0,
+ "limit": 20,
+ "races": [
+  {
+   "id": 185620,
+   "type": "Local",
+   "country": "US",
+   "province": "OR",
+   "district": "Clackamas",
+   "municipality": null,
+   "election_name": "Oregon Clackamas Soil & Water Conservation District Director Zone 1",
+   "election_type": "Local",
+   "election_date": "2026-11-03T05:00:00.000Z",
+   "has_breakdown": true,
+   "has_map": true,
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Nicki Passarella",
+     "candidate_id": 39448290,
+     "party": "Democratic",
+     "color": "#4874a3",
+     "votes": 0,
+     "percent": 0,
+     "winner": false
+    },
+    {
+     "name": "Write-in",
+     "candidate_id": 39448291,
+     "party": "Nonpartisan",
+     "color": "#9A36FF",
+     "votes": 0,
+     "percent": 0,
+     "winner": false
+    }
+   ]
+  },
+  {
+   "id": 185628,
+   "type": "Local",
+   "country": "US",
+   "province": "OR",
+   "district": "Clackamas",
+   "municipality": null,
+   "election_name": "Oregon Clackamas County Clerk",
+   "election_type": "Local",
+   "election_date": "2026-11-03T05:00:00.000Z",
+   "has_breakdown": true,
+   "has_map": true,
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Mark Reaksecker",
+     "candidate_id": 39448314,
+     "party": "Republican",
+     "color": "#c6606b",
+     "votes": 0,
+     "percent": 0,
+     "winner": false
+    },
+    {
+     "name": "Catherine McMullen",
+     "candidate_id": 39448315,
+     "party": "Nonaffiliated",
+     "color": "#808080",
+     "votes": 0,
+     "percent": 0,
+     "winner": false
+    },
+    {
+     "name": "Write-in",
+     "candidate_id": 39448316,
+     "party": "Nonpartisan",
+     "color": "#9A36FF",
+     "votes": 0,
+     "percent": 0,
+     "winner": false
+    }
+   ]
+  },
+  {
+   "id": 185624,
+   "type": "Sheriff",
+   "country": "US",
+   "province": "OR",
+   "district": "Clackamas",
+   "municipality": null,
+   "election_name": "Oregon Clackamas County Sheriff",
+   "election_type": "Local",
+   "election_date": "2026-11-03T05:00:00.000Z",
+   "has_breakdown": true,
+   "has_map": true,
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "James Rhodes",
+     "candidate_id": 39448299,
+     "party": "Nonaffiliated",
+     "color": "#808080",
+     "votes": 0,
+     "percent": 0,
+     "winner": false
+    },
+    {
+     "name": "Brad O'Neil",
+     "candidate_id": 39448300,
+     "party": "Independent",
+     "color": "#63c660",
+     "votes": 0,
+     "percent": 0,
+     "winner": false
+    },
+    {
+     "name": "Write-in",
+     "candidate_id": 39448301,
+     "party": "Nonpartisan",
+     "color": "#9A36FF",
+     "votes": 0,
+     "percent": 0,
+     "winner": false
+    }
+   ]
+  },
+  {
+   "id": 185629,
+   "type": "Local",
+   "country": "US",
+   "province": "OR",
+   "district": "Clackamas",
+   "municipality": null,
+   "election_name": "Oregon Clackamas Soil & Water Conservation District Director Zone 4",
+   "election_type": "Local",
+   "election_date": "2026-11-03T05:00:00.000Z",
+   "has_breakdown": true,
+   "has_map": true,
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Joan Zuber",
+     "candidate_id": 39448317,
+     "party": "Nonaffiliated",
+     "color": "#808080",
+     "votes": 0,
+     "percent": 0,
+     "winner": false
+    },
+    {
+     "name": "Write-in",
+     "candidate_id": 39448318,
+     "party": "Nonpartisan",
+     "color": "#9A36FF",
+     "votes": 0,
+     "percent": 0,
+     "winner": false
+    }
+   ]
+  },
+  {
+   "id": 185634,
+   "type": "Local",
+   "country": "US",
+   "province": "OR",
+   "district": "Clackamas",
+   "municipality": null,
+   "election_name": "Oregon Clackamas County Treasurer",
+   "election_type": "Local",
+   "election_date": "2026-11-03T05:00:00.000Z",
+   "has_breakdown": true,
+   "has_map": true,
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Brian T Nava",
+     "candidate_id": 39448332,
+     "party": "Nonpartisan",
+     "color": "#9A36FF",
+     "votes": 0,
+     "percent": 0,
+     "winner": false
+    },
+    {
+     "name": "Write-in",
+     "candidate_id": 39448333,
+     "party": "Nonpartisan",
+     "color": "#DA0041",
+     "votes": 0,
+     "percent": 0,
+     "winner": false
+    }
+   ]
+  },
+  {
+   "id": 185652,
+   "type": "County Commission",
+   "country": "US",
+   "province": "OR",
+   "district": "Clackamas",
+   "municipality": null,
+   "election_name": "Oregon Clackamas County Commissioner Position 2",
+   "election_type": "Local",
+   "election_date": "2026-11-03T05:00:00.000Z",
+   "has_breakdown": true,
+   "has_map": true,
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Mark Shull",
+     "candidate_id": 39448412,
+     "party": "Republican",
+     "color": "#c6606b",
+     "votes": 0,
+     "percent": 0,
+     "winner": false
+    },
+    {
+     "name": "Paul Savas",
+     "candidate_id": 39448413,
+     "party": "Nonpartisan",
+     "color": "#9A36FF",
+     "votes": 0,
+     "percent": 0,
+     "winner": false
+    },
+    {
+     "name": "Write-in",
+     "candidate_id": 39448414,
+     "party": "Nonpartisan",
+     "color": "#DA0041",
+     "votes": 0,
+     "percent": 0,
+     "winner": false
+    }
+   ]
+  },
+  {
+   "id": 185614,
+   "type": "Local",
+   "country": "US",
+   "province": "OR",
+   "district": "Clackamas",
+   "municipality": null,
+   "election_name": "Oregon Clackamas Soil & Water Conservation District Director Zone 5",
+   "election_type": "Local",
+   "election_date": "2026-11-03T05:00:00.000Z",
+   "has_breakdown": true,
+   "has_map": true,
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Don Guttridge",
+     "candidate_id": 39448270,
+     "party": "Democratic",
+     "color": "#4874a3",
+     "votes": 0,
+     "percent": 0,
+     "winner": false
+    },
+    {
+     "name": "Write-in",
+     "candidate_id": 39448271,
+     "party": "Nonpartisan",
+     "color": "#9A36FF",
+     "votes": 0,
+     "percent": 0,
+     "winner": false
+    }
+   ]
+  },
+  {
+   "id": 185621,
+   "type": "County Commission",
+   "country": "US",
+   "province": "OR",
+   "district": "Clackamas",
+   "municipality": null,
+   "election_name": "Oregon Clackamas County Commissioner Position 4 (2 Year Unexpired Term)",
+   "election_type": "Local",
+   "election_date": "2026-11-03T05:00:00.000Z",
+   "has_breakdown": true,
+   "has_map": true,
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "R W Smith",
+     "candidate_id": 39448292,
+     "party": "Democratic",
+     "color": "#4874a3",
+     "votes": 0,
+     "percent": 0,
+     "winner": false
+    },
+    {
+     "name": "Diana Helm",
+     "candidate_id": 39448293,
+     "party": "Nonaffiliated",
+     "color": "#808080",
+     "votes": 0,
+     "percent": 0,
+     "winner": false
+    },
+    {
+     "name": "Write-in",
+     "candidate_id": 39448294,
+     "party": "Nonpartisan",
+     "color": "#9A36FF",
+     "votes": 0,
+     "percent": 0,
+     "winner": false
+    }
+   ]
+  },
+  {
+   "id": 185623,
+   "type": "Local",
+   "country": "US",
+   "province": "OR",
+   "district": "Clackamas",
+   "municipality": null,
+   "election_name": "Oregon Clackamas Soil & Water Conservation District Director Position 2 At Large",
+   "election_type": "Local",
+   "election_date": "2026-11-03T05:00:00.000Z",
+   "has_breakdown": true,
+   "has_map": true,
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Roger Fantz",
+     "candidate_id": 39448297,
+     "party": "Democratic",
+     "color": "#4874a3",
+     "votes": 0,
+     "percent": 0,
+     "winner": false
+    },
+    {
+     "name": "Write-in",
+     "candidate_id": 39448298,
+     "party": "Nonpartisan",
+     "color": "#9A36FF",
+     "votes": 0,
+     "percent": 0,
+     "winner": false
+    }
+   ]
+  },
+  {
+   "id": 185616,
+   "type": "Judicial",
+   "country": "US",
+   "province": "OR",
+   "district": "Clackamas",
+   "municipality": null,
+   "election_name": "Oregon Clackamas County Justice of the Peace",
+   "election_type": "Local",
+   "election_date": "2026-11-03T05:00:00.000Z",
+   "has_breakdown": true,
+   "has_map": true,
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Kathleen Rastetter",
+     "candidate_id": 39448274,
+     "party": "Democratic",
+     "color": "#4874a3",
+     "votes": 0,
+     "percent": 0,
+     "winner": false
+    },
+    {
+     "name": "Write-in",
+     "candidate_id": 39448275,
+     "party": "Nonpartisan",
+     "color": "#9A36FF",
+     "votes": 0,
+     "percent": 0,
+     "winner": false
+    }
+   ]
+  },
+  {
+   "id": 185604,
+   "type": "Referendum",
+   "country": "US",
+   "province": "OR",
+   "district": "Clackamas",
+   "municipality": null,
+   "election_name": "Oregon Measure 03-639 North Clackamas School District",
+   "election_type": "Local",
+   "election_date": "2026-11-03T05:00:00.000Z",
+   "has_breakdown": true,
+   "has_map": true,
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Yes",
+     "candidate_id": 39448248,
+     "party": "Nonpartisan",
+     "color": "#63c660",
+     "votes": 0,
+     "percent": 0,
+     "winner": false
+    },
+    {
+     "name": "No",
+     "candidate_id": 39448249,
+     "party": "Nonpartisan",
+     "color": "#c6606b",
+     "votes": 0,
+     "percent": 0,
+     "winner": false
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,1044 @@
+{
+ "count": 20,
+ "offset": 0,
+ "limit": 20,
+ "races": [
+  {
+   "id": 159509,
+   "type": "State Senate",
+   "country": "US",
+   "province": "CT",
+   "district": null,
+   "municipality": null,
+   "election_name": "Connecticut State Senate",
+   "election_type": "Statewide",
+   "election_date": "2026-11-03T05:00:00.000Z",
+   "seats": 36,
+   "has_breakdown": true,
+   "has_map": true,
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Democratic",
+     "candidate_id": 385398,
+     "party": "Democratic",
+     "color": "#4874a3",
+     "votes": 0,
+     "percent": 0,
+     "seats": 3,
+     "winner": false
+    },
+    {
+     "name": "Green",
+     "candidate_id": 385399,
+     "party": "Green",
+     "color": "#09ad00",
+     "votes": 0,
+     "percent": 0,
+     "seats": 0,
+     "winner": false
+    },
+    {
+     "name": "Nonpartisan",
+     "candidate_id": 385400,
+     "party": "Nonpartisan",
+     "color": "#9A36FF",
+     "votes": 0,
+     "percent": 0,
+     "seats": 0,
+     "winner": false
+    },
+    {
+     "name": "Republican",
+     "candidate_id": 385401,
+     "party": "Republican",
+     "color": "#c6606b",
+     "votes": 0,
+     "percent": 0,
+     "seats": 0,
+     "winner": false
+    },
+    {
+     "name": "Independent",
+     "candidate_id": 385402,
+     "party": "Independent",
+     "color": "#63c660",
+     "votes": 0,
+     "percent": 0,
+     "seats": 0,
+     "winner": false
+    }
+   ]
+  },
+  {
+   "id": 159536,
+   "type": "State Senate",
+   "country": "US",
+   "province": "ME",
+   "district": null,
+   "municipality": null,
+   "election_name": "Maine State Senate",
+   "election_type": "Statewide",
+   "election_date": "2026-11-03T05:00:00.000Z",
+   "seats": 35,
+   "has_breakdown": true,
+   "has_map": true,
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Republican",
+     "candidate_id": 385491,
+     "party": "Republican",
+     "color": "#c6606b",
+     "votes": 0,
+     "percent": 0,
+     "seats": 0,
+     "winner": false
+    },
+    {
+     "name": "Democratic",
+     "candidate_id": 385492,
+     "party": "Democratic",
+     "color": "#4874a3",
+     "votes": 0,
+     "percent": 0,
+     "seats": 4,
+     "winner": false
+    },
+    {
+     "name": "Independent",
+     "candidate_id": 385493,
+     "party": "Independent",
+     "color": "#63c660",
+     "votes": 0,
+     "percent": 0,
+     "seats": 0,
+     "winner": false
+    }
+   ]
+  },
+  {
+   "id": 159562,
+   "type": "State Senate",
+   "country": "US",
+   "province": "OK",
+   "district": null,
+   "municipality": null,
+   "election_name": "Oklahoma State Senate",
+   "election_type": "Statewide",
+   "election_date": "2026-11-03T05:00:00.000Z",
+   "seats": 48,
+   "has_breakdown": true,
+   "has_map": true,
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Republican",
+     "candidate_id": 385596,
+     "party": "Republican",
+     "color": "#c6606b",
+     "votes": 0,
+     "percent": 0,
+     "seats": 25,
+     "winner": false
+    },
+    {
+     "name": "Democratic",
+     "candidate_id": 385597,
+     "party": "Democratic",
+     "color": "#4874a3",
+     "votes": 0,
+     "percent": 0,
+     "seats": 8,
+     "winner": false
+    },
+    {
+     "name": "Independent",
+     "candidate_id": 385598,
+     "party": "Independent",
+     "color": "#63c660",
+     "votes": 0,
+     "percent": 0,
+     "seats": 0,
+     "winner": false
+    }
+   ]
+  },
+  {
+   "id": 159525,
+   "type": "State Senate",
+   "country": "US",
+   "province": "IN",
+   "district": null,
+   "municipality": null,
+   "election_name": "Indiana State Senate",
+   "election_type": "Statewide",
+   "election_date": "2026-11-03T05:00:00.000Z",
+   "seats": 50,
+   "has_breakdown": true,
+   "has_map": true,
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Democratic",
+     "candidate_id": 385457,
+     "party": "Democratic",
+     "color": "#4874a3",
+     "votes": 0,
+     "percent": 0,
+     "seats": 8,
+     "winner": false
+    },
+    {
+     "name": "Republican",
+     "candidate_id": 385458,
+     "party": "Republican",
+     "color": "#c6606b",
+     "votes": 0,
+     "percent": 0,
+     "seats": 19,
+     "winner": false
+    },
+    {
+     "name": "Independent",
+     "candidate_id": 385459,
+     "party": "Independent",
+     "color": "#63c660",
+     "votes": 0,
+     "percent": 0,
+     "seats": 0,
+     "winner": false
+    },
+    {
+     "name": "Libertarian",
+     "candidate_id": 385460,
+     "party": "Libertarian",
+     "color": "#d4c029",
+     "votes": 0,
+     "percent": 0,
+     "seats": 0,
+     "winner": false
+    }
+   ]
+  },
+  {
+   "id": 159566,
+   "type": "State Senate",
+   "country": "US",
+   "province": "RI",
+   "district": null,
+   "municipality": null,
+   "election_name": "Rhode Island State Senate",
+   "election_type": "Statewide",
+   "election_date": "2026-11-03T05:00:00.000Z",
+   "seats": 38,
+   "has_breakdown": true,
+   "has_map": true,
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Democratic",
+     "candidate_id": 385614,
+     "party": "Democratic",
+     "color": "#4874a3",
+     "votes": 0,
+     "percent": 0,
+     "seats": 30,
+     "winner": false
+    },
+    {
+     "name": "Republican",
+     "candidate_id": 385615,
+     "party": "Republican",
+     "color": "#c6606b",
+     "votes": 0,
+     "percent": 0,
+     "seats": 2,
+     "winner": false
+    },
+    {
+     "name": "Independent",
+     "candidate_id": 385616,
+     "party": "Independent",
+     "color": "#63c660",
+     "votes": 0,
+     "percent": 0,
+     "seats": 0,
+     "winner": false
+    }
+   ]
+  },
+  {
+   "id": 159578,
+   "type": "State Senate",
+   "country": "US",
+   "province": "WV",
+   "district": null,
+   "municipality": null,
+   "election_name": "West Virginia State Senate",
+   "election_type": "Statewide",
+   "election_date": "2026-11-03T05:00:00.000Z",
+   "seats": 34,
+   "has_breakdown": true,
+   "has_map": true,
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Republican",
+     "candidate_id": 16151669,
+     "party": "Republican",
+     "color": "#c6606b",
+     "votes": 0,
+     "percent": 0,
+     "seats": 15,
+     "winner": false
+    },
+    {
+     "name": "Democratic",
+     "candidate_id": 16151670,
+     "party": "Democratic",
+     "color": "#4874a3",
+     "votes": 0,
+     "percent": 0,
+     "seats": 1,
+     "winner": false
+    },
+    {
+     "name": "Constitution",
+     "candidate_id": 16151671,
+     "party": "Constitution",
+     "color": "#808080",
+     "votes": 0,
+     "percent": 0,
+     "seats": 0,
+     "winner": false
+    },
+    {
+     "name": "Independent",
+     "candidate_id": 16151672,
+     "party": "Independent",
+     "color": "#63c660",
+     "votes": 0,
+     "percent": 0,
+     "seats": 0,
+     "winner": false
+    },
+    {
+     "name": "Libertarian",
+     "candidate_id": 16151673,
+     "party": "Libertarian",
+     "color": "#d4c029",
+     "votes": 0,
+     "percent": 0,
+     "seats": 0,
+     "winner": false
+    }
+   ]
+  },
+  {
+   "id": 159580,
+   "type": "State Senate",
+   "country": "US",
+   "province": "SD",
+   "district": null,
+   "municipality": null,
+   "election_name": "South Dakota State Senate",
+   "election_type": "Statewide",
+   "election_date": "2026-11-03T05:00:00.000Z",
+   "seats": 35,
+   "has_breakdown": true,
+   "has_map": true,
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Republican",
+     "candidate_id": 16259838,
+     "party": "Republican",
+     "color": "#c6606b",
+     "votes": 0,
+     "percent": 0,
+     "seats": 21,
+     "winner": false
+    },
+    {
+     "name": "Independent",
+     "candidate_id": 16259839,
+     "party": "Independent",
+     "color": "#63c660",
+     "votes": 0,
+     "percent": 0,
+     "seats": 0,
+     "winner": false
+    },
+    {
+     "name": "Democratic",
+     "candidate_id": 16259840,
+     "party": "Democratic",
+     "color": "#4874a3",
+     "votes": 0,
+     "percent": 0,
+     "seats": 0,
+     "winner": false
+    }
+   ]
+  },
+  {
+   "id": 159558,
+   "type": "State Senate",
+   "country": "US",
+   "province": "NY",
+   "district": null,
+   "municipality": null,
+   "election_name": "New York State Senate",
+   "election_type": "Statewide",
+   "election_date": "2026-11-03T05:00:00.000Z",
+   "seats": 63,
+   "has_breakdown": true,
+   "has_map": true,
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Democratic",
+     "candidate_id": 385580,
+     "party": "Democratic",
+     "color": "#4874a3",
+     "votes": 0,
+     "percent": 0,
+     "seats": 14,
+     "winner": false
+    },
+    {
+     "name": "Republican",
+     "candidate_id": 385581,
+     "party": "Republican",
+     "color": "#c6606b",
+     "votes": 0,
+     "percent": 0,
+     "seats": 1,
+     "winner": false
+    },
+    {
+     "name": "Conservative",
+     "candidate_id": 385582,
+     "party": "Conservative",
+     "color": "#f7922d",
+     "votes": 0,
+     "percent": 0,
+     "seats": 0,
+     "winner": false
+    }
+   ]
+  },
+  {
+   "id": 159549,
+   "type": "State Senate",
+   "country": "US",
+   "province": "ND",
+   "district": null,
+   "municipality": null,
+   "election_name": "North Dakota State Senate",
+   "election_type": "Statewide",
+   "election_date": "2026-11-03T05:00:00.000Z",
+   "seats": 47,
+   "has_breakdown": true,
+   "has_map": true,
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Republican",
+     "candidate_id": 385542,
+     "party": "Republican",
+     "color": "#c6606b",
+     "votes": 0,
+     "percent": 0,
+     "seats": 28,
+     "winner": false
+    },
+    {
+     "name": "Democratic",
+     "candidate_id": 385543,
+     "party": "Democratic",
+     "color": "#4874a3",
+     "votes": 0,
+     "percent": 0,
+     "seats": 4,
+     "winner": false
+    }
+   ]
+  },
+  {
+   "id": 159503,
+   "type": "State Senate",
+   "country": "US",
+   "province": "AR",
+   "district": null,
+   "municipality": null,
+   "election_name": "Arkansas State Senate",
+   "election_type": "Statewide",
+   "election_date": "2026-11-03T05:00:00.000Z",
+   "seats": 35,
+   "has_breakdown": true,
+   "has_map": true,
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Democratic",
+     "candidate_id": 385374,
+     "party": "Democratic",
+     "color": "#4874a3",
+     "votes": 0,
+     "percent": 0,
+     "seats": 4,
+     "winner": false
+    },
+    {
+     "name": "Republican",
+     "candidate_id": 385375,
+     "party": "Republican",
+     "color": "#c6606b",
+     "votes": 0,
+     "percent": 0,
+     "seats": 24,
+     "winner": false
+    },
+    {
+     "name": "Libertarian",
+     "candidate_id": 385376,
+     "party": "Libertarian",
+     "color": "#d4c029",
+     "votes": 0,
+     "percent": 0,
+     "seats": 0,
+     "winner": false
+    }
+   ]
+  },
+  {
+   "id": 159564,
+   "type": "State Senate",
+   "country": "US",
+   "province": "PA",
+   "district": null,
+   "municipality": null,
+   "election_name": "Pennsylvania State Senate",
+   "election_type": "Statewide",
+   "election_date": "2026-11-03T05:00:00.000Z",
+   "seats": 50,
+   "has_breakdown": true,
+   "has_map": true,
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Democratic",
+     "candidate_id": 385606,
+     "party": "Democratic",
+     "color": "#4874a3",
+     "votes": 0,
+     "percent": 0,
+     "seats": 13,
+     "winner": false
+    },
+    {
+     "name": "Republican",
+     "candidate_id": 385607,
+     "party": "Republican",
+     "color": "#c6606b",
+     "votes": 0,
+     "percent": 0,
+     "seats": 15,
+     "winner": false
+    },
+    {
+     "name": "Green",
+     "candidate_id": 385608,
+     "party": "Green",
+     "color": "#09ad00",
+     "votes": 0,
+     "percent": 0,
+     "seats": 0,
+     "winner": false
+    },
+    {
+     "name": "Independent Party",
+     "candidate_id": 385609,
+     "party": "Independent Party",
+     "color": "#808080",
+     "votes": 0,
+     "percent": 0,
+     "seats": 0,
+     "winner": false
+    }
+   ]
+  },
+  {
+   "id": 159582,
+   "type": "State Senate",
+   "country": "US",
+   "province": "TN",
+   "district": null,
+   "municipality": null,
+   "election_name": "Tennessee State Senate",
+   "election_type": "Statewide",
+   "election_date": "2026-11-03T05:00:00.000Z",
+   "seats": 33,
+   "has_breakdown": true,
+   "has_map": true,
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Republican",
+     "candidate_id": 21505731,
+     "party": "Republican",
+     "color": "#c6606b",
+     "votes": 0,
+     "percent": 0,
+     "seats": 19,
+     "winner": false
+    },
+    {
+     "name": "Democratic",
+     "candidate_id": 21505732,
+     "party": "Democratic",
+     "color": "#4874a3",
+     "votes": 0,
+     "percent": 0,
+     "seats": 6,
+     "winner": false
+    },
+    {
+     "name": "Independent",
+     "candidate_id": 21505733,
+     "party": "Independent",
+     "color": "#63c660",
+     "votes": 0,
+     "percent": 0,
+     "seats": 0,
+     "winner": false
+    }
+   ]
+  },
+  {
+   "id": 159554,
+   "type": "State Senate",
+   "country": "US",
+   "province": "OR",
+   "district": null,
+   "municipality": null,
+   "election_name": "Oregon State Senate",
+   "election_type": "Statewide",
+   "election_date": "2026-11-03T05:00:00.000Z",
+   "seats": 30,
+   "has_breakdown": true,
+   "has_map": true,
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Republican",
+     "candidate_id": 16151636,
+     "party": "Republican",
+     "color": "#c6606b",
+     "votes": 0,
+     "percent": 0,
+     "seats": 8,
+     "winner": false
+    },
+    {
+     "name": "Democratic",
+     "candidate_id": 16151637,
+     "party": "Democratic",
+     "color": "#4874a3",
+     "votes": 0,
+     "percent": 0,
+     "seats": 9,
+     "winner": false
+    },
+    {
+     "name": "Independent",
+     "candidate_id": 16151638,
+     "party": "Independent",
+     "color": "#63c660",
+     "votes": 0,
+     "percent": 0,
+     "seats": 0,
+     "winner": false
+    },
+    {
+     "name": "Libertarian",
+     "candidate_id": 16151639,
+     "party": "Libertarian",
+     "color": "#d4c029",
+     "votes": 0,
+     "percent": 0,
+     "seats": 0,
+     "winner": false
+    }
+   ]
+  },
+  {
+   "id": 159552,
+   "type": "State Senate",
+   "country": "US",
+   "province": "NH",
+   "district": null,
+   "municipality": null,
+   "election_name": "New Hampshire State Senate",
+   "election_type": "Statewide",
+   "election_date": "2026-11-03T05:00:00.000Z",
+   "seats": 24,
+   "has_breakdown": true,
+   "has_map": true,
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Democratic",
+     "candidate_id": 385554,
+     "party": "Democratic",
+     "color": "#4874a3",
+     "votes": 0,
+     "percent": 0,
+     "seats": 1,
+     "winner": false
+    },
+    {
+     "name": "Republican",
+     "candidate_id": 385555,
+     "party": "Republican",
+     "color": "#c6606b",
+     "votes": 0,
+     "percent": 0,
+     "seats": 0,
+     "winner": false
+    }
+   ]
+  },
+  {
+   "id": 159586,
+   "type": "State Senate",
+   "country": "US",
+   "province": "WY",
+   "district": null,
+   "municipality": null,
+   "election_name": "Wyoming State Senate",
+   "election_type": "Statewide",
+   "election_date": "2026-11-03T05:00:00.000Z",
+   "seats": 31,
+   "has_breakdown": true,
+   "has_map": true,
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Republican",
+     "candidate_id": 21506413,
+     "party": "Republican",
+     "color": "#c6606b",
+     "votes": 0,
+     "percent": 0,
+     "seats": 25,
+     "winner": false
+    },
+    {
+     "name": "Democratic",
+     "candidate_id": 21506414,
+     "party": "Democratic",
+     "color": "#4874a3",
+     "votes": 0,
+     "percent": 0,
+     "seats": 2,
+     "winner": false
+    },
+    {
+     "name": "Constitution",
+     "candidate_id": 21506415,
+     "party": "Constitution",
+     "color": "#808080",
+     "votes": 0,
+     "percent": 0,
+     "seats": 0,
+     "winner": false
+    }
+   ]
+  },
+  {
+   "id": 159574,
+   "type": "State Senate",
+   "country": "US",
+   "province": "UT",
+   "district": null,
+   "municipality": null,
+   "election_name": "Utah State Senate",
+   "election_type": "Statewide",
+   "election_date": "2026-11-03T05:00:00.000Z",
+   "seats": 29,
+   "has_breakdown": true,
+   "has_map": true,
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Democratic",
+     "candidate_id": 16151646,
+     "party": "Democratic",
+     "color": "#4874a3",
+     "votes": 0,
+     "percent": 0,
+     "seats": 3,
+     "winner": false
+    },
+    {
+     "name": "Republican",
+     "candidate_id": 16151647,
+     "party": "Republican",
+     "color": "#c6606b",
+     "votes": 0,
+     "percent": 0,
+     "seats": 12,
+     "winner": false
+    },
+    {
+     "name": "Forward",
+     "candidate_id": 16151648,
+     "party": "Forward",
+     "color": "#808080",
+     "votes": 0,
+     "percent": 0,
+     "seats": 0,
+     "winner": false
+    },
+    {
+     "name": "Constitution",
+     "candidate_id": 16151649,
+     "party": "Constitution",
+     "color": "#808080",
+     "votes": 0,
+     "percent": 0,
+     "seats": 0,
+     "winner": false
+    }
+   ]
+  },
+  {
+   "id": 159540,
+   "type": "State Senate",
+   "country": "US",
+   "province": "MN",
+   "district": null,
+   "municipality": null,
+   "election_name": "Minnesota State Senate",
+   "election_type": "Statewide",
+   "election_date": "2026-11-03T05:00:00.000Z",
+   "seats": 67,
+   "has_breakdown": true,
+   "has_map": true,
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Democratic",
+     "candidate_id": 385512,
+     "party": "Democratic",
+     "color": "#4874a3",
+     "votes": 0,
+     "percent": 0,
+     "seats": 4,
+     "winner": false
+    },
+    {
+     "name": "Republican",
+     "candidate_id": 385513,
+     "party": "Republican",
+     "color": "#c6606b",
+     "votes": 0,
+     "percent": 0,
+     "seats": 0,
+     "winner": false
+    },
+    {
+     "name": "Nonpartisan",
+     "candidate_id": 385514,
+     "party": "Nonpartisan",
+     "color": "#9A36FF",
+     "votes": 0,
+     "percent": 0,
+     "seats": 0,
+     "winner": false
+    },
+    {
+     "name": "Green",
+     "candidate_id": 385515,
+     "party": "Green",
+     "color": "#09ad00",
+     "votes": 0,
+     "percent": 0,
+     "seats": 0,
+     "winner": false
+    },
+    {
+     "name": "United New Independence",
+     "candidate_id": 385516,
+     "party": "United New Independence",
+     "color": "#808080",
+     "votes": 0,
+     "percent": 0,
+     "seats": 0,
+     "winner": false
+    },
+    {
+     "name": "Forward Independence",
+     "candidate_id": 385517,
+     "party": "Forward Independence",
+     "color": "#800080",
+     "votes": 0,
+     "percent": 0,
+     "seats": 0,
+     "winner": false
+    },
+    {
+     "name": "Independent",
+     "candidate_id": 385518,
+     "party": "Independent",
+     "color": "#63c660",
+     "votes": 0,
+     "percent": 0,
+     "seats": 0,
+     "winner": false
+    }
+   ]
+  },
+  {
+   "id": 159521,
+   "type": "State Senate",
+   "country": "US",
+   "province": "ID",
+   "district": null,
+   "municipality": null,
+   "election_name": "Idaho State Senate",
+   "election_type": "Statewide",
+   "election_date": "2026-11-03T05:00:00.000Z",
+   "seats": 35,
+   "has_breakdown": true,
+   "has_map": true,
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Republican",
+     "candidate_id": 385443,
+     "party": "Republican",
+     "color": "#c6606b",
+     "votes": 0,
+     "percent": 0,
+     "seats": 1,
+     "winner": false
+    },
+    {
+     "name": "Independent",
+     "candidate_id": 385444,
+     "party": "Independent",
+     "color": "#63c660",
+     "votes": 0,
+     "percent": 0,
+     "seats": 0,
+     "winner": false
+    },
+    {
+     "name": "Democratic",
+     "candidate_id": 385445,
+     "party": "Democratic",
+     "color": "#4874a3",
+     "votes": 0,
+     "percent": 0,
+     "seats": 1,
+     "winner": false
+    },
+    {
+     "name": "Constitution",
+     "candidate_id": 385446,
+     "party": "Constitution",
+     "color": "#808080",
+     "votes": 0,
+     "percent": 0,
+     "seats": 0,
+     "winner": false
+    }
+   ]
+  },
+  {
+   "id": 87102,
+   "type": "Referendum",
+   "country": "US",
+   "province": "HI",
+   "district": null,
+   "municipality": null,
+   "election_name": "Hawaii Ballot Measure 1 - Increase Time for Senate to Act on Judicial Appointments Amendment",
+   "election_type": "Statewide",
+   "election_date": "2026-11-03T05:00:00.000Z",
+   "has_breakdown": true,
+   "has_map": true,
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Yes",
+     "candidate_id": 220232,
+     "party": "Nonpartisan",
+     "color": "#63c660",
+     "votes": 0,
+     "percent": 0,
+     "winner": false
+    },
+    {
+     "name": "No",
+     "candidate_id": 220233,
+     "party": "Nonpartisan",
+     "color": "#c6606b",
+     "votes": 0,
+     "percent": 0,
+     "winner": false
+    }
+   ]
+  },
+  {
+   "id": 159545,
+   "type": "State Senate",
+   "country": "US",
+   "province": "MT",
+   "district": null,
+   "municipality": null,
+   "election_name": "Montana State Senate",
+   "election_type": "Statewide",
+   "election_date": "2026-11-03T05:00:00.000Z",
+   "seats": 50,
+   "has_breakdown": true,
+   "has_map": true,
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Republican",
+     "candidate_id": 385528,
+     "party": "Republican",
+     "color": "#c6606b",
+     "votes": 0,
+     "percent": 0,
+     "seats": 17,
+     "winner": false
+    },
+    {
+     "name": "Democratic",
+     "candidate_id": 385529,
+     "party": "Democratic",
+     "color": "#4874a3",
+     "votes": 0,
+     "percent": 0,
+     "seats": 11,
+     "winner": false
+    },
+    {
+     "name": "Libertarian",
+     "candidate_id": 16339773,
+     "party": "Libertarian",
+     "color": "#d4c029",
+     "votes": 0,
+     "percent": 0,
+     "seats": 0,
+     "winner": false
+    }
+   ]
+  }
+ ]
+}

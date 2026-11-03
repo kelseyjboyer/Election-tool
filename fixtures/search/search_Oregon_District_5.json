@@ -1,0 +1,705 @@
+{
+ "count": 20,
+ "offset": 0,
+ "limit": 20,
+ "races": [
+  {
+   "id": 159114,
+   "type": "Judicial",
+   "country": "US",
+   "province": "OR",
+   "district": null,
+   "municipality": null,
+   "election_name": "Oregon Judge of the Circuit Court 5th District Position 5",
+   "election_type": "Local",
+   "election_date": "2026-11-03T05:00:00.000Z",
+   "has_breakdown": true,
+   "has_map": true,
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Kara A Brooks",
+     "candidate_id": 2670930,
+     "party": "Nonpartisan",
+     "color": "#9A36FF",
+     "votes": 0,
+     "percent": 0,
+     "winner": false
+    },
+    {
+     "name": "Write-in",
+     "candidate_id": 39442940,
+     "party": "Nonpartisan",
+     "color": "#DA0041",
+     "votes": 0,
+     "percent": 0,
+     "winner": false
+    }
+   ]
+  },
+  {
+   "id": 185300,
+   "type": "Referendum",
+   "country": "US",
+   "province": "OR",
+   "district": null,
+   "municipality": null,
+   "election_name": "Oregon Measure 02-160 Corvallis School District 509J",
+   "election_type": "Local",
+   "election_date": "2026-11-03T05:00:00.000Z",
+   "has_breakdown": true,
+   "has_map": true,
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Yes",
+     "candidate_id": 39445594,
+     "party": "Nonpartisan",
+     "color": "#63c660",
+     "votes": 0,
+     "percent": 0,
+     "winner": false
+    },
+    {
+     "name": "No",
+     "candidate_id": 39445595,
+     "party": "Nonpartisan",
+     "color": "#c6606b",
+     "votes": 0,
+     "percent": 0,
+     "winner": false
+    }
+   ]
+  },
+  {
+   "id": 185329,
+   "type": "Referendum",
+   "country": "US",
+   "province": "OR",
+   "district": null,
+   "municipality": null,
+   "election_name": "Oregon Measure 24-530 Gates Rural Fire Protection District",
+   "election_type": "Local",
+   "election_date": "2026-11-03T05:00:00.000Z",
+   "has_breakdown": true,
+   "has_map": true,
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Yes",
+     "candidate_id": 39445671,
+     "party": "Nonpartisan",
+     "color": "#63c660",
+     "votes": 0,
+     "percent": 0,
+     "winner": false
+    },
+    {
+     "name": "No",
+     "candidate_id": 39445672,
+     "party": "Nonpartisan",
+     "color": "#c6606b",
+     "votes": 0,
+     "percent": 0,
+     "winner": false
+    }
+   ]
+  },
+  {
+   "id": 185517,
+   "type": "Referendum",
+   "country": "US",
+   "province": "OR",
+   "district": null,
+   "municipality": null,
+   "election_name": "Oregon Measure 24-529 Mt Angel-Monitor Fire Protection District",
+   "election_type": "Local",
+   "election_date": "2026-11-03T05:00:00.000Z",
+   "has_breakdown": true,
+   "has_map": true,
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Yes",
+     "candidate_id": 39448004,
+     "party": "Nonpartisan",
+     "color": "#63c660",
+     "votes": 0,
+     "percent": 0,
+     "winner": false
+    },
+    {
+     "name": "No",
+     "candidate_id": 39448005,
+     "party": "Nonpartisan",
+     "color": "#c6606b",
+     "votes": 0,
+     "percent": 0,
+     "winner": false
+    }
+   ]
+  },
+  {
+   "id": 185570,
+   "type": "Referendum",
+   "country": "US",
+   "province": "OR",
+   "district": null,
+   "municipality": null,
+   "election_name": "Oregon Measure 34-355 Hillsboro School District 1J",
+   "election_type": "Local",
+   "election_date": "2026-11-03T05:00:00.000Z",
+   "has_breakdown": true,
+   "has_map": true,
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Yes",
+     "candidate_id": 39448158,
+     "party": "Nonpartisan",
+     "color": "#63c660",
+     "votes": 0,
+     "percent": 0,
+     "winner": false
+    },
+    {
+     "name": "No",
+     "candidate_id": 39448159,
+     "party": "Nonpartisan",
+     "color": "#c6606b",
+     "votes": 0,
+     "percent": 0,
+     "winner": false
+    }
+   ]
+  },
+  {
+   "id": 185725,
+   "type": "Local",
+   "country": "US",
+   "province": "OR",
+   "district": null,
+   "municipality": null,
+   "election_name": "Oregon West Multnomah Soil and Water Conservation District Director Zone 5",
+   "election_type": "Local",
+   "election_date": "2026-11-03T05:00:00.000Z",
+   "has_breakdown": true,
+   "has_map": true,
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Joy VanDervort Fields",
+     "candidate_id": 39448604,
+     "party": "Republican",
+     "color": "#c6606b",
+     "votes": 0,
+     "percent": 0,
+     "winner": false
+    },
+    {
+     "name": "Shari Freshman",
+     "candidate_id": 39448605,
+     "party": "Democratic",
+     "color": "#4874a3",
+     "votes": 0,
+     "percent": 0,
+     "winner": false
+    },
+    {
+     "name": "Terri Preeg Riggsby",
+     "candidate_id": 39448606,
+     "party": "Nonpartisan",
+     "color": "#9A36FF",
+     "votes": 0,
+     "percent": 0,
+     "winner": false
+    },
+    {
+     "name": "Write-in",
+     "candidate_id": 39448607,
+     "party": "Nonpartisan",
+     "color": "#DA0041",
+     "votes": 0,
+     "percent": 0,
+     "winner": false
+    }
+   ]
+  },
+  {
+   "id": 185516,
+   "type": "Referendum",
+   "country": "US",
+   "province": "OR",
+   "district": null,
+   "municipality": null,
+   "election_name": "Oregon Measure 24-528 Silver Falls School District 4J",
+   "election_type": "Local",
+   "election_date": "2026-11-03T05:00:00.000Z",
+   "has_breakdown": true,
+   "has_map": true,
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Yes",
+     "candidate_id": 39448002,
+     "party": "Nonpartisan",
+     "color": "#63c660",
+     "votes": 0,
+     "percent": 0,
+     "winner": false
+    },
+    {
+     "name": "No",
+     "candidate_id": 39448003,
+     "party": "Nonpartisan",
+     "color": "#c6606b",
+     "votes": 0,
+     "percent": 0,
+     "winner": false
+    }
+   ]
+  },
+  {
+   "id": 185330,
+   "type": "Referendum",
+   "country": "US",
+   "province": "OR",
+   "district": null,
+   "municipality": null,
+   "election_name": "Oregon Measure 24-531 Stayton Fire District",
+   "election_type": "Local",
+   "election_date": "2026-11-03T05:00:00.000Z",
+   "has_breakdown": true,
+   "has_map": true,
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Yes",
+     "candidate_id": 39445673,
+     "party": "Nonpartisan",
+     "color": "#63c660",
+     "votes": 0,
+     "percent": 0,
+     "winner": false
+    },
+    {
+     "name": "No",
+     "candidate_id": 39445674,
+     "party": "Nonpartisan",
+     "color": "#c6606b",
+     "votes": 0,
+     "percent": 0,
+     "winner": false
+    }
+   ]
+  },
+  {
+   "id": 185479,
+   "type": "Local",
+   "country": "US",
+   "province": "OR",
+   "district": "Polk",
+   "municipality": null,
+   "election_name": "Oregon Polk Soil and Water Conservation District Director Zone 5",
+   "election_type": "Local",
+   "election_date": "2026-11-03T05:00:00.000Z",
+   "has_breakdown": true,
+   "has_map": true,
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "No Candidate Filed",
+     "candidate_id": 39447453,
+     "party": "Nonpartisan",
+     "color": "#9A36FF",
+     "votes": 0,
+     "percent": 0,
+     "winner": false
+    },
+    {
+     "name": "Write-in",
+     "candidate_id": 39447454,
+     "party": "Nonpartisan",
+     "color": "#DA0041",
+     "votes": 0,
+     "percent": 0,
+     "winner": false
+    }
+   ]
+  },
+  {
+   "id": 185297,
+   "type": "Referendum",
+   "country": "US",
+   "province": "OR",
+   "district": "Benton",
+   "municipality": null,
+   "election_name": "Oregon Measure 02-157 North Albany Rural Fire Protection District",
+   "election_type": "Local",
+   "election_date": "2026-11-03T05:00:00.000Z",
+   "has_breakdown": true,
+   "has_map": true,
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Yes",
+     "candidate_id": 39445588,
+     "party": "Nonpartisan",
+     "color": "#63c660",
+     "votes": 0,
+     "percent": 0,
+     "winner": false
+    },
+    {
+     "name": "No",
+     "candidate_id": 39445589,
+     "party": "Nonpartisan",
+     "color": "#c6606b",
+     "votes": 0,
+     "percent": 0,
+     "winner": false
+    }
+   ]
+  },
+  {
+   "id": 185614,
+   "type": "Local",
+   "country": "US",
+   "province": "OR",
+   "district": "Clackamas",
+   "municipality": null,
+   "election_name": "Oregon Clackamas Soil & Water Conservation District Director Zone 5",
+   "election_type": "Local",
+   "election_date": "2026-11-03T05:00:00.000Z",
+   "has_breakdown": true,
+   "has_map": true,
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Don Guttridge",
+     "candidate_id": 39448270,
+     "party": "Democratic",
+     "color": "#4874a3",
+     "votes": 0,
+     "percent": 0,
+     "winner": false
+    },
+    {
+     "name": "Write-in",
+     "candidate_id": 39448271,
+     "party": "Nonpartisan",
+     "color": "#9A36FF",
+     "votes": 0,
+     "percent": 0,
+     "winner": false
+    }
+   ]
+  },
+  {
+   "id": 185994,
+   "type": "Local",
+   "country": "US",
+   "province": "OR",
+   "district": "Clatsop",
+   "municipality": null,
+   "election_name": "Oregon Clatsop Soil and Water Conservation District Director Zone 5",
+   "election_type": "Local",
+   "election_date": "2026-11-03T05:00:00.000Z",
+   "has_breakdown": true,
+   "has_map": true,
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Tim Meier",
+     "candidate_id": 39451143,
+     "party": "Republican",
+     "color": "#c6606b",
+     "votes": 0,
+     "percent": 0,
+     "winner": false
+    },
+    {
+     "name": "Write-in",
+     "candidate_id": 39451144,
+     "party": "Nonpartisan",
+     "color": "#9A36FF",
+     "votes": 0,
+     "percent": 0,
+     "winner": false
+    }
+   ]
+  },
+  {
+   "id": 185077,
+   "type": "Local",
+   "country": "US",
+   "province": "OR",
+   "district": "Coos",
+   "municipality": null,
+   "election_name": "Oregon Coos Soil and Water Conservation District Director Zone 5",
+   "election_type": "Local",
+   "election_date": "2026-11-03T05:00:00.000Z",
+   "has_breakdown": true,
+   "has_map": true,
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Cara Pascalar",
+     "candidate_id": 39443162,
+     "party": "Nonpartisan",
+     "color": "#9A36FF",
+     "votes": 0,
+     "percent": 0,
+     "winner": false
+    },
+    {
+     "name": "Write-in",
+     "candidate_id": 39443163,
+     "party": "Nonpartisan",
+     "color": "#DA0041",
+     "votes": 0,
+     "percent": 0,
+     "winner": false
+    }
+   ]
+  },
+  {
+   "id": 185514,
+   "type": "Referendum",
+   "country": "US",
+   "province": "OR",
+   "district": "Marion",
+   "municipality": null,
+   "election_name": "Oregon Measure 24-526 Mt Angel Fire District",
+   "election_type": "Local",
+   "election_date": "2026-11-03T05:00:00.000Z",
+   "has_breakdown": true,
+   "has_map": true,
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Yes",
+     "candidate_id": 39447998,
+     "party": "Nonpartisan",
+     "color": "#63c660",
+     "votes": 0,
+     "percent": 0,
+     "winner": false
+    },
+    {
+     "name": "No",
+     "candidate_id": 39447999,
+     "party": "Nonpartisan",
+     "color": "#c6606b",
+     "votes": 0,
+     "percent": 0,
+     "winner": false
+    }
+   ]
+  },
+  {
+   "id": 185321,
+   "type": "Local",
+   "country": "US",
+   "province": "OR",
+   "district": "Benton",
+   "municipality": null,
+   "election_name": "Oregon Benton Soil and Water Conservation District Director Zone 5",
+   "election_type": "Local",
+   "election_date": "2026-11-03T05:00:00.000Z",
+   "has_breakdown": true,
+   "has_map": true,
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "No Candidate Filed",
+     "candidate_id": 39445650,
+     "party": "Nonpartisan",
+     "color": "#9A36FF",
+     "votes": 0,
+     "percent": 0,
+     "winner": false
+    },
+    {
+     "name": "Write-in",
+     "candidate_id": 39445651,
+     "party": "Nonpartisan",
+     "color": "#DA0041",
+     "votes": 0,
+     "percent": 0,
+     "winner": false
+    }
+   ]
+  },
+  {
+   "id": 185448,
+   "type": "Local",
+   "country": "US",
+   "province": "OR",
+   "district": "Wheeler",
+   "municipality": null,
+   "election_name": "Oregon Wheeler County Soil & Water Conservation District Director Zone 5",
+   "election_type": "Local",
+   "election_date": "2026-11-03T05:00:00.000Z",
+   "has_breakdown": true,
+   "has_map": true,
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Brent Johnson",
+     "candidate_id": 39446501,
+     "party": "Nonaffiliated",
+     "color": "#808080",
+     "votes": 0,
+     "percent": 0,
+     "winner": false
+    },
+    {
+     "name": "Write-in",
+     "candidate_id": 39446502,
+     "party": "Nonpartisan",
+     "color": "#9A36FF",
+     "votes": 0,
+     "percent": 0,
+     "winner": false
+    }
+   ]
+  },
+  {
+   "id": 185589,
+   "type": "Local",
+   "country": "US",
+   "province": "OR",
+   "district": "Yamhill",
+   "municipality": null,
+   "election_name": "Oregon Yamhill County Soil and Water Conservation District Director Zone 5 (2 Year Unexpired Term)",
+   "election_type": "Local",
+   "election_date": "2026-11-03T05:00:00.000Z",
+   "has_breakdown": true,
+   "has_map": true,
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Ken Nygren",
+     "candidate_id": 39448210,
+     "party": "Nonpartisan",
+     "color": "#9A36FF",
+     "votes": 0,
+     "percent": 0,
+     "winner": false
+    },
+    {
+     "name": "Write-in",
+     "candidate_id": 39448211,
+     "party": "Nonpartisan",
+     "color": "#DA0041",
+     "votes": 0,
+     "percent": 0,
+     "winner": false
+    }
+   ]
+  },
+  {
+   "id": 185298,
+   "type": "Referendum",
+   "country": "US",
+   "province": "OR",
+   "district": "Benton",
+   "municipality": null,
+   "election_name": "Oregon Measure 02-158 Adair Rural Fire Protection District",
+   "election_type": "Local",
+   "election_date": "2026-11-03T05:00:00.000Z",
+   "has_breakdown": true,
+   "has_map": true,
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Yes",
+     "candidate_id": 39445590,
+     "party": "Nonpartisan",
+     "color": "#63c660",
+     "votes": 0,
+     "percent": 0,
+     "winner": false
+    },
+    {
+     "name": "No",
+     "candidate_id": 39445591,
+     "party": "Nonpartisan",
+     "color": "#c6606b",
+     "votes": 0,
+     "percent": 0,
+     "winner": false
+    }
+   ]
+  },
+  {
+   "id": 185035,
+   "type": "Referendum",
+   "country": "US",
+   "province": "OR",
+   "district": "Jackson",
+   "municipality": null,
+   "election_name": "Oregon Measure 15-244 Jackson County Vector Control District",
+   "election_type": "Local",
+   "election_date": "2026-11-03T05:00:00.000Z",
+   "has_breakdown": true,
+   "has_map": true,
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Yes",
+     "candidate_id": 39443038,
+     "party": "Nonpartisan",
+     "color": "#63c660",
+     "votes": 0,
+     "percent": 0,
+     "winner": false
+    },
+    {
+     "name": "No",
+     "candidate_id": 39443039,
+     "party": "Nonpartisan",
+     "color": "#c6606b",
+     "votes": 0,
+     "percent": 0,
+     "winner": false
+    }
+   ]
+  },
+  {
+   "id": 185934,
+   "type": "Referendum",
+   "country": "US",
+   "province": "OR",
+   "district": "Columbia",
+   "municipality": null,
+   "election_name": "Oregon Measure 05-315 Clatskanie Park and Recreation District",
+   "election_type": "Local",
+   "election_date": "2026-11-03T05:00:00.000Z",
+   "has_breakdown": true,
+   "has_map": true,
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Yes",
+     "candidate_id": 39450987,
+     "party": "Nonpartisan",
+     "color": "#63c660",
+     "votes": 0,
+     "percent": 0,
+     "winner": false
+    },
+    {
+     "name": "No",
+     "candidate_id": 39450988,
+     "party": "Nonpartisan",
+     "color": "#c6606b",
+     "votes": 0,
+     "percent": 0,
+     "winner": false
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,145 @@
+{
+ "count": 3,
+ "offset": 0,
+ "limit": 20,
+ "races": [
+  {
+   "id": 185622,
+   "type": "City Council",
+   "country": "US",
+   "province": "OR",
+   "district": null,
+   "municipality": null,
+   "election_name": "Oregon City of Milwaukie Councilor Position 4",
+   "election_type": "Local",
+   "election_date": "2026-11-03T05:00:00.000Z",
+   "has_breakdown": true,
+   "has_map": true,
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Rebecca Stavenjord",
+     "candidate_id": 39448295,
+     "party": "Democratic",
+     "color": "#4874a3",
+     "votes": 0,
+     "percent": 0,
+     "winner": false
+    },
+    {
+     "name": "Write-in",
+     "candidate_id": 39448296,
+     "party": "Nonpartisan",
+     "color": "#9A36FF",
+     "votes": 0,
+     "percent": 0,
+     "winner": false
+    }
+   ]
+  },
+  {
+   "id": 185618,
+   "type": "Mayor",
+   "country": "US",
+   "province": "OR",
+   "district": null,
+   "municipality": null,
+   "election_name": "Oregon City of Milwaukie Mayor",
+   "election_type": "Local",
+   "election_date": "2026-11-03T05:00:00.000Z",
+   "has_breakdown": true,
+   "has_map": true,
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Lisa Batey",
+     "candidate_id": 39448283,
+     "party": "Democratic",
+     "color": "#4874a3",
+     "votes": 0,
+     "percent": 0,
+     "winner": false
+    },
+    {
+     "name": "Will Anderson",
+     "candidate_id": 39448284,
+     "party": "Democratic",
+     "color": "#AA00BB",
+     "votes": 0,
+     "percent": 0,
+     "winner": false
+    },
+    {
+     "name": "Leslie Wright",
+     "candidate_id": 39448285,
+     "party": "Libertarian",
+     "color": "#d4c029",
+     "votes": 0,
+     "percent": 0,
+     "winner": false
+    },
+    {
+     "name": "Write-in",
+     "candidate_id": 39448286,
+     "party": "Nonpartisan",
+     "color": "#9A36FF",
+     "votes": 0,
+     "percent": 0,
+     "winner": false
+    }
+   ]
+  },
+  {
+   "id": 185610,
+   "type": "City Council",
+   "country": "US",
+   "province": "OR",
+   "district": null,
+   "municipality": null,
+   "election_name": "Oregon City of Milwaukie Councilor Position 2",
+   "election_type": "Local",
+   "election_date": "2026-11-03T05:00:00.000Z",
+   "has_breakdown": true,
+   "has_map": true,
+   "percent_reporting": 0,
+   "candidates": [
+    {
+     "name": "Allie Ball",
+     "candidate_id": 39448260,
+     "party": "Democratic",
+     "color": "#4874a3",
+     "votes": 0,
+     "percent": 0,
+     "winner": false
+    },
+    {
+     "name": "Jennifer Murphy",
+     "candidate_id": 39448261,
+     "party": "Democratic",
+     "color": "#AA00BB",
+     "votes": 0,
+     "percent": 0,
+     "winner": false
+    },
+    {
+     "name": "Nick Hess",
+     "candidate_id": 39448262,
+     "party": "Democratic",
+     "color": "#00b0b0",
+     "votes": 0,
+     "percent": 0,
+     "winner": false
+    },
+    {
+     "name": "Write-in",
+     "candidate_id": 39448263,
+     "party": "Nonpartisan",
+     "color": "#9A36FF",
+     "votes": 0,
+     "percent": 0,
+     "winner": false
+    }
+   ]
+  }
+ ]
+}
