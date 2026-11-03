@@ -15,6 +15,18 @@ Data comes from [civicAPI](https://civicapi.org). **Race calls are civicAPI proj
 
 Battleground races are marked `critical = true`. They get a shorter throttle window and higher push priority.
 
+## Running without a computer (GitHub Actions)
+
+`.github/workflows/tracker.yml` runs the tracker on GitHub's servers. Nothing needs to be running on your end.
+
+- **Election night:** runs continuously from 3pm to 4am PT (Nov 3 to 4).
+- **Nov 4 to 8:** three shifts a day, starting at 10am, 4pm and 7pm PT, when Oregon counties usually post new counts.
+- **State between shifts:** saved in the Actions cache, so no alert is sent twice.
+- **Budget:** about 1,600 Actions minutes in total, under the 2,000 free minutes a month for a private repo.
+- **Run a shift now:** GitHub > Actions > Election tracker > Run workflow.
+- **Stop:** disable the workflow on the same page.
+- **Keep the topic out of the repo** (optional): add a repository secret named `NTFY_TOPIC`. It overrides `config.toml`.
+
 ## Setup (about 5 minutes)
 
 Requires **Python 3.11+**. No third-party packages.

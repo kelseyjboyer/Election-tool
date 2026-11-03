@@ -1,0 +1,99 @@
+name: Election tracker
+
+# Runs the tracker in ~50 minute shifts. State (snapshots, sent alerts) is carried
+# between shifts in the Actions cache, so restarts never re-send alerts.
+#
+# Schedule (all UTC; budgeted for the 2,000 free Actions minutes on a private repo):
+#   Election night: continuous, Nov 3 23:00 to Nov 4 11:59 UTC (3pm to 4am PT), about 780 min
+#   Nov 4 to Nov 8: three shifts a day starting 18:00, 00:00, 03:00 UTC (10am, 4pm, 7pm PT), about 160 min/day
+#
+# To stop early: GitHub > Actions > Election tracker > ... > Disable workflow.
+
+on:
+  workflow_dispatch:
+    inputs:
+      send_test:
+        description: "Send a test notification first"
+        type: boolean
+        default: false
+      shift_minutes:
+        description: "How long this shift runs"
+        type: number
+        default: 50
+  schedule:
+    - cron: "*/15 23 3 11 *"      # election night, Nov 3 23:00-23:59 UTC
+    - cron: "*/15 0-11 4 11 *"    # election night, Nov 4 00:00-11:59 UTC
+    - cron: "0 18 4-8 11 *"       # follow-up shifts, 10am PT
+    - cron: "0 0,3 5-9 11 *"      # follow-up shifts, 4pm and 7pm PT
+
+concurrency:
+  group: election-tracker
+  cancel-in-progress: false   # one shift at a time; the next waits in the queue
+
+permissions:
+  contents: read
+
+env:
+  STOP_AFTER: "2026-11-09"     # shifts exit immediately after this date (UTC)
+
+jobs:
+  track:
+    runs-on: ubuntu-latest
+    timeout-minutes: 70
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Check stop date
+        id: gate
+        run: |
+          if [[ "$(date -u +%F)" > "$STOP_AFTER" ]]; then
+            echo "Past STOP_AFTER ($STOP_AFTER); not running."; echo "run=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "run=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Restore state
+        if: steps.gate.outputs.run == 'true'
+        uses: actions/cache/restore@v4
+        with:
+          path: state.db
+          key: tracker-state-${{ github.run_id }}-${{ github.run_attempt }}
+          restore-keys: tracker-state-
+
+      - name: Unit tests
+        if: steps.gate.outputs.run == 'true'
+        run: python -m unittest discover -s tests -t .
+
+      - name: ntfy quota for this runner
+        if: steps.gate.outputs.run == 'true'
+        run: curl -sS -m 15 https://ntfy.sh/v1/account | python -c "import json,sys; d=json.load(sys.stdin)['stats']; print('ntfy messages remaining for this IP:', d['messages_remaining'])" || true
+
+      - name: Test notification
+        if: steps.gate.outputs.run == 'true' && inputs.send_test
+        env:
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+        run: python -m tracker test-notify
+
+      - name: Track (one shift)
+        if: steps.gate.outputs.run == 'true'
+        env:
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}   # optional; falls back to config.toml
+        run: |
+          set +e
+          minutes="${{ inputs.shift_minutes || 50 }}"
+          timeout -s INT "$((minutes * 60))" python -m tracker run --no-server
+          code=$?
+          echo "tracker exited with $code (124 or 130 = normal end of shift)"
+          tail -n 40 tracker.log || true
+          exit 0
+
+      - name: Save state
+        if: always() && steps.gate.outputs.run == 'true'
+        uses: actions/cache/save@v4
+        with:
+          path: state.db
+          key: tracker-state-${{ github.run_id }}-${{ github.run_attempt }}

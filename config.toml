@@ -27,7 +27,7 @@ api_base = "https://civicapi.org/api/v2"
 [ntfy]
 server = "https://ntfy.sh"
 # Anyone who knows the topic name can read it. Pick something long and random.
-topic = "CHANGE-ME-to-a-long-random-topic"
+topic = "election-a277fc70e8a4b3c8"
 token = ""                          # only needed for a protected/self-hosted topic
 
 [delivery]

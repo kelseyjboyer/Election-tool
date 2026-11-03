@@ -1,6 +1,7 @@
 """Load and validate config.toml."""
 from __future__ import annotations
 
+import os
 import tomllib
 from dataclasses import dataclass, field
 from pathlib import Path
@@ -120,6 +121,9 @@ def load_config(path: str | Path) -> Config:
     settings.milestones = sorted(int(m) for m in settings.milestones)
 
     ntfy = _build(NtfyConfig, raw.get("ntfy", {}), "ntfy")
+    # Environment overrides, so a topic can live in a CI secret instead of the repo.
+    ntfy.topic = os.environ.get("NTFY_TOPIC") or ntfy.topic
+    ntfy.token = os.environ.get("NTFY_TOKEN") or ntfy.token
     page = _build(PageConfig, raw.get("page", {}), "page")
     delivery = _build(DeliveryConfig, raw.get("delivery", {}), "delivery")
     if delivery.digest_minutes < 1:
