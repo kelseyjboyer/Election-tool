@@ -160,8 +160,10 @@ def render(event: d.Event, snap: Snapshot, label: str, tz: str = "America/Los_An
         body.append("Totals: " + ", ".join(candidate_lines(snap)))
         body.append(f"Seat counts reflect {PROJECTION}s, not official results.")
     elif k == d.CHAMBER_MAJORITY:
-        verb = "reaches" if x["reached"] else "falls below"
-        title = f"{label}: {x['party']} {verb} {x['majority']} seats"
+        if x["reached"]:
+            title = f"{label}: majority reached by {x['party']} ({x['seats']} seats)"
+        else:
+            title = f"{label}: {x['party']} no longer at majority ({x['seats']} of {x['majority']})"
         body.append(f"{x['party']} now at {x['seats']} seats ({PROJECTION}).")
         body.append(PROJECTION_NOTE)
     else:

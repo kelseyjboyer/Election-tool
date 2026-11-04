@@ -8,7 +8,7 @@ import time
 
 from .client import CivicClient, FetchError
 from .config import Config, RaceConfig
-from .detect import ANOMALY, CALL_KINDS, CHAMBER_SEATS, FIRST_RESULTS, MILESTONE, NEW_BATCH, detect
+from .detect import ANOMALY, CALL_KINDS, CHAMBER_MAJORITY, CHAMBER_SEATS, FIRST_RESULTS, MILESTONE, NEW_BATCH, detect
 from .model import parse_race
 from .format import seat_line
 from .page import click_url, page_url, write_page
@@ -32,6 +32,8 @@ def process_race(cfg: Config, client: CivicClient, state: State, rc: RaceConfig,
     extra = None
     if rc.chamber and any(e.kind in CALL_KINDS for e in events):
         extra = _chamber_lines(cfg, client, state, rc.chamber, now)
+    elif snap.is_chamber and any(e.kind == CHAMBER_MAJORITY for e in events):
+        extra = [seat_line(snap, rc.label or snap.name, rc.majority, rc.total_seats)]
     decision = decide(events, snap, rc, now=now, last_batch_alert_at=last_alert_at,
                       throttle_seconds=cfg.batch_throttle_seconds(rc), tz=cfg.settings.display_timezone,
                       only_kinds=cfg.settings.alert_kinds or None, extra_lines=extra)
@@ -126,7 +128,15 @@ def deliver_pending(cfg: Config, state: State, notifier, now: float | None = Non
     if not pending:
         return 0
 
+    quota = getattr(notifier, "quota_remaining", None)
+
     def remaining() -> int:
+        # Prefer the server's own count for this IP: on GitHub Actions every shift runs on a
+        # new runner IP with a fresh ntfy quota, so our rolling local count overstates usage.
+        if quota is not None:
+            live = quota()
+            if live is not None:
+                return min(live, dcfg.daily_limit)
         return dcfg.daily_limit - state.sends_since(now - 86400)
 
     sent = 0

@@ -309,3 +309,23 @@ class CallsOnlyMode(unittest.TestCase):
         tallies = {r.id for r in cfg.races if r.group == "control"}
         self.assertEqual(tallies, {87524, 87528})
         self.assertTrue(all(r.chamber in tallies for r in cfg.races if r.group != "control"))
+
+
+class LiveQuota(unittest.TestCase):
+    def test_server_quota_overrides_stale_local_count(self):
+        """Old sends from earlier shifts (other runner IPs) must not block new alerts."""
+        with tempfile.TemporaryDirectory() as tmp:
+            tmp = Path(tmp)
+            cfg, _ = gov_cfg(tmp)
+            state = State(tmp / "s.db")
+            for _ in range(cfg.delivery.daily_limit):
+                state.record_send("single")
+            from tracker.policy import Alert
+            snap = parse_race(with_votes(load_raw(GOVERNOR), [1, 0, 0, 0], 1, T1), GOVERNOR)
+            state.commit_poll(snap, [Alert("r1", GOVERNOR, d.RUNOFF, 4, "RUNOFF x", "b")], False)
+
+            class Quota(ConsoleNotifier):
+                def quota_remaining(self):
+                    return 250
+            self.assertEqual(deliver_pending(cfg, state, Quota(io.StringIO())), 1)
+            state.close()

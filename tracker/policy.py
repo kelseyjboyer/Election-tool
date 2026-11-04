@@ -114,7 +114,7 @@ def decide(events: list[d.Event], snap: Snapshot, race: RaceConfig, *, now: floa
                 ev.details["milestones"] = milestone.details["milestones"]
         elif ev.kind == d.MILESTONE and batch_sent:
             continue  # folded into the batch alert so one poll sends one push
-        extra = extra_lines if ev.kind in d.CALL_KINDS else None
+        extra = extra_lines if ev.kind in d.CALL_KINDS or ev.kind == d.CHAMBER_MAJORITY else None
         title, body = render(ev, snap, label, tz, extra)
         tags = list(TAGS.get(ev.kind, []))
         if race.critical:

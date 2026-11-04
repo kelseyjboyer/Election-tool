@@ -3,6 +3,7 @@ from __future__ import annotations
 
 import json
 import logging
+import time
 import urllib.error
 import urllib.request
 
@@ -21,6 +22,25 @@ class NtfyNotifier:
         self.token = token
         self.timeout = timeout
         self.user_agent = user_agent
+        self._quota: tuple[float, int | None] | None = None
+
+    def quota_remaining(self, max_age: float = 60.0) -> int | None:
+        """Messages this IP may still send today, per the ntfy server. None if unknown."""
+        now = time.monotonic()
+        if self._quota and now - self._quota[0] < max_age:
+            return self._quota[1]
+        headers = {"User-Agent": self.user_agent}
+        if self.token:
+            headers["Authorization"] = f"Bearer {self.token}"
+        value = None
+        try:
+            req = urllib.request.Request(f"{self.server}/v1/account", headers=headers)
+            with urllib.request.urlopen(req, timeout=self.timeout) as resp:
+                value = int(json.load(resp)["stats"]["messages_remaining"])
+        except Exception as e:  # unknown quota is fine; the local count is the fallback
+            log.debug("ntfy quota check failed: %s", e)
+        self._quota = (now, value)
+        return value
 
     def payload(self, alert: Alert, click_url: str | None) -> dict:
         p = {
@@ -53,4 +73,6 @@ class NtfyNotifier:
             return False
         if not ok:
             log.error("ntfy unexpected status for %s", alert.alert_id)
+        elif self._quota and self._quota[1] is not None:
+            self._quota = (self._quota[0], self._quota[1] - 1)
         return ok
