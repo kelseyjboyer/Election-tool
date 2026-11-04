@@ -1,0 +1,503 @@
+# Calls-only watchlist: every 2026 US House and Senate race that was uncalled when
+# this file was built, plus the chamber seat tallies. Rebuild: tools/build_calls_config.py
+
+[settings]
+poll_interval_seconds = 90
+request_spacing_seconds = 1.0
+state_db = "state.db"
+log_file = "tracker.log"
+display_timezone = "America/Los_Angeles"
+user_agent = "election-results-tracker/0.1"
+api_base = "https://civicapi.org/api/v2"
+# Decisions only. No routine results, milestones or lead changes.
+alert_kinds = ["call", "call_changed", "call_retracted", "runoff", "chamber_majority"]
+
+[ntfy]
+server = "https://ntfy.sh"
+topic = ""   # set by the NTFY_TOPIC environment variable / GitHub secret
+
+[delivery]
+digest_minutes = 10
+daily_limit = 240
+reserve_for_urgent = 60
+
+[page]
+enabled = false
+
+[[race]]
+id = 87524
+label = "House"
+group = "control"
+critical = true
+majority = 218
+total_seats = 435
+
+[[race]]
+id = 87528
+label = "Senate"
+group = "control"
+critical = true
+majority = 51
+total_seats = 100
+
+[[race]]
+id = 86916
+label = "Alaska Senate"
+group = "senate"
+critical = true
+chamber = 87528
+
+[[race]]
+id = 81004
+label = "Mississippi Senate"
+group = "senate"
+critical = true
+chamber = 87528
+
+[[race]]
+id = 86915
+label = "Alaska House At-Large"
+group = "house"
+critical = true
+chamber = 87524
+
+[[race]]
+id = 86917
+label = "Arizona House 1"
+group = "house"
+critical = true
+chamber = 87524
+
+[[race]]
+id = 86918
+label = "Arizona House 2"
+group = "house"
+critical = true
+chamber = 87524
+
+[[race]]
+id = 86921
+label = "Arizona House 5"
+group = "house"
+critical = true
+chamber = 87524
+
+[[race]]
+id = 86924
+label = "Arizona House 8"
+group = "house"
+critical = true
+chamber = 87524
+
+[[race]]
+id = 86946
+label = "Arkansas House 2"
+group = "house"
+critical = true
+chamber = 87524
+
+[[race]]
+id = 86959
+label = "California House 11"
+group = "house"
+critical = true
+chamber = 87524
+
+[[race]]
+id = 86961
+label = "California House 13"
+group = "house"
+critical = true
+chamber = 87524
+
+[[race]]
+id = 86962
+label = "California House 14"
+group = "house"
+critical = true
+chamber = 87524
+
+[[race]]
+id = 86972
+label = "California House 23"
+group = "house"
+critical = true
+chamber = 87524
+
+[[race]]
+id = 86984
+label = "California House 34"
+group = "house"
+critical = true
+chamber = 87524
+
+[[race]]
+id = 87001
+label = "California House 4"
+group = "house"
+critical = true
+chamber = 87524
+
+[[race]]
+id = 86991
+label = "California House 40"
+group = "house"
+critical = true
+chamber = 87524
+
+[[race]]
+id = 87007
+label = "California House 7"
+group = "house"
+critical = true
+chamber = 87524
+
+[[race]]
+id = 87012
+label = "Colorado House 3"
+group = "house"
+critical = true
+chamber = 87524
+
+[[race]]
+id = 87013
+label = "Colorado House 4"
+group = "house"
+critical = true
+chamber = 87524
+
+[[race]]
+id = 87014
+label = "Colorado House 5"
+group = "house"
+critical = true
+chamber = 87524
+
+[[race]]
+id = 87065
+label = "Florida House 26"
+group = "house"
+critical = true
+chamber = 87524
+
+[[race]]
+id = 87066
+label = "Florida House 27"
+group = "house"
+critical = true
+chamber = 87524
+
+[[race]]
+id = 87046
+label = "Florida House 7"
+group = "house"
+critical = true
+chamber = 87524
+
+[[race]]
+id = 87048
+label = "Florida House 9"
+group = "house"
+critical = true
+chamber = 87524
+
+[[race]]
+id = 87181
+label = "Louisiana House 5"
+group = "house"
+critical = true
+chamber = 87524
+
+[[race]]
+id = 87182
+label = "Louisiana House 6"
+group = "house"
+critical = true
+chamber = 87524
+
+[[race]]
+id = 87187
+label = "Maine House 2"
+group = "house"
+critical = true
+chamber = 87524
+
+[[race]]
+id = 87210
+label = "Michigan House 10"
+group = "house"
+critical = true
+chamber = 87524
+
+[[race]]
+id = 87204
+label = "Michigan House 4"
+group = "house"
+critical = true
+chamber = 87524
+
+[[race]]
+id = 87207
+label = "Michigan House 7"
+group = "house"
+critical = true
+chamber = 87524
+
+[[race]]
+id = 87221
+label = "Minnesota House 1"
+group = "house"
+critical = true
+chamber = 87524
+
+[[race]]
+id = 87257
+label = "Nevada House 2"
+group = "house"
+critical = true
+chamber = 87524
+
+[[race]]
+id = 87291
+label = "New Jersey House 2"
+group = "house"
+critical = true
+chamber = 87524
+
+[[race]]
+id = 87303
+label = "New York House 1"
+group = "house"
+critical = true
+chamber = 87524
+
+[[race]]
+id = 87319
+label = "New York House 17"
+group = "house"
+critical = true
+chamber = 87524
+
+[[race]]
+id = 87304
+label = "New York House 2"
+group = "house"
+critical = true
+chamber = 87524
+
+[[race]]
+id = 87323
+label = "New York House 21"
+group = "house"
+critical = true
+chamber = 87524
+
+[[race]]
+id = 87305
+label = "New York House 3"
+group = "house"
+critical = true
+chamber = 87524
+
+[[race]]
+id = 87306
+label = "New York House 4"
+group = "house"
+critical = true
+chamber = 87524
+
+[[race]]
+id = 87332
+label = "North Carolina House 1"
+group = "house"
+critical = true
+chamber = 87524
+
+[[race]]
+id = 87341
+label = "North Carolina House 10"
+group = "house"
+critical = true
+chamber = 87524
+
+[[race]]
+id = 87344
+label = "North Carolina House 13"
+group = "house"
+critical = true
+chamber = 87524
+
+[[race]]
+id = 87345
+label = "North Carolina House 14"
+group = "house"
+critical = true
+chamber = 87524
+
+[[race]]
+id = 87334
+label = "North Carolina House 3"
+group = "house"
+critical = true
+chamber = 87524
+
+[[race]]
+id = 87336
+label = "North Carolina House 5"
+group = "house"
+critical = true
+chamber = 87524
+
+[[race]]
+id = 87337
+label = "North Carolina House 6"
+group = "house"
+critical = true
+chamber = 87524
+
+[[race]]
+id = 87338
+label = "North Carolina House 7"
+group = "house"
+critical = true
+chamber = 87524
+
+[[race]]
+id = 87339
+label = "North Carolina House 8"
+group = "house"
+critical = true
+chamber = 87524
+
+[[race]]
+id = 87340
+label = "North Carolina House 9"
+group = "house"
+critical = true
+chamber = 87524
+
+[[race]]
+id = 87359
+label = "Ohio House 10"
+group = "house"
+critical = true
+chamber = 87524
+
+[[race]]
+id = 87513
+label = "Oklahoma House 5"
+group = "house"
+critical = true
+chamber = 87524
+
+[[race]]
+id = 87402
+label = "South Carolina House 1"
+group = "house"
+critical = true
+chamber = 87524
+
+[[race]]
+id = 87403
+label = "South Carolina House 2"
+group = "house"
+critical = true
+chamber = 87524
+
+[[race]]
+id = 87451
+label = "Tennessee House 4"
+group = "house"
+critical = true
+chamber = 87524
+
+[[race]]
+id = 87456
+label = "Tennessee House 9"
+group = "house"
+critical = true
+chamber = 87524
+
+[[race]]
+id = 87412
+label = "Texas House 2"
+group = "house"
+critical = true
+chamber = 87524
+
+[[race]]
+id = 56008
+label = "Texas House 22"
+group = "house"
+critical = true
+chamber = 87524
+
+[[race]]
+id = 56010
+label = "Texas House 27"
+group = "house"
+critical = true
+chamber = 87524
+
+[[race]]
+id = 87433
+label = "Texas House 32"
+group = "house"
+critical = true
+chamber = 87524
+
+[[race]]
+id = 87437
+label = "Texas House 38"
+group = "house"
+critical = true
+chamber = 87524
+
+[[race]]
+id = 87414
+label = "Texas House 5"
+group = "house"
+critical = true
+chamber = 87524
+
+[[race]]
+id = 87417
+label = "Texas House 9"
+group = "house"
+critical = true
+chamber = 87524
+
+[[race]]
+id = 87461
+label = "Virginia House 1"
+group = "house"
+critical = true
+chamber = 87524
+
+[[race]]
+id = 87465
+label = "Virginia House 5"
+group = "house"
+critical = true
+chamber = 87524
+
+[[race]]
+id = 87516
+label = "Washington House 3"
+group = "house"
+critical = true
+chamber = 87524
+
+[[race]]
+id = 87517
+label = "Washington House 4"
+group = "house"
+critical = true
+chamber = 87524
+
+[[race]]
+id = 87518
+label = "Washington House 5"
+group = "house"
+critical = true
+chamber = 87524

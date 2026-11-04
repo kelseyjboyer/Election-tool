@@ -74,8 +74,24 @@ def _footer(s: Snapshot, tz: str) -> list[str]:
     return lines
 
 
-def render(event: d.Event, snap: Snapshot, label: str, tz: str = "America/Los_Angeles") -> tuple[str, str]:
-    """Return (title, body)."""
+def seat_line(chamber: Snapshot, label: str, majority: int | None, total: int | None) -> str:
+    """e.g. 'House now: Democrats 214, Republicans 209 (218 for majority, 12 uncalled)'."""
+    parts = [f"{c.name} {c.seats}" for c in chamber.ranked() if (c.seats or 0) > 0]
+    line = f"{label} now: " + (", ".join(parts) if parts else "no seats called yet")
+    notes = []
+    if majority:
+        notes.append(f"{majority} for majority")
+    if total:
+        called = sum(c.seats or 0 for c in chamber.candidates)
+        notes.append(f"{max(0, total - called)} uncalled")
+    if notes:
+        line += f" ({', '.join(notes)})"
+    return line
+
+
+def render(event: d.Event, snap: Snapshot, label: str, tz: str = "America/Los_Angeles",
+           extra: list[str] | None = None) -> tuple[str, str]:
+    """Return (title, body). `extra` lines (e.g. the chamber seat count) go above the footer."""
     k, x = event.kind, event.details
     body: list[str] = []
 
@@ -116,6 +132,11 @@ def render(event: d.Event, snap: Snapshot, label: str, tz: str = "America/Los_An
                     f"to {', '.join(x['winners'])}.")
         body += candidate_lines(snap)
         body.append(PROJECTION_NOTE)
+    elif k == d.RUNOFF:
+        title = f"RUNOFF {label}: {' vs '.join(x['advanced'])}"
+        body.append(f"{PROJECTION}: no one won outright; these candidates advance to a runoff.")
+        body += candidate_lines(snap)
+        body.append(PROJECTION_NOTE)
     elif k == d.STATUS_FLAG:
         flag = x["flag"].replace("is_", "")
         state = "now flagged" if x["new"] else "no longer flagged"
@@ -147,5 +168,7 @@ def render(event: d.Event, snap: Snapshot, label: str, tz: str = "America/Los_An
         title = f"{label}: {k}"
         body += candidate_lines(snap)
 
+    if extra:
+        body += extra
     body += _footer(snap, tz)
     return title, "\n".join(body)

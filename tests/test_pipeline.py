@@ -258,3 +258,54 @@ class DigestAndBudget(unittest.TestCase):
             self.assertIn("call_retracted", out.getvalue())
             self.assertNotIn("status_flag", out.getvalue())
             state.close()
+
+
+class CallsOnlyMode(unittest.TestCase):
+    """Decisions-only alerts that quote the chamber seat count."""
+
+    def _cfg(self, tmp):
+        cfg, _ = gov_cfg(tmp)
+        house = RaceConfig(id=SENATE_CONTROL, label="Senate", group="control", majority=51, total_seats=100)
+        race = RaceConfig(id=GOVERNOR, label="Test race", group="senate", critical=True, chamber=SENATE_CONTROL)
+        cfg.races = [house, race]
+        cfg.settings.alert_kinds = ["call", "call_changed", "call_retracted", "runoff", "chamber_majority"]
+        return cfg, race
+
+    def test_call_alert_includes_fresh_seat_count_and_routine_updates_are_silent(self):
+        from .helpers import with_seats
+        base, tally = load_raw(GOVERNOR), load_raw(SENATE_CONTROL)
+        with tempfile.TemporaryDirectory() as tmp:
+            tmp = Path(tmp)
+            cfg, rc = self._cfg(tmp)
+            state = State(tmp / "s.db")
+            client = FakeClient({
+                GOVERNOR: [with_votes(base, [100, 90, 0, 0], 50, T1),
+                           with_votes(base, [300, 200, 0, 0], 80, T2),   # batch + lead: silent
+                           with_votes(base, [300, 200, 0, 0], 80, T3, winners=(0,))],
+                SENATE_CONTROL: [with_seats(tally, [54, 44]), with_seats(tally, [55, 44], T3)],
+            })
+            process_race(cfg, client, state, cfg.race(SENATE_CONTROL))
+            out = io.StringIO()
+            for _ in range(3):
+                process_race(cfg, client, state, rc)
+                deliver_pending(cfg, state, ConsoleNotifier(out))
+            text = out.getvalue()
+            self.assertEqual(text.count("=" * 72), 1, text)  # exactly one push: the call
+            self.assertIn(PROJECTION, text)
+            self.assertIn("Senate now: Democrats 55, Republicans 44 (51 for majority, 1 uncalled)", text)
+            state.close()
+
+    def test_runoff_detected(self):
+        base = load_raw(GOVERNOR)
+        prev = parse_race(with_votes(base, [480, 450, 70, 0], 100, T1), GOVERNOR)
+        raw = with_votes(base, [480, 450, 70, 0], 100, T2)
+        raw["candidates"][0]["advanced"] = raw["candidates"][1]["advanced"] = True
+        ev = d.detect(prev, parse_race(raw, GOVERNOR))
+        self.assertEqual([e.kind for e in ev], [d.RUNOFF])
+        self.assertEqual(ev[0].details["advanced"], ["Tina Kotek", "Christine Drazan"])
+
+    def test_calls_config_loads(self):
+        cfg = load_config(ROOT / "config.calls.toml")
+        tallies = {r.id for r in cfg.races if r.group == "control"}
+        self.assertEqual(tallies, {87524, 87528})
+        self.assertTrue(all(r.chamber in tallies for r in cfg.races if r.group != "control"))

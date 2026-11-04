@@ -149,3 +149,15 @@ API_NOTES.md         what was verified about civicAPI vs. what is still uncertai
 ## Attribution
 
 Results data from [civicAPI](https://civicapi.org). This is a personal tool. Link civicapi.org if you share it.
+
+## Calls-only mode (current)
+
+`config.calls.toml` watches every 2026 US House and Senate race that was still uncalled on Nov 4, and alerts **only** when one is decided:
+
+- a **civicAPI projection** (race called), a call changed or withdrawn, or a race heading to a **runoff**
+- a party crossing the 218 (House) or 51 (Senate) majority line
+
+Every alert ends with the chamber's current seat count, for example
+`House now: Democrats 231, Republicans 143 (218 for majority, 61 uncalled)`.
+
+The GitHub workflow uses this file (`TRACKER_CONFIG`) and runs until `STOP_AFTER` (Dec 15). To refresh the list of uncalled races, run `python3 tools/build_calls_config.py` and commit the result.

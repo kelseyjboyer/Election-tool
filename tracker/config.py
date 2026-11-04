@@ -23,6 +23,8 @@ class RaceConfig:
     critical: bool = False
     priority: str = "normal"  # "normal" or "low"
     majority: int | None = None
+    total_seats: int | None = None   # chamber tallies only, e.g. 435 or 100
+    chamber: int | None = None       # id of the seat-tally race to quote in this race's call alerts
     note: str = ""
 
 
@@ -40,6 +42,8 @@ class Settings:
     display_timezone: str = "America/Los_Angeles"
     user_agent: str = "election-results-tracker/0.1"
     api_base: str = "https://civicapi.org/api/v2"
+    # Only these alert kinds are sent (empty = all). See tracker/detect.py for names.
+    alert_kinds: list[str] = field(default_factory=list)
 
 
 @dataclass

@@ -8,8 +8,9 @@ import time
 
 from .client import CivicClient, FetchError
 from .config import Config, RaceConfig
-from .detect import ANOMALY, CHAMBER_SEATS, FIRST_RESULTS, MILESTONE, NEW_BATCH, detect
+from .detect import ANOMALY, CALL_KINDS, CHAMBER_SEATS, FIRST_RESULTS, MILESTONE, NEW_BATCH, detect
 from .model import parse_race
+from .format import seat_line
 from .page import click_url, page_url, write_page
 from .policy import Alert, decide
 from .state import State
@@ -28,8 +29,12 @@ def process_race(cfg: Config, client: CivicClient, state: State, rc: RaceConfig,
 
     events = detect(prev, snap, milestones=cfg.settings.milestones, majority=rc.majority,
                     baseline=baseline)
+    extra = None
+    if rc.chamber and any(e.kind in CALL_KINDS for e in events):
+        extra = _chamber_lines(cfg, client, state, rc.chamber, now)
     decision = decide(events, snap, rc, now=now, last_batch_alert_at=last_alert_at,
-                      throttle_seconds=cfg.batch_throttle_seconds(rc), tz=cfg.settings.display_timezone)
+                      throttle_seconds=cfg.batch_throttle_seconds(rc), tz=cfg.settings.display_timezone,
+                      only_kinds=cfg.settings.alert_kinds or None, extra_lines=extra)
 
     for ev in events:
         if ev.kind == ANOMALY:
@@ -86,6 +91,26 @@ def build_digest(alerts: list[Alert]) -> Alert:
     return Alert(alert_id="digest-" + key, race_id=ordered[0].race_id, kind="digest",
                  priority=max(a.priority for a in alerts), title=title, body="\n".join(lines),
                  tags=["bar_chart"], critical=crit > 0)
+
+
+def _chamber_lines(cfg: Config, client, state: State, chamber_id: int, now: float) -> list[str] | None:
+    """Fresh seat count for the chamber a just-called race belongs to.
+
+    Refreshes the tally right away (the call may land before our next scheduled poll of it),
+    falling back to the last saved tally if that fetch fails.
+    """
+    crc = cfg.race(chamber_id)
+    if crc is None:
+        return None
+    try:
+        process_race(cfg, client, state, crc, now=now)
+    except FetchError as e:
+        log.warning("Could not refresh chamber %s for seat count: %s", chamber_id, e)
+    snap = state.last_snapshot(chamber_id)
+    if snap is None:
+        return None
+    label = crc.label or snap.name
+    return [seat_line(snap, label, crc.majority, crc.total_seats) + " (civicAPI projections)"]
 
 
 def deliver_pending(cfg: Config, state: State, notifier, now: float | None = None,

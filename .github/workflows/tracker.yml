@@ -31,8 +31,9 @@ permissions:
   actions: write   # lets each shift start the next one
 
 env:
-  TRACKER_ENABLED: "false"     # master switch: "true" to run, "false" to stop all shifts and alerts
-  STOP_AFTER: "2026-11-20"     # shifts exit immediately after this date (UTC)
+  TRACKER_ENABLED: "true"      # master switch: "true" to run, "false" to stop all shifts and alerts
+  TRACKER_CONFIG: "config.calls.toml"   # calls-only watchlist (config.toml = full election-night list)
+  STOP_AFTER: "2026-12-15"     # shifts exit immediately after this date (UTC)
 
 jobs:
   track:
@@ -87,7 +88,7 @@ jobs:
         if: steps.gate.outputs.run == 'true' && inputs.send_test
         env:
           NTFY_TOPIC: ${{ secrets.NTFY_TOPIC || secrets.NFTY_TOPIC }}
-        run: python -m tracker test-notify
+        run: python -m tracker -c "$TRACKER_CONFIG" test-notify
 
       - name: Track (one shift)
         if: steps.gate.outputs.run == 'true'
@@ -96,7 +97,7 @@ jobs:
         run: |
           set +e
           minutes="${{ inputs.shift_minutes || 50 }}"
-          timeout -s INT "$((minutes * 60))" python -m tracker run --no-server
+          timeout -s INT "$((minutes * 60))" python -m tracker -c "$TRACKER_CONFIG" run --no-server
           code=$?
           echo "tracker exited with $code (124 or 130 = normal end of shift)"
           tail -n 40 tracker.log || true

@@ -21,8 +21,9 @@ STATUS_FLAG = "status_flag"
 MILESTONE = "milestone"
 CHAMBER_SEATS = "chamber_seats"
 CHAMBER_MAJORITY = "chamber_majority"
+RUNOFF = "runoff"   # candidates flagged `advanced` with no winner: race goes to a runoff
 
-CALL_KINDS = {CALL, CALL_RETRACTED, CALL_CHANGED}
+CALL_KINDS = {CALL, CALL_RETRACTED, CALL_CHANGED, RUNOFF}
 BATCH_KINDS = {FIRST_RESULTS, NEW_BATCH}
 
 PERCENT_SUM_TOLERANCE = 2.0      # percents may be rounded
@@ -110,6 +111,16 @@ def _margin(s: Snapshot) -> dict | None:
             "points": round(100.0 * (r[0].votes - r[1].votes) / s.total_votes, 2)}
 
 
+def _runoff_events(prev: Snapshot | None, cur: Snapshot) -> list[Event]:
+    def adv(x):
+        return tuple(sorted(str(cand_key(c)) for c in x.candidates if c.advanced)) if x else ()
+    before, after = adv(prev), adv(cur)
+    if after and after != before and not cur.winners:
+        names = [c.name for c in cur.candidates if c.advanced]
+        return [Event(RUNOFF, cur.race_id, ",".join(after), {"advanced": names})]
+    return []
+
+
 def _call_events(prev: Snapshot | None, cur: Snapshot) -> list[Event]:
     before, after = _winner_ids(prev), _winner_ids(cur)
     if before == after:
@@ -163,13 +174,13 @@ def detect(prev: Snapshot | None, cur: Snapshot, *, milestones=(25, 50, 75, 90),
 
     # First observation: no diffs possible. Still surface an existing call so it is not missed.
     if prev is None:
-        return _call_events(None, cur) if cur.winners else []
+        return (_call_events(None, cur) if cur.winners else []) + _runoff_events(None, cur)
 
     events: list[Event] = []
     anomalies = find_anomalies(prev, cur)
 
     # Calls and retractions always get reported, even alongside an anomaly.
-    call_events = _call_events(prev, cur)
+    call_events = _call_events(prev, cur) + _runoff_events(prev, cur)
     for e in call_events:
         e.details["during_anomaly"] = bool(anomalies)
     events.extend(call_events)

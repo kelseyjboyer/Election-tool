@@ -22,6 +22,7 @@ BASE_PRIORITY = {
     d.CALL_CHANGED: 5,
     d.CHAMBER_MAJORITY: 5,
     d.CALL: 4,
+    d.RUNOFF: 4,
     d.LEAD_CHANGE: 4,
     d.ANOMALY: 4,
     d.STATUS_FLAG: 4,
@@ -35,6 +36,7 @@ TAGS = {
     d.CALL_RETRACTED: ["rotating_light", "warning"],
     d.CALL_CHANGED: ["rotating_light", "warning"],
     d.CALL: ["ballot_box"],
+    d.RUNOFF: ["repeat"],
     d.LEAD_CHANGE: ["arrows_counterclockwise"],
     d.ANOMALY: ["warning"],
     d.STATUS_FLAG: ["triangular_flag_on_post"],
@@ -77,8 +79,16 @@ def priority_for(kind: str, race: RaceConfig) -> int:
 
 def decide(events: list[d.Event], snap: Snapshot, race: RaceConfig, *, now: float,
            last_batch_alert_at: float | None, throttle_seconds: float,
-           tz: str = "America/Los_Angeles") -> Decision:
+           tz: str = "America/Los_Angeles", only_kinds=None,
+           extra_lines: list[str] | None = None) -> Decision:
+    """only_kinds: if set, events of other kinds are suppressed.
+    extra_lines: appended to call and chamber alerts (used for the chamber seat count)."""
     alerts: list[Alert] = []
+    if only_kinds:
+        suppressed_kinds = [e for e in events if e.kind not in only_kinds]
+        events = [e for e in events if e.kind in only_kinds]
+    else:
+        suppressed_kinds = []
     suppressed: list[d.Event] = []
     advance = False
 
@@ -104,7 +114,8 @@ def decide(events: list[d.Event], snap: Snapshot, race: RaceConfig, *, now: floa
                 ev.details["milestones"] = milestone.details["milestones"]
         elif ev.kind == d.MILESTONE and batch_sent:
             continue  # folded into the batch alert so one poll sends one push
-        title, body = render(ev, snap, label, tz)
+        extra = extra_lines if ev.kind in d.CALL_KINDS else None
+        title, body = render(ev, snap, label, tz, extra)
         tags = list(TAGS.get(ev.kind, []))
         if race.critical:
             tags.append("star")
@@ -113,4 +124,4 @@ def decide(events: list[d.Event], snap: Snapshot, race: RaceConfig, *, now: floa
             priority=priority_for(ev.kind, race), title=title, body=body, tags=tags,
             last_updated=snap.last_updated, critical=race.critical,
         ))
-    return Decision(alerts, suppressed, advance)
+    return Decision(alerts, suppressed + suppressed_kinds, advance)
