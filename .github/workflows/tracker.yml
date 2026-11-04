@@ -21,8 +21,6 @@ on:
         description: "How long this shift runs"
         type: number
         default: 50
-  schedule:
-    - cron: "*/15 * * * *"
 
 concurrency:
   group: election-tracker
@@ -33,6 +31,7 @@ permissions:
   actions: write   # lets each shift start the next one
 
 env:
+  TRACKER_ENABLED: "false"     # master switch: "true" to run, "false" to stop all shifts and alerts
   STOP_AFTER: "2026-11-20"     # shifts exit immediately after this date (UTC)
 
 jobs:
@@ -49,7 +48,9 @@ jobs:
       - name: Check stop date
         id: gate
         run: |
-          if [[ "$(date -u +%F)" > "$STOP_AFTER" ]]; then
+          if [[ "$TRACKER_ENABLED" != "true" ]]; then
+            echo "Tracker disabled (TRACKER_ENABLED=false); not running."; echo "run=false" >> "$GITHUB_OUTPUT"
+          elif [[ "$(date -u +%F)" > "$STOP_AFTER" ]]; then
             echo "Past STOP_AFTER ($STOP_AFTER); not running."; echo "run=false" >> "$GITHUB_OUTPUT"
           else
             echo "run=true" >> "$GITHUB_OUTPUT"
